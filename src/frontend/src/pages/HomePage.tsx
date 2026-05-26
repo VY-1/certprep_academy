@@ -13,7 +13,7 @@ import {
   Shield,
   Target,
 } from "lucide-react";
-import { useState } from "react";
+
 
 // ── Sub-components ──────────────────────────────────────────────
 
@@ -148,8 +148,7 @@ const COMING_SOON: Omit<ComingSoonCardProps, "index">[] = [
 
 export function HomePage() {
   const { data: exams, isLoading, isError } = useExams();
-  const [pingStatus, setPingStatus] = useState<string | null>(null);
-  const [pingLoading, setPingLoading] = useState(false);
+  
 
   const ptcbExam = exams?.find((e) => e.id.toLowerCase() === "ptcb");
 
@@ -208,36 +207,7 @@ export function HomePage() {
             ))}
           </div>
 
-          <div className="mt-4">
-            <div className="flex items-center justify-center gap-3">
-              <Button
-                onClick={async () => {
-                  setPingLoading(true);
-                  setPingStatus(null);
-                  try {
-                    const res = await fetch("/ping.json", {
-                      cache: "no-store",
-                    });
-                    if (!res.ok) throw new Error(res.statusText);
-                    const data = await res.json();
-                    setPingStatus(JSON.stringify(data));
-                  } catch (e: any) {
-                    setPingStatus(`Error: ${e?.message ?? e}`);
-                  } finally {
-                    setPingLoading(false);
-                  }
-                }}
-                variant="outline"
-              >
-                {pingLoading ? "Pinging..." : "Ping backend"}
-              </Button>
-            </div>
-            {pingStatus && (
-              <div className="mt-3 text-center text-sm text-muted-foreground">
-                {pingStatus}
-              </div>
-            )}
-          </div>
+          
 
           <Link
             to="/exams/$examId"
