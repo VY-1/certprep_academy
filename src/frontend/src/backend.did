@@ -1,0 +1,41 @@
+type Question = 
+ record {
+   correctOptionIndex: nat;
+   explanation: text;
+   id: text;
+   isScored: bool;
+   knowledgeDomain: KnowledgeDomain;
+   options: vec text;
+   "text": text;
+   versionId: text;
+ };
+type KnowledgeDomain = 
+ variant {
+   FederalRequirements;
+   Medications;
+   OrderEntry;
+   Other: text;
+   PatientSafety;
+ };
+type ExamVersion = 
+ record {
+   examId: text;
+   id: text;
+   scoredQuestions: nat;
+   timeLimitMinutes: nat;
+   totalQuestions: nat;
+   versionName: text;
+ };
+type CertificationExam = 
+ record {
+   description: text;
+   id: text;
+   name: text;
+ };
+service : {
+  addExam: (exam: CertificationExam) -> ();
+  getExamDetails: (examId: text) -> (opt CertificationExam) query;
+  getExamQuestions: (versionId: text) -> (vec Question) query;
+  getExamVersions: (examId: text) -> (vec ExamVersion) query;
+  getExams: () -> (vec CertificationExam) query;
+}

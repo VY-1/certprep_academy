@@ -1,0 +1,24 @@
+{
+  "overview": "CertPrep Academy is a comprehensive PTCB pharmacy technician certification exam prep platform with 11 practice tests, full pool exam, daily quiz, and weak areas practice modes.",
+  "features": [
+    "11 PTCB practice tests (90 questions each)",
+    "Full Pool Exam with custom timer (1-600 minutes)",
+    "Daily Quiz (25 questions, 30-minute timer)",
+    "Weak Areas Practice mode",
+    "Instant Solution toggle per exam",
+    "Study History dashboard with PDF export",
+    "Domain-by-domain score breakdown",
+    "Timer toggle for all exam modes"
+  ],
+  "category": "education",
+  "tags": [
+    "ptcb",
+    "pharmacy",
+    "certification",
+    "exam-prep",
+    "quiz",
+    "study",
+    "practice-test"
+  ],
+  "last_updated": "2026-05-12T23:28:27.741Z"
+}

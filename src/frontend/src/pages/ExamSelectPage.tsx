@@ -6,7 +6,10 @@ import { useExamStore } from "@/store/examStore";
 import type { CertificationExam, ExamVersion, Question } from "@/types/exam";
 import { getDomainLabel } from "@/types/exam";
 import { getHistory } from "@/utils/studyHistory";
-import { createActorWithConfig, useActor } from "@caffeineai/core-infrastructure";
+import {
+  createActorWithConfig,
+  useActor,
+} from "@caffeineai/core-infrastructure";
 import { Link, useParams } from "@tanstack/react-router";
 import { useRouter } from "@tanstack/react-router";
 import {
@@ -29,7 +32,11 @@ import { useEffect, useState } from "react";
 type BackendActor = {
   getExamDetails: (
     id: string,
-  ) => Promise<CertificationExam | { __kind__: "Some"; value: CertificationExam } | { __kind__: "None" }>;
+  ) => Promise<
+    | CertificationExam
+    | { __kind__: "Some"; value: CertificationExam }
+    | { __kind__: "None" }
+  >;
   getExamVersions: (id: string) => Promise<ExamVersion[]>;
 };
 
@@ -1042,18 +1049,20 @@ export function ExamSelectPage() {
 
     void (async () => {
       try {
-        const actor = (await createActorWithConfig(createActor)) as unknown as BackendActor;
+        const actor = (await createActorWithConfig(
+          createActor,
+        )) as unknown as BackendActor;
         const [examResult, versionsResult] = await Promise.all([
           actor.getExamDetails(examId),
           actor.getExamVersions(examId),
         ]);
 
-        
-
         if (cancelled) return;
 
         const resolvedExam =
-          examResult && typeof examResult === "object" && "__kind__" in examResult
+          examResult &&
+          typeof examResult === "object" &&
+          "__kind__" in examResult
             ? examResult.__kind__ === "Some"
               ? examResult.value
               : null
@@ -1091,7 +1100,10 @@ export function ExamSelectPage() {
   );
   const numericVersions = displayVersions
     .filter((v) => extractNumericVersionId(v) !== null)
-    .sort((a, b) => (extractNumericVersionId(a) ?? 0) - (extractNumericVersionId(b) ?? 0));
+    .sort(
+      (a, b) =>
+        (extractNumericVersionId(a) ?? 0) - (extractNumericVersionId(b) ?? 0),
+    );
   const otherModes = displayVersions.filter(
     (v) =>
       v.id !== "ptcb-daily-quiz" &&
@@ -1184,28 +1196,36 @@ export function ExamSelectPage() {
             </div>
           )}
 
-          {!useStaticCatalog && !isLoading && !loadError && displayVersions.length === 0 && (
-            <div
-              className="text-center py-16 border border-dashed border-border rounded-xl"
-              data-ocid="versions.empty_state"
-            >
-              <p className="font-display font-medium text-foreground">
-                No versions available
-              </p>
-              <p className="text-sm font-body text-muted-foreground mt-1">
-                This exam has no practice versions yet.
-              </p>
-            </div>
-          )}
+          {!useStaticCatalog &&
+            !isLoading &&
+            !loadError &&
+            displayVersions.length === 0 && (
+              <div
+                className="text-center py-16 border border-dashed border-border rounded-xl"
+                data-ocid="versions.empty_state"
+              >
+                <p className="font-display font-medium text-foreground">
+                  No versions available
+                </p>
+                <p className="text-sm font-body text-muted-foreground mt-1">
+                  This exam has no practice versions yet.
+                </p>
+              </div>
+            )}
 
           {!useStaticCatalog && !isLoading && displayVersions.length > 0 && (
             <div
               className="grid gap-4 sm:grid-cols-2"
               data-ocid="versions.list"
             >
-                  {orderedVersions.map((version, i) => (
-                    <VersionCard key={version.id} version={version} examId={examId} index={i} />
-                  ))}
+              {orderedVersions.map((version, i) => (
+                <VersionCard
+                  key={version.id}
+                  version={version}
+                  examId={examId}
+                  index={i}
+                />
+              ))}
             </div>
           )}
         </div>
