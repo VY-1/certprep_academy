@@ -1,6 +1,7 @@
 import Types "../types/exams";
 import List "mo:core/List";
 import Runtime "mo:core/Runtime";
+import Nat "mo:core/Nat";
 import PoolV4V5 "exams-pool-v4v5";
 import PoolV6 "exams-pool-v6";
 import PoolV7 "exams-pool-v7";
@@ -8,11 +9,62 @@ import PoolV8 "exams-pool-v8";
 import PoolV9 "exams-pool-v9";
 import PoolV10 "exams-pool-v10";
 import PoolV11 "exams-pool-v11";
+import PoolPtcbOrg "exams-pool-ptcb-org";
 
 module {
   public type CertificationExam = Types.CertificationExam;
   public type ExamVersion = Types.ExamVersion;
   public type Question = Types.Question;
+  public type QuestionExplanation = Types.QuestionExplanation;
+
+  func optionLetter(index : Nat) : Text {
+    switch (index) {
+      case (0) { "A" };
+      case (1) { "B" };
+      case (2) { "C" };
+      case (3) { "D" };
+      case (_) { Nat.toText(index + 1) };
+    };
+  };
+
+  func selectedOptionText(q : Question) : Text {
+    if (q.correctOptionIndex < q.options.size()) {
+      q.options[q.correctOptionIndex];
+    } else {
+      "the keyed option";
+    };
+  };
+
+  func buildOptionReview(q : Question) : Text {
+    var details = "";
+    var optionIndex : Nat = 0;
+
+    for (option in q.options.values()) {
+      let optionLabel = optionLetter(optionIndex);
+      if (optionIndex == q.correctOptionIndex) {
+        details := details # optionLabel # ": " # option # " (best match to the question stem). ";
+      } else {
+        details := details # optionLabel # ": " # option # " (does not fully satisfy the requested requirement). ";
+      };
+      optionIndex += 1;
+    };
+
+    details;
+  };
+
+  // Note: runtime-generated fallback explanations removed to enforce
+  // persisted (human-written) explanations only. If neither the stored
+  // question `explanation` nor an overlay exists, the `explanation` field
+  // will be returned as an empty string.
+
+  func withDetailedExplanationIfMissing(q : Question, explanations : List.List<QuestionExplanation>) : Question {
+    if (q.explanation != "") { q } else {
+      switch (explanations.find(func(e) { e.id == q.id })) {
+        case (?e) { { id = q.id; versionId = q.versionId; text = q.text; options = q.options; correctOptionIndex = q.correctOptionIndex; explanation = e.explanation; knowledgeDomain = q.knowledgeDomain; isScored = q.isScored } };
+        case null { { id = q.id; versionId = q.versionId; text = q.text; options = q.options; correctOptionIndex = q.correctOptionIndex; explanation = ""; knowledgeDomain = q.knowledgeDomain; isScored = q.isScored } };
+      };
+    };
+  };
 
   /// Return all certification exams.
   public func listExams(
@@ -40,9 +92,13 @@ module {
   /// Return all questions for a given version.
   public func listQuestionsForVersion(
     questions : List.List<Question>,
+    explanations : List.List<QuestionExplanation>,
     versionId : Text
   ) : [Question] {
-    questions.filter(func(q) { q.versionId == versionId }).toArray();
+    questions
+      .filter(func(q) { q.versionId == versionId })
+      .map<Question, Question>(func(q) { withDetailedExplanationIfMissing(q, explanations) })
+      .toArray();
   };
 
   /// Add a new certification exam. Traps if id already exists.
@@ -99,6 +155,17 @@ module {
     };
   };
 
+  /// Add a persisted explanation overlay entry if missing (idempotent).
+  public func addExplanationIfMissing(
+    explanations : List.List<QuestionExplanation>,
+    expl : QuestionExplanation
+  ) : () {
+    switch (explanations.find(func(e) { e.id == expl.id })) {
+      case (?_) {};
+      case null { explanations.add(expl) };
+    };
+  };
+
   /// Add a certification exam only if it does not already exist (idempotent).
   public func addExamIfMissing(
     exams : List.List<CertificationExam>,
@@ -114,7 +181,8 @@ module {
   /// version metadata entries exist. Safe to call on every upgrade.
   public func ensureAdditionalVersions(
     versions : List.List<ExamVersion>,
-    questions : List.List<Question>
+    questions : List.List<Question>,
+    explanations : List.List<QuestionExplanation>
   ) : () {
     // Practice test versions v4-v11 (metadata only — questions seeded below)
     addVersionIfMissing(versions, { id = "ptcb-v4"; examId = "ptcb"; versionName = "Practice Test 4"; totalQuestions = 90; scoredQuestions = 80; timeLimitMinutes = 110 });
@@ -131,6 +199,12 @@ module {
     addVersionIfMissing(versions, { id = "ptcb-full-pool"; examId = "ptcb"; versionName = "Full Pool Exam"; totalQuestions = 0; scoredQuestions = 0; timeLimitMinutes = 110 });
     addVersionIfMissing(versions, { id = "ptcb-daily-quiz"; examId = "ptcb"; versionName = "Daily Quiz"; totalQuestions = 25; scoredQuestions = 25; timeLimitMinutes = 30 });
     addVersionIfMissing(versions, { id = "ptcb-weak-areas"; examId = "ptcb"; versionName = "Weak Areas Practice"; totalQuestions = 35; scoredQuestions = 35; timeLimitMinutes = 45 });
+
+    // PTCB ORG special exam mode version metadata
+    addVersionIfMissing(versions, { id = "ptcb-org-randomized"; examId = "ptcb-org"; versionName = "Randomized Practice"; totalQuestions = 90; scoredQuestions = 80; timeLimitMinutes = 110 });
+    addVersionIfMissing(versions, { id = "ptcb-org-full-pool"; examId = "ptcb-org"; versionName = "Full Pool Exam"; totalQuestions = 0; scoredQuestions = 0; timeLimitMinutes = 110 });
+    addVersionIfMissing(versions, { id = "ptcb-org-daily-quiz"; examId = "ptcb-org"; versionName = "Daily Quiz"; totalQuestions = 25; scoredQuestions = 25; timeLimitMinutes = 30 });
+    addVersionIfMissing(versions, { id = "ptcb-org-weak-areas"; examId = "ptcb-org"; versionName = "Weak Areas Practice"; totalQuestions = 35; scoredQuestions = 35; timeLimitMinutes = 45 });
 
     // Seed questions for v4-v11 (idempotent — addQuestionIfMissing skips duplicates)
     let v4v5Versions = List.empty<ExamVersion>();
@@ -167,6 +241,15 @@ module {
     let v11Questions = List.empty<Question>();
     PoolV11.seedV11(v11Versions, v11Questions);
     for (q in v11Questions.values()) { addQuestionIfMissing(questions, q) };
+
+    // Seed PTCB ORG imported question bank (split across v1-v3)
+    PoolPtcbOrg.seedPtcbOrgQuestions(questions);
+    // Persist any non-empty explanations from the seed as overlay entries.
+    let seedQuestions = List.empty<Question>();
+    PoolPtcbOrg.seedPtcbOrgQuestions(seedQuestions);
+    for (sq in seedQuestions.values()) {
+      if (sq.explanation != "") { addExplanationIfMissing(explanations, { id = sq.id; explanation = sq.explanation }) };
+    };
   };
 
   /// Seed initial PTCB data if the store is empty.
@@ -184,6 +267,37 @@ module {
     addVersionIfMissing(versions, { id = "ptcb-v1"; examId = "ptcb"; versionName = "Practice Test 1"; totalQuestions = 90; scoredQuestions = 80; timeLimitMinutes = 110 });
     addVersionIfMissing(versions, { id = "ptcb-v2"; examId = "ptcb"; versionName = "Practice Test 2"; totalQuestions = 90; scoredQuestions = 80; timeLimitMinutes = 110 });
     addVersionIfMissing(versions, { id = "ptcb-v3"; examId = "ptcb"; versionName = "Practice Test 3"; totalQuestions = 90; scoredQuestions = 80; timeLimitMinutes = 110 });
+
+    // PTCB ORG exam metadata and initial version
+    addExamIfMissing(exams, {
+      id = "ptcb-org";
+      name = "PTCB ORG Exam";
+      description = "Imported PTCB ORG practice questions.";
+    });
+    addVersionIfMissing(versions, {
+      id = "ptcb-org-v1";
+      examId = "ptcb-org";
+      versionName = "PTCB ORG Practice Test 1";
+      totalQuestions = 112;
+      scoredQuestions = 0;
+      timeLimitMinutes = 110;
+    });
+    addVersionIfMissing(versions, {
+      id = "ptcb-org-v2";
+      examId = "ptcb-org";
+      versionName = "PTCB ORG Practice Test 2";
+      totalQuestions = 112;
+      scoredQuestions = 0;
+      timeLimitMinutes = 110;
+    });
+    addVersionIfMissing(versions, {
+      id = "ptcb-org-v3";
+      examId = "ptcb-org";
+      versionName = "PTCB ORG Practice Test 3";
+      totalQuestions = 112;
+      scoredQuestions = 0;
+      timeLimitMinutes = 110;
+    });
 
     // Practice Test 1
     addQuestionIfMissing(questions, { id = "ptcb-v1-q1"; versionId = "ptcb-v1"; text = "A prescription is written for amoxicillin 500 mg PO TID x 10 days. How many capsules are needed to fill the prescription?"; options = ["20", "24", "30", "40"]; correctOptionIndex = 2; explanation = "TID = 3 times daily x 10 days = 30 capsules."; knowledgeDomain = #OrderEntry; isScored = true });
@@ -501,5 +615,11 @@ module {
     addVersionIfMissing(versions, { id = "ptcb-full-pool"; examId = "ptcb"; versionName = "Full Pool Exam"; totalQuestions = 0; scoredQuestions = 0; timeLimitMinutes = 110 });
     addVersionIfMissing(versions, { id = "ptcb-daily-quiz"; examId = "ptcb"; versionName = "Daily Quiz"; totalQuestions = 25; scoredQuestions = 25; timeLimitMinutes = 30 });
     addVersionIfMissing(versions, { id = "ptcb-weak-areas"; examId = "ptcb"; versionName = "Weak Areas Practice"; totalQuestions = 35; scoredQuestions = 35; timeLimitMinutes = 45 });
+
+    // PTCB ORG special exam mode version metadata (client-side builds from ptcb-org pool)
+    addVersionIfMissing(versions, { id = "ptcb-org-randomized"; examId = "ptcb-org"; versionName = "Randomized Practice"; totalQuestions = 90; scoredQuestions = 80; timeLimitMinutes = 110 });
+    addVersionIfMissing(versions, { id = "ptcb-org-full-pool"; examId = "ptcb-org"; versionName = "Full Pool Exam"; totalQuestions = 0; scoredQuestions = 0; timeLimitMinutes = 110 });
+    addVersionIfMissing(versions, { id = "ptcb-org-daily-quiz"; examId = "ptcb-org"; versionName = "Daily Quiz"; totalQuestions = 25; scoredQuestions = 25; timeLimitMinutes = 30 });
+    addVersionIfMissing(versions, { id = "ptcb-org-weak-areas"; examId = "ptcb-org"; versionName = "Weak Areas Practice"; totalQuestions = 35; scoredQuestions = 35; timeLimitMinutes = 45 });
   };
 };

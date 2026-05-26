@@ -23,6 +23,8 @@ interface ExamCardProps {
   name: string;
   description: string;
   versionCount: number;
+  questionFact: string;
+  timeFact: string;
   to: string;
   params: Record<string, string>;
   index: number;
@@ -33,6 +35,8 @@ function ExamCard({
   name,
   description,
   versionCount,
+  questionFact,
+  timeFact,
   to,
   params,
   index,
@@ -66,10 +70,10 @@ function ExamCard({
       <div className="flex flex-col gap-2 pt-2 border-t border-border">
         <div className="flex items-center gap-3 text-xs text-muted-foreground font-body">
           <span className="flex items-center gap-1">
-            <CheckCircle className="w-3 h-3 text-accent" /> 90 questions
+            <CheckCircle className="w-3 h-3 text-accent" /> {questionFact}
           </span>
           <span className="flex items-center gap-1">
-            <Clock className="w-3 h-3 text-accent" /> 110 minutes
+            <Clock className="w-3 h-3 text-accent" /> {timeFact}
           </span>
         </div>
         <Button
@@ -151,6 +155,7 @@ export function HomePage() {
   
 
   const ptcbExam = exams?.find((e) => e.id.toLowerCase() === "ptcb");
+  const ptcbOrgExam = exams?.find((e) => e.id.toLowerCase() === "ptcb-org");
 
   return (
     <div className="flex-1 flex flex-col">
@@ -192,7 +197,7 @@ export function HomePage() {
 
           <div className="flex flex-wrap justify-center gap-5 mt-2">
             {[
-              { icon: CheckCircle, text: "90–270 questions per mode" },
+              { icon: CheckCircle, text: "25–990 questions per mode" },
               { icon: Clock, text: "110-minute timed sessions" },
               { icon: BookOpen, text: "4 practice modes" },
               { icon: Target, text: "Instant explanations" },
@@ -281,8 +286,8 @@ export function HomePage() {
                   <span className="font-semibold text-foreground">
                     Full Pool Exam now available —
                   </span>{" "}
-                  4 practice modes including a 270-question full-pool session
-                  covering the entire PTCB question bank.
+                  includes a complete 990-question PTCB pool and a
+                  336-question PTCB ORG pool, each shuffled fresh per session.
                 </p>
               </div>
               {/* ── PTCB card (live data or static fallback) ── */}
@@ -297,14 +302,38 @@ export function HomePage() {
                   "Comprehensive practice modeled after the official PTCB exam covering pharmacology, drug interactions, sterile compounding, and more."
                 }
                 versionCount={4}
+                questionFact="90 questions"
+                timeFact="110 minutes"
                 to="/exams/$examId"
                 params={{ examId: "ptcb" }}
                 index={1}
               />
 
+              {ptcbOrgExam && (
+                <ExamCard
+                  id="ptcb-org"
+                  badge="PTCB-ORG"
+                  name={ptcbOrgExam.name}
+                  description={
+                    ptcbOrgExam.description ||
+                    "Imported PTCB ORG practice pool with 336 total questions across three 112-question variants plus special study modes."
+                  }
+                  versionCount={7}
+                  questionFact="336-question pool"
+                  timeFact="25–110 minute modes"
+                  to="/exams/$examId"
+                  params={{ examId: "ptcb-org" }}
+                  index={2}
+                />
+              )}
+
               {/* ── Coming soon cards ── */}
               {COMING_SOON.map((cs, i) => (
-                <ComingSoonCard key={cs.badge} {...cs} index={i + 2} />
+                <ComingSoonCard
+                  key={cs.badge}
+                  {...cs}
+                  index={i + (ptcbOrgExam ? 3 : 2)}
+                />
               ))}
             </div>
           )}

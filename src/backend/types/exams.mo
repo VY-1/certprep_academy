@@ -38,4 +38,10 @@ module {
     knowledgeDomain : KnowledgeDomain;
     isScored : Bool;
   };
+
+  /// Persisted overlay for explanations imported from external seeds.
+  public type QuestionExplanation = {
+    id : Text;
+    explanation : Text;
+  };
 };

@@ -5,7 +5,8 @@ import List "mo:core/List";
 mixin (
   exams    : List.List<Types.CertificationExam>,
   versions : List.List<Types.ExamVersion>,
-  questions : List.List<Types.Question>
+  questions : List.List<Types.Question>,
+  explanations : List.List<Types.QuestionExplanation>
 ) {
   /// Return all available certification exams.
   public query func getExams() : async [Types.CertificationExam] {
@@ -24,7 +25,7 @@ mixin (
 
   /// Return all questions (with correct answers) for a given version id.
   public query func getExamQuestions(versionId : Text) : async [Types.Question] {
-    ExamsLib.listQuestionsForVersion(questions, versionId);
+    ExamsLib.listQuestionsForVersion(questions, explanations, versionId);
   };
 
   /// Add a new certification exam (admin operation).

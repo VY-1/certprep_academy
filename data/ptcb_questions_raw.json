@@ -1,0 +1,4370 @@
+[
+  {
+    "id": "ptcb-org-0001",
+    "raw_number": "1.1",
+    "text": "The puncture-resistant container that is used for needle disposal is referred to as a:",
+    "choices": [
+      "waste container.",
+      "trash container.",
+      "sharps container.",
+      "needle container."
+    ],
+    "correct": null,
+    "notes": "The puncture-resistant container that is used for needle disposal is referred to as a:"
+  },
+  {
+    "id": "ptcb-org-0002",
+    "raw_number": "1.2",
+    "text": "Under the Combat Methamphetamine Epidemic Act of 2005, patients must sign a log and provide valid photo identification in order to purchase OTC products that contain:",
+    "choices": [
+      "guaifenesin.",
+      "pseudoephedrine.",
+      "phenylephrine.",
+      "dextromethorphan."
+    ],
+    "correct": null,
+    "notes": "Under the Combat Methamphetamine Epidemic Act of 2005, patients must sign a log\nand provide valid photo identification in order to purchase OTC products that contain:"
+  },
+  {
+    "id": "ptcb-org-0003",
+    "raw_number": "1.3",
+    "text": "According to federal law, a complete inventory of the controlled substances on hand in a pharmacy must be made every: PTCB Practice Exam (Questions Only) Page 1 of 85",
+    "choices": [
+      "month.",
+      "6 months.",
+      "year.",
+      "2 years."
+    ],
+    "correct": null,
+    "notes": "According to federal law, a complete inventory of the controlled substances on hand in\na pharmacy must be made every:\nPTCB Practice Exam (Questions Only) Page 1 of 85"
+  },
+  {
+    "id": "ptcb-org-0004",
+    "raw_number": "1.4",
+    "text": "The Food and Drug Administration (FDA) may require a Medication Guide to be dispensed as part of a(n);",
+    "choices": [
+      "market withdrawal.",
+      "failure modes and effects analysis.",
+      "REMS program.",
+      "investigational new drug application."
+    ],
+    "correct": null,
+    "notes": "The Food and Drug Administration (FDA) may require a Medication Guide to be\ndispensed as part of a(n);"
+  },
+  {
+    "id": "ptcb-org-0005",
+    "raw_number": "1.5",
+    "text": "Which of the following elements is a unique identifier assigned by the manufacturer to look up a single production batch?",
+    "choices": [
+      "National Drug Code",
+      "Lot number",
+      "Expiration date",
+      "Package size."
+    ],
+    "correct": null,
+    "notes": "Which of the following elements is a unique identifier assigned by the manufacturer to\nlook up a single production batch?"
+  },
+  {
+    "id": "ptcb-org-0006",
+    "raw_number": "1.6",
+    "text": "Which of the following auxiliary labels is most crucial for a prescription of a suspension antibiotic?",
+    "choices": [
+      "Avoid long exposure to sunlight",
+      "Take with a full glass of milk",
+      "Shake well before using",
+      "May cause drowsiness."
+    ],
+    "correct": null,
+    "notes": "Which of the following auxiliary labels is most crucial for a prescription of a\nsuspension antibiotic?"
+  },
+  {
+    "id": "ptcb-org-0007",
+    "raw_number": "1.7",
+    "text": "A stock bottle labeled with NDC number 00046-0867-81 contains the same medication as a bottle labeled with which of the following NDC numbers? PTCB Practice Exam (Questions Only) Page 2 of 85",
+    "choices": [
+      "00046-0867-91",
+      "00867-0046-81",
+      "00046-0866-81",
+      "00081-0867-46."
+    ],
+    "correct": null,
+    "notes": "A stock bottle labeled with NDC number 00046-0867-81 contains the same medication\nas a bottle labeled with which of the following NDC numbers?\nPTCB Practice Exam (Questions Only) Page 2 of 85"
+  },
+  {
+    "id": "ptcb-org-0008",
+    "raw_number": "1.8",
+    "text": "If the expiration date of a drug product is May 2027, the drug should no longer be used by patients after:",
+    "choices": [
+      "April 30, 2027",
+      "May 1, 2027",
+      "May 31, 2027",
+      "June 1, 2027."
+    ],
+    "correct": null,
+    "notes": "If the expiration date of a drug product is May 2027, the drug should no longer be used\nby patients after:"
+  },
+  {
+    "id": "ptcb-org-0009",
+    "raw_number": "1.9",
+    "text": "Two stock bottles of atenolol have the following NDC numbers: 00781-1506-10 and 00781-1506-01. What is the difference in the bottles?",
+    "choices": [
+      "Package size",
+      "Dosage",
+      "Manufacturer",
+      "Strength."
+    ],
+    "correct": null,
+    "notes": "Two stock bottles of atenolol have the following NDC numbers: 00781-1506-10 and\n00781-1506-01. What is the difference in the bottles?"
+  },
+  {
+    "id": "ptcb-org-0010",
+    "raw_number": "1.10",
+    "text": "Which of the following is the procedure for proper disposal of legend drugs that have passed the expiration date printed on the container? agent.",
+    "choices": [
+      "Place it behind newer stock until an intern can throw it away.",
+      "Put it in a trash bag mixed with liquid soap and discard.",
+      "Return it to the FDA directly via certified mail.",
+      "Isolate and label the expired medication until it can be processed by an approved reverse distribution"
+    ],
+    "correct": null,
+    "notes": "Which of the following is the procedure for proper disposal of legend drugs that have\npassed the expiration date printed on the container?\nagent."
+  },
+  {
+    "id": "ptcb-org-0011",
+    "raw_number": "1.11",
+    "text": "If a drug has the expiration date December 2025, it actually expires at midnight on: PTCB Practice Exam (Questions Only) Page 3 of 85",
+    "choices": [
+      "November 30, 2025.",
+      "December 1, 2026.",
+      "December 15, 2026.",
+      "December 31, 2025."
+    ],
+    "correct": null,
+    "notes": "If a drug has the expiration date December 2025, it actually expires at midnight on:\nPTCB Practice Exam (Questions Only) Page 3 of 85"
+  },
+  {
+    "id": "ptcb-org-0012",
+    "raw_number": "1.12",
+    "text": "When used on a prescription, 'PR' indicates a particular:",
+    "choices": [
+      "route of administration.",
+      "frequency of dosing.",
+      "medication strength.",
+      "dosage form."
+    ],
+    "correct": null,
+    "notes": "When used on a prescription, 'PR' indicates a particular:"
+  },
+  {
+    "id": "ptcb-org-0013",
+    "raw_number": "1.13",
+    "text": "According to federal law, which of the following drug products must bear two sets of expiration information in its labeling?",
+    "choices": [
+      "A homeopathic product treating serious chronic conditions",
+      "An allergenic extract labeled 'No U.S. Standard of Potency'",
+      "An OTC product stable for at least three years",
+      "A prescription medication intended for reconstitution prior to dispensing."
+    ],
+    "correct": null,
+    "notes": "According to federal law, which of the following drug products must bear two sets of\nexpiration information in its labeling?"
+  },
+  {
+    "id": "ptcb-org-0014",
+    "raw_number": "1.14",
+    "text": "A pharmacy technician compounding which of the following may adhere to the standards of USP Chapter 795 only?",
+    "choices": [
+      "A batch of 15 bottles of nonhazardous ear drops",
+      "An eye drop bottle for a specific patient",
+      "Three bags of parenteral nutrition",
+      "A hazardous oral suspension from capsules."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician compounding which of the following may adhere to the\nstandards of USP Chapter 795 only?"
+  },
+  {
+    "id": "ptcb-org-0015",
+    "raw_number": "1.15",
+    "text": "An expiration date of 7/2025 on a vial of mumps virus live vaccine means that the vial contents expire: PTCB Practice Exam (Questions Only) Page 4 of 85",
+    "choices": [
+      "on 6/30 of 2025.",
+      "on 7/1 of 2025.",
+      "on 7/31 of 2025.",
+      "6 months past this date."
+    ],
+    "correct": null,
+    "notes": "An expiration date of 7/2025 on a vial of mumps virus live vaccine means that the vial\ncontents expire:\nPTCB Practice Exam (Questions Only) Page 4 of 85"
+  },
+  {
+    "id": "ptcb-org-0016",
+    "raw_number": "1.16",
+    "text": "In order to ensure that the appropriate product was selected from the shelf, a pharmacy technician should verify the medication's:",
+    "choices": [
+      "expiration date.",
+      "lot number.",
+      "package size.",
+      "National Drug Code."
+    ],
+    "correct": null,
+    "notes": "In order to ensure that the appropriate product was selected from the shelf, a\npharmacy technician should verify the medication's:"
+  },
+  {
+    "id": "ptcb-org-0017",
+    "raw_number": "1.17",
+    "text": "Pen needles would be most appropriate for a patient with a prescription for which of the following injectable medications?",
+    "choices": [
+      "Lovenox",
+      "Depo-Provera",
+      "Enbrel",
+      "Byetta."
+    ],
+    "correct": null,
+    "notes": "Pen needles would be most appropriate for a patient with a prescription for which of\nthe following injectable medications?"
+  },
+  {
+    "id": "ptcb-org-0018",
+    "raw_number": "1.18",
+    "text": "Which two items on a manufacturer's bottle are typically used to identify recalled drugs?",
+    "choices": [
+      "DEA number and medication schedule",
+      "NDC number and expiration date",
+      "Lot number and expiration date",
+      "NDC number and lot number."
+    ],
+    "correct": null,
+    "notes": "Which two items on a manufacturer's bottle are typically used to identify recalled\ndrugs?"
+  },
+  {
+    "id": "ptcb-org-0019",
+    "raw_number": "1.19",
+    "text": "The abbreviation 'b.i.d.' is an example of a medication: PTCB Practice Exam (Questions Only) Page 5 of 85",
+    "choices": [
+      "quantity.",
+      "strength.",
+      "dosage form.",
+      "frequency."
+    ],
+    "correct": null,
+    "notes": "The abbreviation 'b.i.d.' is an example of a medication:\nPTCB Practice Exam (Questions Only) Page 5 of 85"
+  },
+  {
+    "id": "ptcb-org-0020",
+    "raw_number": "1.20",
+    "text": "Which of the following abbreviations represents 'under the tongue'?",
+    "choices": [
+      "PO",
+      "SL",
+      "SQ",
+      "PR"
+    ],
+    "correct": null,
+    "notes": "Which of the following abbreviations represents 'under the tongue'?"
+  },
+  {
+    "id": "ptcb-org-0021",
+    "raw_number": "1.21",
+    "text": "Which of the following statements regarding specific patient medication returns in the hospital setting is correct?",
+    "choices": [
+      "Unlabeled medications may be dispensed by the nurse at discharge",
+      "Unopened units-of-use returned from outpatients may be redispensed",
+      "Unopened units-of-use returned from inpatients may be redispensed",
+      "Crediting of used doses should be completed prior to dispensing."
+    ],
+    "correct": null,
+    "notes": "Which of the following statements regarding specific patient medication returns in the\nhospital setting is correct?"
+  },
+  {
+    "id": "ptcb-org-0022",
+    "raw_number": "1.22",
+    "text": "A physician writes the following prescription: Carafate oral suspension 1 g/10 mL. Sig: 10 mL q.i.d. a.c. & h.s., Disp: 14 oz. This prescription label should read:",
+    "choices": [
+      "Take 1 tablespoonful 4 times a day after meals and at bedtime",
+      "Take 2 teaspoonfuls 4 times a day before meals and at bedtime",
+      "Take 2 teaspoonfuls 4 times a day after meals and at bedtime",
+      "Take 1 tablespoonful 4 times a day before meals and at bedtime."
+    ],
+    "correct": null,
+    "notes": "A physician writes the following prescription: Carafate oral suspension 1 g/10 mL.\nSig: 10 mL q.i.d. a.c. & h.s., Disp: 14 oz. This prescription label should read:"
+  },
+  {
+    "id": "ptcb-org-0023",
+    "raw_number": "1.23",
+    "text": "A pharmacy technician is asked to divide a bulk bottle of chloral hydrate 500 mg/5 mL into 1 tsp unit-of-use packaging. The best option for portioning out the drug is to use a(n): PTCB Practice Exam (Questions Only) Page 6 of 85",
+    "choices": [
+      "oral liquid syringe.",
+      "medicine cup.",
+      "small glass bottle.",
+      "hypodermic syringe."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician is asked to divide a bulk bottle of chloral hydrate 500 mg/5 mL\ninto 1 tsp unit-of-use packaging. The best option for portioning out the drug is to use a(n):\nPTCB Practice Exam (Questions Only) Page 6 of 85"
+  },
+  {
+    "id": "ptcb-org-0024",
+    "raw_number": "1.24",
+    "text": "A reverse distributor for pharmaceuticals:",
+    "choices": [
+      "distributes pharmaceuticals to hospitals.",
+      "removes and disposes of pharmaceutical waste.",
+      "transports medications from the manufacturer to the wholesaler.",
+      "transports medications in an emergency."
+    ],
+    "correct": null,
+    "notes": "A reverse distributor for pharmaceuticals:"
+  },
+  {
+    "id": "ptcb-org-0025",
+    "raw_number": "1.25",
+    "text": "Humalog 5 units SQ t.i.d. 5 min p.c. and 2 units SQ q.h.s. UD means the patient is instructed to inject 5 units three times a day:",
+    "choices": [
+      "5 minutes after meals and 2 units every hour as directed.",
+      "5 minutes after meals and 2 units at bedtime as directed.",
+      "5 minutes before meals and 2 units every hour as directed.",
+      "5 minutes before meals and 2 units at bedtime as directed."
+    ],
+    "correct": null,
+    "notes": "Humalog 5 units SQ t.i.d. 5 min p.c. and 2 units SQ q.h.s. UD means the patient is\ninstructed to inject 5 units three times a day:"
+  },
+  {
+    "id": "ptcb-org-0026",
+    "raw_number": "1.26",
+    "text": "Medications' lot numbers are assigned by the:",
+    "choices": [
+      "Food and Drug Administration (FDA).",
+      "Drug Enforcement Administration (DEA).",
+      "wholesaler.",
+      "manufacturer."
+    ],
+    "correct": null,
+    "notes": "Medications' lot numbers are assigned by the:"
+  },
+  {
+    "id": "ptcb-org-0027",
+    "raw_number": "1.27",
+    "text": "The pharmacy receives the following prescription: Levofloxacin 0.5% solution, #1 bottle. Sig: 2 gtts OD q2h while awake on days 1-2 then 2 gtts OD q4h while awake on days 3-7. Where is the patient instructed to use the medication? PTCB Practice Exam (Questions Only) Page 7 of 85",
+    "choices": [
+      "Left eye",
+      "Left ear",
+      "Right eye",
+      "Right ear"
+    ],
+    "correct": null,
+    "notes": "The pharmacy receives the following prescription: Levofloxacin 0.5% solution, #1\nbottle. Sig: 2 gtts OD q2h while awake on days 1-2 then 2 gtts OD q4h while awake on days 3-7.\nWhere is the patient instructed to use the medication?\nPTCB Practice Exam (Questions Only) Page 7 of 85"
+  },
+  {
+    "id": "ptcb-org-0028",
+    "raw_number": "1.28",
+    "text": "Which of the following medications should be pulled from inventory due to incorrect storage?",
+    "choices": [
+      "Boostrix that was stored in a refrigerator",
+      "Havrix that was stored in a refrigerator",
+      "Shingrix that was stored in a freezer",
+      "Varivax that was stored in a freezer."
+    ],
+    "correct": null,
+    "notes": "Which of the following medications should be pulled from inventory due to incorrect\nstorage?"
+  },
+  {
+    "id": "ptcb-org-0029",
+    "raw_number": "1.29",
+    "text": "A vial of medication shows the manufacturer's expiration date as November 2026. The last date on which this medication may be used is:",
+    "choices": [
+      "October 31, 2026.",
+      "November 1, 2026.",
+      "November 30, 2026.",
+      "6 months after the stated date."
+    ],
+    "correct": null,
+    "notes": "A vial of medication shows the manufacturer's expiration date as November 2026. The\nlast date on which this medication may be used is:"
+  },
+  {
+    "id": "ptcb-org-0030",
+    "raw_number": "1.30",
+    "text": "Which part of the meniscus should the pharmacy technician use to measure water in a graduated cylinder?",
+    "choices": [
+      "The top",
+      "The bottom",
+      "The left",
+      "The right"
+    ],
+    "correct": null,
+    "notes": "Which part of the meniscus should the pharmacy technician use to measure water in\na graduated cylinder?"
+  },
+  {
+    "id": "ptcb-org-0031",
+    "raw_number": "1.31",
+    "text": "The primary purpose of rotating inventory in the pharmacy is to: PTCB Practice Exam (Questions Only) Page 8 of 85",
+    "choices": [
+      "reduce the potential for dispensing expired medications.",
+      "check for drug recalls.",
+      "help determine what needs to be placed on the next inventory order.",
+      "provide work for students and interns in the pharmacy."
+    ],
+    "correct": null,
+    "notes": "The primary purpose of rotating inventory in the pharmacy is to:\nPTCB Practice Exam (Questions Only) Page 8 of 85"
+  },
+  {
+    "id": "ptcb-org-0032",
+    "raw_number": "1.32",
+    "text": "Which of the following needle gauges designates the largest bore?",
+    "choices": [
+      "16",
+      "19",
+      "22",
+      "27"
+    ],
+    "correct": null,
+    "notes": "Which of the following needle gauges designates the largest bore?"
+  },
+  {
+    "id": "ptcb-org-0033",
+    "raw_number": "1.33",
+    "text": "Which of the following should be used to identify a particular batch of compounded product?",
+    "choices": [
+      "Lot number",
+      "Expiration date",
+      "Prescriber name",
+      "Pharmacy name."
+    ],
+    "correct": null,
+    "notes": "Which of the following should be used to identify a particular batch of compounded\nproduct?"
+  },
+  {
+    "id": "ptcb-org-0034",
+    "raw_number": "1.34",
+    "text": "If a contamination or serious stability risk could cause severe adverse health consequences or death, which type of recall should be assigned?",
+    "choices": [
+      "Class I",
+      "Class II",
+      "Class III",
+      "Market withdrawal.."
+    ],
+    "correct": null,
+    "notes": "If a contamination or serious stability risk could cause severe adverse health\nconsequences or death, which type of recall should be assigned?"
+  },
+  {
+    "id": "ptcb-org-0035",
+    "raw_number": "1.35",
+    "text": "Which of the following situations would be most likely to cause a Class III recall? PTCB Practice Exam (Questions Only) Page 9 of 85",
+    "choices": [
+      "A package label says 100 tablets, but the package contains only 95 tablets",
+      "A patient death has resulted from an impure batch ingredient",
+      "A high-dose opioid patch is leaking dynamic chemical adhesive gel",
+      "A package label says 50 mg but contains 500 mg of powerful medication."
+    ],
+    "correct": null,
+    "notes": "Which of the following situations would be most likely to cause a Class III recall?\nPTCB Practice Exam (Questions Only) Page 9 of 85"
+  },
+  {
+    "id": "ptcb-org-0036",
+    "raw_number": "1.36",
+    "text": "A prescription for Duragesic (Fentanyl) patches should be filed under which DEA schedule?",
+    "choices": [
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "correct": null,
+    "notes": "A prescription for Duragesic (Fentanyl) patches should be filed under which DEA\nschedule?"
+  },
+  {
+    "id": "ptcb-org-0037",
+    "raw_number": "1.37",
+    "text": "A vial containing a hazardous material breaks in the pharmacy cleanroom. Which of the following items must be on hand immediately?",
+    "choices": [
+      "Paper towels and bleach",
+      "A spill kit with usage policy",
+      "Alcohol-free surface cleaner",
+      "Bactericidal scrub soap."
+    ],
+    "correct": null,
+    "notes": "A vial containing a hazardous material breaks in the pharmacy cleanroom. Which of\nthe following items must be on hand immediately?"
+  },
+  {
+    "id": "ptcb-org-0038",
+    "raw_number": "1.38",
+    "text": "Handling hazardous cytotoxic or antineoplastic drugs should always be completed: SECTION 2: CONTROLLED SUBSTANCES ACT & FEDERAL LEGAL FRAMEWORKS",
+    "choices": [
+      "inside a common chemical laminar flow hood.",
+      "while wearing double chemotherapy-approved personal protective equipment.",
+      "using disposable kitchen gloves washed out between operations.",
+      "inside a positive-pressure room configuration."
+    ],
+    "correct": null,
+    "notes": "Handling hazardous cytotoxic or antineoplastic drugs should always be completed:\nSECTION 2: CONTROLLED SUBSTANCES ACT & FEDERAL LEGAL\nFRAMEWORKS"
+  },
+  {
+    "id": "ptcb-org-0039",
+    "raw_number": "2.1",
+    "text": "Which of the following medications is a hazardous drug that requires special handling? PTCB Practice Exam (Questions Only) Page 10 of 85",
+    "choices": [
+      "Atorvastatin",
+      "Lovastatin",
+      "Cisplatin",
+      "Gabapentin"
+    ],
+    "correct": null,
+    "notes": "Which of the following medications is a hazardous drug that requires special handling?\nPTCB Practice Exam (Questions Only) Page 10 of 85"
+  },
+  {
+    "id": "ptcb-org-0040",
+    "raw_number": "2.2",
+    "text": "Handling hazardous substances should be done:",
+    "choices": [
+      "in a chemical safety cabinet.",
+      "wearing personal protective equipment.",
+      "using disposable gloves washed between each use.",
+      "in a positive-pressure clean room."
+    ],
+    "correct": null,
+    "notes": "Handling hazardous substances should be done:"
+  },
+  {
+    "id": "ptcb-org-0041",
+    "raw_number": "2.3",
+    "text": "A drug recall that is most likely to result in severe adverse health consequences or death upon exposure is known as:",
+    "choices": [
+      "Class I.",
+      "Class II.",
+      "Class III.",
+      "Class IV."
+    ],
+    "correct": null,
+    "notes": "A drug recall that is most likely to result in severe adverse health consequences or\ndeath upon exposure is known as:"
+  },
+  {
+    "id": "ptcb-org-0042",
+    "raw_number": "2.4",
+    "text": "A Safety Data Sheet is required by federal law to provide instruction for:",
+    "choices": [
+      "the patient on the correct dosage and use of medication.",
+      "proper disposal of used syringes.",
+      "the pharmacist in counseling patients.",
+      "any hazardous chemical that is kept in the pharmacy."
+    ],
+    "correct": null,
+    "notes": "A Safety Data Sheet is required by federal law to provide instruction for:"
+  },
+  {
+    "id": "ptcb-org-0043",
+    "raw_number": "2.5",
+    "text": "Which of the following may serve as tracing documentation when a pharmacy borrows noncontrolled medication from a different pharmacy? PTCB Practice Exam (Questions Only) Page 11 of 85",
+    "choices": [
+      "Transaction statement",
+      "Medication Guide",
+      "Safety Data Sheet",
+      "Patient package insert"
+    ],
+    "correct": null,
+    "notes": "Which of the following may serve as tracing documentation when a pharmacy borrows\nnoncontrolled medication from a different pharmacy?\nPTCB Practice Exam (Questions Only) Page 11 of 85"
+  },
+  {
+    "id": "ptcb-org-0044",
+    "raw_number": "2.6",
+    "text": "The iPLEDGE restricted drug distribution program is associated with:",
+    "choices": [
+      "clozapine.",
+      "isotretinoin.",
+      "thalidomide.",
+      "adalimumab."
+    ],
+    "correct": null,
+    "notes": "The iPLEDGE restricted drug distribution program is associated with:"
+  },
+  {
+    "id": "ptcb-org-0045",
+    "raw_number": "2.7",
+    "text": "According to the DEA, when a controlled substance prescription is transferred from one pharmacy to another for the purpose of dispensing a refill, the original and transferred prescriptions must be maintained for a period of at least how many years from the date of the last refill?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": null,
+    "notes": "According to the DEA, when a controlled substance prescription is transferred from\none pharmacy to another for the purpose of dispensing a refill, the original and transferred\nprescriptions must be maintained for a period of at least how many years from the date of the last\nrefill?"
+  },
+  {
+    "id": "ptcb-org-0046",
+    "raw_number": "2.8",
+    "text": "Medical device safety alerts are issued by the FDA when a device:",
+    "choices": [
+      "may present an unreasonable risk of substantial harm.",
+      "is used by a person for whom it was not prescribed.",
+      "is superseded by a newer device for the same purpose.",
+      "has not been patented prior to manufacturing."
+    ],
+    "correct": null,
+    "notes": "Medical device safety alerts are issued by the FDA when a device:"
+  },
+  {
+    "id": "ptcb-org-0047",
+    "raw_number": "2.9",
+    "text": "According to federal law, pharmacies must order stock bottles of which of the following medications using CSOS or a paper equivalent? PTCB Practice Exam (Questions Only) Page 12 of 85",
+    "choices": [
+      "Carisoprodol",
+      "Tramadol",
+      "Morphine",
+      "Buprenorphine"
+    ],
+    "correct": null,
+    "notes": "According to federal law, pharmacies must order stock bottles of which of the\nfollowing medications using CSOS or a paper equivalent?\nPTCB Practice Exam (Questions Only) Page 12 of 85"
+  },
+  {
+    "id": "ptcb-org-0048",
+    "raw_number": "2.10",
+    "text": "According to federal law, how long, in years, must a pharmacy maintain records for each controlled substance purchased, received, distributed, or dispensed?",
+    "choices": [
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": null,
+    "notes": "According to federal law, how long, in years, must a pharmacy maintain records for\neach controlled substance purchased, received, distributed, or dispensed?"
+  },
+  {
+    "id": "ptcb-org-0049",
+    "raw_number": "2.11",
+    "text": "In addition to laws enforced by state and local authorities, pharmaceutical waste disposal is also regulated by the federal:",
+    "choices": [
+      "Centers for Medicare and Medicaid Services.",
+      "Department of Health and Human Services.",
+      "Resource Conservation and Recovery Act.",
+      "Food, Drug, and Cosmetic Act."
+    ],
+    "correct": null,
+    "notes": "In addition to laws enforced by state and local authorities, pharmaceutical waste\ndisposal is also regulated by the federal:"
+  },
+  {
+    "id": "ptcb-org-0050",
+    "raw_number": "2.12",
+    "text": "The theft or loss of significant quantities of controlled substances must be reported to:",
+    "choices": [
+      "USP.",
+      "the FDA.",
+      "the DEA.",
+      "TJC."
+    ],
+    "correct": null,
+    "notes": "The theft or loss of significant quantities of controlled substances must be reported\nto:"
+  },
+  {
+    "id": "ptcb-org-0051",
+    "raw_number": "2.13",
+    "text": "A patient wants to transfer a diazepam prescription from a chain pharmacy to a mail order pharmacy to be refilled. The pharmacies do not share a real-time, online database. According to federal law, this prescription may: PTCB Practice Exam (Questions Only) Page 13 of 85",
+    "choices": [
+      "be transferred no more than one time between these pharmacies.",
+      "be transferred no more than two times between these pharmacies.",
+      "be transferred no more than five times between these pharmacies.",
+      "not be transferred between these pharmacies."
+    ],
+    "correct": null,
+    "notes": "A patient wants to transfer a diazepam prescription from a chain pharmacy to a mail\norder pharmacy to be refilled. The pharmacies do not share a real-time, online database. According\nto federal law, this prescription may:\nPTCB Practice Exam (Questions Only) Page 13 of 85"
+  },
+  {
+    "id": "ptcb-org-0052",
+    "raw_number": "2.14",
+    "text": "Which of the following situations would be most likely to cause a Class III recall?",
+    "choices": [
+      "A package label says 100 tablets, but the package contains only 95 tablets",
+      "A patient death has resulted from the use of the product",
+      "A high-dose time-release opioid analgesic patch is leaking medication",
+      "A package label says 50 mg tablets, but the package contains 500 mg tablets"
+    ],
+    "correct": null,
+    "notes": "Which of the following situations would be most likely to cause a Class III recall?"
+  },
+  {
+    "id": "ptcb-org-0053",
+    "raw_number": "2.15",
+    "text": "Under the Combat Methamphetamine Epidemic Act of 2005, patients must sign a log and provide valid photo identification in order to purchase OTC products that contain:",
+    "choices": [
+      "guaifenesin.",
+      "pseudoephedrine.",
+      "phenylephrine.",
+      "dextromethorphan."
+    ],
+    "correct": null,
+    "notes": "Under the Combat Methamphetamine Epidemic Act of 2005, patients must sign a log\nand provide valid photo identification in order to purchase OTC products that contain:"
+  },
+  {
+    "id": "ptcb-org-0054",
+    "raw_number": "2.16",
+    "text": "The Food and Drug Administration (FDA) may require a Medication Guide to be dispensed as part of a(n):",
+    "choices": [
+      "market withdrawal.",
+      "failure modes and effects analysis.",
+      "OTC recommendation.",
+      "REMS program."
+    ],
+    "correct": null,
+    "notes": "The Food and Drug Administration (FDA) may require a Medication Guide to be\ndispensed as part of a(n):"
+  },
+  {
+    "id": "ptcb-org-0055",
+    "raw_number": "2.17",
+    "text": "According to federal law, the information required on the prescription label for a controlled substance dispensed by the pharmacist in a community pharmacy shall contain the: PTCB Practice Exam (Questions Only) Page 14 of 85",
+    "choices": [
+      "name and address of the prescriber.",
+      "pharmacy and prescriber's DEA registration numbers.",
+      "name of the patient and the name of the prescriber.",
+      "name and age of the patient."
+    ],
+    "correct": null,
+    "notes": "According to federal law, the information required on the prescription label for a\ncontrolled substance dispensed by the pharmacist in a community pharmacy shall contain the:\nPTCB Practice Exam (Questions Only) Page 14 of 85"
+  },
+  {
+    "id": "ptcb-org-0056",
+    "raw_number": "2.18",
+    "text": "Which of the following federal government agencies is allowed to request a recall of a pharmaceutical?",
+    "choices": [
+      "DEA",
+      "CDC",
+      "NIH",
+      "FDA"
+    ],
+    "correct": null,
+    "notes": "Which of the following federal government agencies is allowed to request a recall of a\npharmaceutical?"
+  },
+  {
+    "id": "ptcb-org-0057",
+    "raw_number": "2.19",
+    "text": "According to the DEA, a complete and accurate inventory of controlled substances must be completed every:",
+    "choices": [
+      "fiscal quarter.",
+      "six months.",
+      "year.",
+      "two years."
+    ],
+    "correct": null,
+    "notes": "According to the DEA, a complete and accurate inventory of controlled substances\nmust be completed every:"
+  },
+  {
+    "id": "ptcb-org-0058",
+    "raw_number": "2.20",
+    "text": "According to federal law, a new controlled substance prescription must include the:",
+    "choices": [
+      "medication's NDC number.",
+      "prescriber's DEA number.",
+      "pharmacy's DEA number.",
+      "indication's ICD code."
+    ],
+    "correct": null,
+    "notes": "According to federal law, a new controlled substance prescription must include the:"
+  },
+  {
+    "id": "ptcb-org-0059",
+    "raw_number": "2.21",
+    "text": "If there is an error in a medication's expiration date on the manufacturer's label, which type of recall is the FDA most likely to request? PTCB Practice Exam (Questions Only) Page 15 of 85",
+    "choices": [
+      "Class I",
+      "Class II",
+      "Class III",
+      "Class IV."
+    ],
+    "correct": null,
+    "notes": "If there is an error in a medication's expiration date on the manufacturer's label, which\ntype of recall is the FDA most likely to request?\nPTCB Practice Exam (Questions Only) Page 15 of 85"
+  },
+  {
+    "id": "ptcb-org-0060",
+    "raw_number": "2.22",
+    "text": "Which of the following organizations is tasked with enforcing proper medication disposal practices to ensure that pharmaceutical waste does not contaminate waterways and drinking water?",
+    "choices": [
+      "FDA",
+      "DEA",
+      "CMS",
+      "EPA"
+    ],
+    "correct": null,
+    "notes": "Which of the following organizations is tasked with enforcing proper medication\ndisposal practices to ensure that pharmaceutical waste does not contaminate waterways and\ndrinking water?"
+  },
+  {
+    "id": "ptcb-org-0061",
+    "raw_number": "2.23",
+    "text": "According to federal law, prescriptions for Schedule III controlled substances may:",
+    "choices": [
+      "be refilled for up to 6 months if indicated.",
+      "not be refilled under any circumstances.",
+      "have p.r.n. refills.",
+      "be refilled for up to 12 months if indicated."
+    ],
+    "correct": null,
+    "notes": "According to federal law, prescriptions for Schedule III controlled substances may:"
+  },
+  {
+    "id": "ptcb-org-0062",
+    "raw_number": "2.24",
+    "text": "According to the Drug Supply Chain Security Act (DSCSA), a medication package must be labeled with the NDC, lot number, expiration date, and a:",
+    "choices": [
+      "serial number.",
+      "DEA schedule.",
+      "chain of ownership.",
+      "date of manufacture."
+    ],
+    "correct": null,
+    "notes": "According to the Drug Supply Chain Security Act (DSCSA), a medication package\nmust be labeled with the NDC, lot number, expiration date, and a:"
+  },
+  {
+    "id": "ptcb-org-0063",
+    "raw_number": "2.25",
+    "text": "A prescription for Duragesic patches should be filed under which DEA schedule? PTCB Practice Exam (Questions Only) Page 16 of 85",
+    "choices": [
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "correct": null,
+    "notes": "A prescription for Duragesic patches should be filed under which DEA schedule?\nPTCB Practice Exam (Questions Only) Page 16 of 85"
+  },
+  {
+    "id": "ptcb-org-0064",
+    "raw_number": "2.26",
+    "text": "The FDA requires manufacturers of drugs with safety concerns to develop a(n):",
+    "choices": [
+      "Safety Data Sheet (SDS).",
+      "Risk Evaluation and Mitigation Strategy (REMS).",
+      "Drug Utilization Review (DUR).",
+      "Adverse Drug Event (ADE) report."
+    ],
+    "correct": null,
+    "notes": "The FDA requires manufacturers of drugs with safety concerns to develop a(n):"
+  },
+  {
+    "id": "ptcb-org-0065",
+    "raw_number": "2.27",
+    "text": "According to federal law, a prescription for which of the following medications may be transferred to another pharmacy to be refilled?",
+    "choices": [
+      "Alprazolam",
+      "Methylphenidate",
+      "Fentanyl",
+      "Hydromorphone"
+    ],
+    "correct": null,
+    "notes": "According to federal law, a prescription for which of the following medications may be\ntransferred to another pharmacy to be refilled?"
+  },
+  {
+    "id": "ptcb-org-0066",
+    "raw_number": "2.28",
+    "text": "According to NIOSH and ASHP, a drug should be classified as hazardous if it causes:",
+    "choices": [
+      "anaphylaxis.",
+      "addiction.",
+      "teratogenicity.",
+      "tachycardia."
+    ],
+    "correct": null,
+    "notes": "According to NIOSH and ASHP, a drug should be classified as hazardous if it causes:"
+  },
+  {
+    "id": "ptcb-org-0067",
+    "raw_number": "2.29",
+    "text": "Starting on the date a sample is taken for a negative pregnancy test, what is the time frame within which isotretinoin must be dispensed for patients of childbearing potential? PTCB Practice Exam (Questions Only) Page 17 of 85",
+    "choices": [
+      "24 hours",
+      "72 hours",
+      "7 days",
+      "3 months."
+    ],
+    "correct": null,
+    "notes": "Starting on the date a sample is taken for a negative pregnancy test, what is the time\nframe within which isotretinoin must be dispensed for patients of childbearing potential?\nPTCB Practice Exam (Questions Only) Page 17 of 85"
+  },
+  {
+    "id": "ptcb-org-0068",
+    "raw_number": "2.30",
+    "text": "According to federal law, a complete inventory of the controlled substances on hand in a pharmacy must be made every:",
+    "choices": [
+      "month.",
+      "6 months.",
+      "year.",
+      "2 years."
+    ],
+    "correct": null,
+    "notes": "According to federal law, a complete inventory of the controlled substances on hand\nin a pharmacy must be made every:"
+  },
+  {
+    "id": "ptcb-org-0069",
+    "raw_number": "2.31",
+    "text": "A vial containing a hazardous material breaks in the pharmacy. Which of the following items must be on hand to contain and clean up the hazardous material?",
+    "choices": [
+      "Paper towels and bleach",
+      "A spill kit with usage policy",
+      "Alcohol-free cleaner",
+      "Bactericidal soap and distilled water."
+    ],
+    "correct": null,
+    "notes": "A vial containing a hazardous material breaks in the pharmacy. Which of the following\nitems must be on hand to contain and clean up the hazardous material?"
+  },
+  {
+    "id": "ptcb-org-0070",
+    "raw_number": "2.32",
+    "text": "The puncture-resistant container that is used for needle disposal is referred to as a:",
+    "choices": [
+      "waste container.",
+      "trash container.",
+      "sharps container.",
+      "needle container."
+    ],
+    "correct": null,
+    "notes": "The puncture-resistant container that is used for needle disposal is referred to as a:"
+  },
+  {
+    "id": "ptcb-org-0071",
+    "raw_number": "2.33",
+    "text": "According to federal law, a pharmacy transferring an outdated Schedule IV controlled substance to a reverse distributor for destruction should: PTCB Practice Exam (Questions Only) Page 18 of 85",
+    "choices": [
+      "provide a DEA Form 222 or CSOS.",
+      "maintain a record of the transaction.",
+      "notify the manufacturer.",
+      "complete a DEA Form 41."
+    ],
+    "correct": null,
+    "notes": "According to federal law, a pharmacy transferring an outdated Schedule IV controlled\nsubstance to a reverse distributor for destruction should:\nPTCB Practice Exam (Questions Only) Page 18 of 85"
+  },
+  {
+    "id": "ptcb-org-0072",
+    "raw_number": "2.34",
+    "text": "According to federal law, hard copies of prescriptions for which of the following types of drugs must be stored in a file separate from other prescription records?",
+    "choices": [
+      "Schedule II",
+      "Schedule III-V",
+      "Legend",
+      "Hazardous"
+    ],
+    "correct": null,
+    "notes": "According to federal law, hard copies of prescriptions for which of the following types\nof drugs must be stored in a file separate from other prescription records?"
+  },
+  {
+    "id": "ptcb-org-0073",
+    "raw_number": "2.35",
+    "text": "Which of the following medication purchases may be tracked using MethCheck?",
+    "choices": [
+      "Methylphenidate",
+      "Phenylephrine",
+      "Pseudoephedrine",
+      "Methamphetamine"
+    ],
+    "correct": null,
+    "notes": "Which of the following medication purchases may be tracked using MethCheck?"
+  },
+  {
+    "id": "ptcb-org-0074",
+    "raw_number": "2.36",
+    "text": "According to the Code of Federal Regulations, records regarding the distribution, receipt, or destruction of controlled substances must be maintained for a minimum of how many years?",
+    "choices": [
+      "1",
+      "2",
+      "5",
+      "7."
+    ],
+    "correct": null,
+    "notes": "According to the Code of Federal Regulations, records regarding the distribution,\nreceipt, or destruction of controlled substances must be maintained for a minimum of how many\nyears?"
+  },
+  {
+    "id": "ptcb-org-0075",
+    "raw_number": "2.37",
+    "text": "A Class I recall is issued when the use of an adulterated drug product is believed to: PTCB Practice Exam (Questions Only) Page 19 of 85",
+    "choices": [
+      "be remotely linked to serious adverse effects.",
+      "cause medically reversible adverse effects.",
+      "cause serious adverse effects or death.",
+      "be unlikely to cause adverse effects."
+    ],
+    "correct": null,
+    "notes": "A Class I recall is issued when the use of an adulterated drug product is believed to:\nPTCB Practice Exam (Questions Only) Page 19 of 85"
+  },
+  {
+    "id": "ptcb-org-0076",
+    "raw_number": "2.38",
+    "text": "If a Proventil HFA inhaler is found to contain no active ingredient, which type of recall should be assigned? SECTION 3: PATIENT SAFETY, ERROR INTERCEPTION & QUALITY ASSURANCE METRICS",
+    "choices": [
+      "Class I",
+      "Class II",
+      "Class III",
+      "Market withdrawal."
+    ],
+    "correct": null,
+    "notes": "If a Proventil HFA inhaler is found to contain no active ingredient, which type of recall\nshould be assigned?\nSECTION 3: PATIENT SAFETY, ERROR INTERCEPTION & QUALITY\nASSURANCE METRICS"
+  },
+  {
+    "id": "ptcb-org-0077",
+    "raw_number": "3.1",
+    "text": "Under standard precautions, it is considered safe for healthcare workers to come in direct contact with patients':",
+    "choices": [
+      "dirty hands.",
+      "blood.",
+      "nonintact skin.",
+      "body fluids."
+    ],
+    "correct": null,
+    "notes": "Under standard precautions, it is considered safe for healthcare workers to come in\ndirect contact with patients':"
+  },
+  {
+    "id": "ptcb-org-0078",
+    "raw_number": "3.2",
+    "text": "A pharmacy technician processing a refill for prenatal vitamins (Sig: one daily with food) notices that the patient received 90 tablets last month. The best action for the technician to take would be to:",
+    "choices": [
+      "refill the prescription as requested.",
+      "tell the patient to wait one more month to be eligible for a refill.",
+      "prepare the refill, highlighting the early fill date.",
+      "ask the patient to discuss the use of this prescription with the pharmacist."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician processing a refill for prenatal vitamins (Sig: one daily with\nfood) notices that the patient received 90 tablets last month. The best action for the technician to\ntake would be to:"
+  },
+  {
+    "id": "ptcb-org-0079",
+    "raw_number": "3.3",
+    "text": "Which cleansing agent is recommended for proper hand hygiene in a healthcare environment after using the restroom? PTCB Practice Exam (Questions Only) Page 20 of 85",
+    "choices": [
+      "Antimicrobial wipes",
+      "Soap and water",
+      "Iodine scrub",
+      "Isopropyl alcohol"
+    ],
+    "correct": null,
+    "notes": "Which cleansing agent is recommended for proper hand hygiene in a healthcare\nenvironment after using the restroom?\nPTCB Practice Exam (Questions Only) Page 20 of 85"
+  },
+  {
+    "id": "ptcb-org-0080",
+    "raw_number": "3.4",
+    "text": "Of the following, a patient would most benefit from a pharmacist consultation in the event that they:",
+    "choices": [
+      "do not have health insurance.",
+      "have missed a few doses of their birth control.",
+      "would prefer to receive generic equivalents.",
+      "have recently switched primary care physicians."
+    ],
+    "correct": null,
+    "notes": "Of the following, a patient would most benefit from a pharmacist consultation in the\nevent that they:"
+  },
+  {
+    "id": "ptcb-org-0081",
+    "raw_number": "3.5",
+    "text": "An immediate-release drug was dispensed instead of the controlled- or extended- release drug indicated by the prescriber. Which type of error is this?",
+    "choices": [
+      "Wrong dose",
+      "Wrong dosage form",
+      "Omission",
+      "Assumption"
+    ],
+    "correct": null,
+    "notes": "An immediate-release drug was dispensed instead of the controlled- or extended-\nrelease drug indicated by the prescriber. Which type of error is this?"
+  },
+  {
+    "id": "ptcb-org-0082",
+    "raw_number": "3.6",
+    "text": "According to the Institute for Safe Medication Practices (ISMP), one class of drugs that is considered high-alert in a community setting is oral:",
+    "choices": [
+      "hypoglycemic agents.",
+      "antidepressants.",
+      "hypotensive agents.",
+      "antipsychotics."
+    ],
+    "correct": null,
+    "notes": "According to the Institute for Safe Medication Practices (ISMP), one class of drugs that\nis considered high-alert in a community setting is oral:"
+  },
+  {
+    "id": "ptcb-org-0083",
+    "raw_number": "3.7",
+    "text": "A dispensing error is defined as a discrepancy between a prescription and the medication that is: PTCB Practice Exam (Questions Only) Page 21 of 85",
+    "choices": [
+      "requested by the patient.",
+      "on the plan formulary.",
+      "supplied by the wholesaler.",
+      "received by the patient."
+    ],
+    "correct": null,
+    "notes": "A dispensing error is defined as a discrepancy between a prescription and the\nmedication that is:\nPTCB Practice Exam (Questions Only) Page 21 of 85"
+  },
+  {
+    "id": "ptcb-org-0084",
+    "raw_number": "3.8",
+    "text": "Medication error reporting:",
+    "choices": [
+      "may prevent repeat incidents.",
+      "disciplines personnel involved.",
+      "happens automatically.",
+      "must be done by the patient."
+    ],
+    "correct": null,
+    "notes": "Medication error reporting:"
+  },
+  {
+    "id": "ptcb-org-0085",
+    "raw_number": "3.9",
+    "text": "To prevent cross-contamination between solid dosage forms like tablets and capsules, a pharmacy technician should:",
+    "choices": [
+      "wipe a counting tray clean after each use.",
+      "wear a face mask while counting out medication.",
+      "use a different counting tray for each medication.",
+      "disinfect all equipment using bacteriostatic water."
+    ],
+    "correct": null,
+    "notes": "To prevent cross-contamination between solid dosage forms like tablets and capsules,\na pharmacy technician should:"
+  },
+  {
+    "id": "ptcb-org-0086",
+    "raw_number": "3.10",
+    "text": "Which of the following should be a characteristic of a successful root-cause analysis (RCA) used to investigate a significant medication error?",
+    "choices": [
+      "Termination of employment for the individuals involved in the medication error",
+      "Focusing primarily on systems and processes rather than individual performance",
+      "Immediate reporting of the error to the state board of pharmacy for a third-party investigation",
+      "Criminal charges against the responsible pharmacist if a patient experienced serious injury or death"
+    ],
+    "correct": null,
+    "notes": "Which of the following should be a characteristic of a successful root-cause analysis\n(RCA) used to investigate a significant medication error?"
+  },
+  {
+    "id": "ptcb-org-0087",
+    "raw_number": "3.11",
+    "text": "A pharmacy receives the following prescription: Fentanyl 100 mg/hr, Apply 1 patch every 72 hours #10. An error appears to have been made in the medication's: PTCB Practice Exam (Questions Only) Page 22 of 85",
+    "choices": [
+      "route of administration.",
+      "strength.",
+      "frequency of dosing.",
+      "quantity."
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives the following prescription: Fentanyl 100 mg/hr, Apply 1 patch\nevery 72 hours #10. An error appears to have been made in the medication's:\nPTCB Practice Exam (Questions Only) Page 22 of 85"
+  },
+  {
+    "id": "ptcb-org-0088",
+    "raw_number": "3.12",
+    "text": "For which of the following questions should a pharmacy technician refer the patient to the pharmacist?",
+    "choices": [
+      "'How many refills do I have left on this prescription?'",
+      "'What should I do if I forget to take a dose of my prescription?'",
+      "'How much would my prescription cost without insurance?'",
+      "'Can you call me when my prescription is ready?'"
+    ],
+    "correct": null,
+    "notes": "For which of the following questions should a pharmacy technician refer the patient to\nthe pharmacist?"
+  },
+  {
+    "id": "ptcb-org-0089",
+    "raw_number": "3.13",
+    "text": "In order to minimize the risk of contamination by pathogens, hospital staff should:",
+    "choices": [
+      "make all chemotherapeutic preparations under a horizontal laminar flow hood.",
+      "follow procedures to ensure that infectious agents are handled and disposed of properly.",
+      "dispose of bloodstained dressings in a regular trash can to be emptied daily.",
+      "place all infected patients into reverse isolation."
+    ],
+    "correct": null,
+    "notes": "In order to minimize the risk of contamination by pathogens, hospital staff should:"
+  },
+  {
+    "id": "ptcb-org-0090",
+    "raw_number": "3.14",
+    "text": "A patient picking up a prescription for naproxen inquires if the pharmacy has OTC ibuprofen. In response to this request, the pharmacy technician should: therapeutic duplication. therapeutic duplication.",
+    "choices": [
+      "inquire if the ibuprofen is for the same patient as the naproxen; if so, notify the pharmacist of a potential",
+      "explain that these medications must be taken with food or meals to avoid stomach upset.",
+      "inform the patient that OTC ibuprofen is available and direct the patient to the OTC pain reliever section.",
+      "inquire if the ibuprofen is for the same patient as the naproxen; if so, notify the patient of a potential"
+    ],
+    "correct": null,
+    "notes": "A patient picking up a prescription for naproxen inquires if the pharmacy has OTC\nibuprofen. In response to this request, the pharmacy technician should:\ntherapeutic duplication.\ntherapeutic duplication."
+  },
+  {
+    "id": "ptcb-org-0091",
+    "raw_number": "3.15",
+    "text": "A pharmacy technician should alert the pharmacist to counsel a patient who has presented prescriptions for both: PTCB Practice Exam (Questions Only) Page 23 of 85",
+    "choices": [
+      "Viagra and pravastatin.",
+      "Norvasc and hydrochlorothiazide.",
+      "Ortho Tri-Cyclen Lo and amoxicillin.",
+      "Actos and metformin."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician should alert the pharmacist to counsel a patient who has\npresented prescriptions for both:\nPTCB Practice Exam (Questions Only) Page 23 of 85"
+  },
+  {
+    "id": "ptcb-org-0092",
+    "raw_number": "3.16",
+    "text": "Upon receiving a new prescription, the pharmacy technician should first:",
+    "choices": [
+      "check for drug interactions.",
+      "review it for clarity and completeness.",
+      "request payment from the patient.",
+      "offer the patient counseling."
+    ],
+    "correct": null,
+    "notes": "Upon receiving a new prescription, the pharmacy technician should first:"
+  },
+  {
+    "id": "ptcb-org-0093",
+    "raw_number": "3.17",
+    "text": "What is the easiest, most effective way to prevent the spread of infections?",
+    "choices": [
+      "Avoiding physical contact whenever possible",
+      "Performing proper handwashing throughout the day",
+      "Using broad-spectrum antibiotics",
+      "Wearing a mask in patient care areas"
+    ],
+    "correct": null,
+    "notes": "What is the easiest, most effective way to prevent the spread of infections?"
+  },
+  {
+    "id": "ptcb-org-0094",
+    "raw_number": "3.18",
+    "text": "According to the Institute for Safe Medication Practices (ISMP), which of the following is considered a look-alike/sound-alike medication pair?",
+    "choices": [
+      "Amoxicillin and penicillin",
+      "Lorazepam and loratadine",
+      "Zanaflex and Zithromax",
+      "Spiriva and Apidra"
+    ],
+    "correct": null,
+    "notes": "According to the Institute for Safe Medication Practices (ISMP), which of the following\nis considered a look-alike/sound-alike medication pair?"
+  },
+  {
+    "id": "ptcb-org-0095",
+    "raw_number": "3.19",
+    "text": "An important step that helps ensure that prescriptions are filled for and dispensed to the correct patient is: PTCB Practice Exam (Questions Only) Page 24 of 85",
+    "choices": [
+      "prescription prioritization.",
+      "patient identification.",
+      "principal diagnosis.",
+      "patient profiling."
+    ],
+    "correct": null,
+    "notes": "An important step that helps ensure that prescriptions are filled for and dispensed to\nthe correct patient is:\nPTCB Practice Exam (Questions Only) Page 24 of 85"
+  },
+  {
+    "id": "ptcb-org-0096",
+    "raw_number": "3.20",
+    "text": "According to the FDA, heparin strength per total volume should be the primary and prominent expression on the manufacturer's label, followed by the:",
+    "choices": [
+      "percentage weight per volume.",
+      "volume per total strength.",
+      "strength per mL enclosed in parentheses.",
+      "mL per dose enclosed in parentheses."
+    ],
+    "correct": null,
+    "notes": "According to the FDA, heparin strength per total volume should be the primary and\nprominent expression on the manufacturer's label, followed by the:"
+  },
+  {
+    "id": "ptcb-org-0097",
+    "raw_number": "3.21",
+    "text": "Which of the following helps prevent potential errors resulting from failure to check and verify the appropriateness of prescription information?",
+    "choices": [
+      "Using a single prime vendor",
+      "Charging patients the correct price",
+      "Having pharmacists perform DUR",
+      "Restocking all medications immediately."
+    ],
+    "correct": null,
+    "notes": "Which of the following helps prevent potential errors resulting from failure to check\nand verify the appropriateness of prescription information?"
+  },
+  {
+    "id": "ptcb-org-0098",
+    "raw_number": "3.22",
+    "text": "In the event of a drug recall, a pharmacy technician may:",
+    "choices": [
+      "consult with a patient regarding any adverse outcome.",
+      "select an alternate drug therapy for the prescriber.",
+      "discuss the return procedure with the pharmaceutical supplier.",
+      "recommend an alternative product to the patient."
+    ],
+    "correct": null,
+    "notes": "In the event of a drug recall, a pharmacy technician may:"
+  },
+  {
+    "id": "ptcb-org-0099",
+    "raw_number": "3.23",
+    "text": "As a means to reduce medication errors, which of the following is used to identify patients and medications in pharmacy automation? PTCB Practice Exam (Questions Only) Page 25 of 85",
+    "choices": [
+      "Signatures",
+      "Photo identification",
+      "Bar codes",
+      "Fingerprinting"
+    ],
+    "correct": null,
+    "notes": "As a means to reduce medication errors, which of the following is used to identify\npatients and medications in pharmacy automation?\nPTCB Practice Exam (Questions Only) Page 25 of 85"
+  },
+  {
+    "id": "ptcb-org-0100",
+    "raw_number": "3.24",
+    "text": "Which of the following patient questions must be referred to a pharmacist?",
+    "choices": [
+      "'Is Humalog covered under my insurance?'",
+      "'Is Benadryl available over the counter?'",
+      "'Should I take Claritin in the morning or in the evening?'",
+      "'Does my Norco have refills remaining?'"
+    ],
+    "correct": null,
+    "notes": "Which of the following patient questions must be referred to a pharmacist?"
+  },
+  {
+    "id": "ptcb-org-0101",
+    "raw_number": "3.25",
+    "text": "The most effective way to prevent the spread of infection within a pharmacy is to:",
+    "choices": [
+      "wear powdered latex gloves.",
+      "clean counting trays after use.",
+      "put on shoe covers.",
+      "wash hands for 30 seconds."
+    ],
+    "correct": null,
+    "notes": "The most effective way to prevent the spread of infection within a pharmacy is to:"
+  },
+  {
+    "id": "ptcb-org-0102",
+    "raw_number": "3.26",
+    "text": "A patient may benefit from Medication Therapy Management (MTM) services when they:",
+    "choices": [
+      "ask for an oral syringe to measure out an oral suspension.",
+      "pick up a refill for metformin two weeks after it is due.",
+      "request a refill of a Schedule II medication.",
+      "attempt to fill their medication two days early for a vacation."
+    ],
+    "correct": null,
+    "notes": "A patient may benefit from Medication Therapy Management (MTM) services when\nthey:"
+  },
+  {
+    "id": "ptcb-org-0103",
+    "raw_number": "3.27",
+    "text": "According to federal law, pharmacists must be alerted for consultations in all of the following situations except: PTCB Practice Exam (Questions Only) Page 26 of 85",
+    "choices": [
+      "new prescriptions.",
+      "reverse distribution.",
+      "DUR prescriptions.",
+      "OTC advice."
+    ],
+    "correct": null,
+    "notes": "According to federal law, pharmacists must be alerted for consultations in all of the\nfollowing situations except:\nPTCB Practice Exam (Questions Only) Page 26 of 85"
+  },
+  {
+    "id": "ptcb-org-0104",
+    "raw_number": "3.28",
+    "text": "To reduce the chance of selecting the wrong patient, a pharmacy technician entering patient demographic information should:",
+    "choices": [
+      "use designations like Mr. or Ms. when entering a full name.",
+      "input the patient's credit card information to keep on file.",
+      "use designations like Jr. or Sr. if one is provided.",
+      "spell out any numbers given as part of a full name."
+    ],
+    "correct": null,
+    "notes": "To reduce the chance of selecting the wrong patient, a pharmacy technician entering\npatient demographic information should:"
+  },
+  {
+    "id": "ptcb-org-0105",
+    "raw_number": "3.29",
+    "text": "Which of the following best supports the use of Tall Man lettering?",
+    "choices": [
+      "Medication names are easier to distinguish",
+      "Medication names are harder to recognize",
+      "Pronouncing the medication is easier",
+      "Manufacturer names are easier to distinguish."
+    ],
+    "correct": null,
+    "notes": "Which of the following best supports the use of Tall Man lettering?"
+  },
+  {
+    "id": "ptcb-org-0106",
+    "raw_number": "3.30",
+    "text": "A pharmacy receives the following prescription: Travoprost ophthalmic solution, Instill 1 gtt AU daily, Dispense #1 bottle. The prescriber should be contacted because the:",
+    "choices": [
+      "route of administration indicated is incorrect.",
+      "dosage exceeds the maximum recommended dose.",
+      "medication should be used no longer than two weeks.",
+      "medication is only available as an ointment."
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives the following prescription: Travoprost ophthalmic solution,\nInstill 1 gtt AU daily, Dispense #1 bottle. The prescriber should be contacted because the:"
+  },
+  {
+    "id": "ptcb-org-0107",
+    "raw_number": "3.31",
+    "text": "A medication quantity was omitted from a prescription. This occurrence may best be described as which type of error? PTCB Practice Exam (Questions Only) Page 27 of 85",
+    "choices": [
+      "Administration",
+      "Dispensing",
+      "Dosage",
+      "Prescribing."
+    ],
+    "correct": null,
+    "notes": "A medication quantity was omitted from a prescription. This occurrence may best be\ndescribed as which type of error?\nPTCB Practice Exam (Questions Only) Page 27 of 85"
+  },
+  {
+    "id": "ptcb-org-0108",
+    "raw_number": "3.32",
+    "text": "An indicator that a patient may need additional counseling is when the patient:",
+    "choices": [
+      "reports that the medication is working.",
+      "requests a refill 2 weeks late.",
+      "asks if there is a generic form of the medication.",
+      "changes insurance providers."
+    ],
+    "correct": null,
+    "notes": "An indicator that a patient may need additional counseling is when the patient:"
+  },
+  {
+    "id": "ptcb-org-0109",
+    "raw_number": "3.33",
+    "text": "An adherence error may be indicated when a patient:",
+    "choices": [
+      "reports taking their medication as directed.",
+      "receives a prescription for a contraindicated medication.",
+      "experiences an adverse drug event.",
+      "requests refills at unreasonable intervals."
+    ],
+    "correct": null,
+    "notes": "An adherence error may be indicated when a patient:"
+  },
+  {
+    "id": "ptcb-org-0110",
+    "raw_number": "3.34",
+    "text": "Alcohol-based hand sanitizers are germicidal against gram-positive and gram- negative bacteria, including:",
+    "choices": [
+      "MRSA.",
+      "influenza.",
+      "rabies.",
+      "norovirus."
+    ],
+    "correct": null,
+    "notes": "Alcohol-based hand sanitizers are germicidal against gram-positive and gram-\nnegative bacteria, including:"
+  },
+  {
+    "id": "ptcb-org-0111",
+    "raw_number": "3.35",
+    "text": "A patient requests a refill of extended-release glipizide approximately 15 days after it was due and states they always take it at breakfast but many days don't have time to eat. How should the technician respond? taken every morning PTCB Practice Exam (Questions Only) Page 28 of 85",
+    "choices": [
+      "Tell the patient that the medication is being taken incorrectly and advise that the medication should be",
+      "Ask the patient to speak with the pharmacist to clarify the prescription directions",
+      "Ask the patient to call the prescriber immediately to have blood sugar testing ordered at once",
+      "Tell the patient that the medication is being taken incorrectly and the prescriber should be seen at once"
+    ],
+    "correct": null,
+    "notes": "A patient requests a refill of extended-release glipizide approximately 15 days after it\nwas due and states they always take it at breakfast but many days don't have time to eat. How should\nthe technician respond?\ntaken every morning\nPTCB Practice Exam (Questions Only) Page 28 of 85"
+  },
+  {
+    "id": "ptcb-org-0112",
+    "raw_number": "3.36",
+    "text": "According to the ISMP, IV propranolol is considered a high-alert medication in acute care settings because it is a(n):",
+    "choices": [
+      "adrenergic antagonist.",
+      "chemotherapeutic agent.",
+      "opioid.",
+      "anticoagulant."
+    ],
+    "correct": null,
+    "notes": "According to the ISMP, IV propranolol is considered a high-alert medication in acute\ncare settings because it is a(n):"
+  },
+  {
+    "id": "ptcb-org-0113",
+    "raw_number": "3.37",
+    "text": "The following prescription is presented: Naproxen, #30, Sig: 1 PO b.i.d. Which of the following should be the first step in processing this prescription?",
+    "choices": [
+      "Checking the stock to be sure the product is available",
+      "Contacting the prescriber to obtain the product's strength",
+      "Contacting the prescriber to verify the directions",
+      "Telling the patient how long the prescription will take to fill"
+    ],
+    "correct": null,
+    "notes": "The following prescription is presented: Naproxen, #30, Sig: 1 PO b.i.d. Which of the\nfollowing should be the first step in processing this prescription?"
+  },
+  {
+    "id": "ptcb-org-0114",
+    "raw_number": "3.38",
+    "text": "The following order is written for an adult patient: Amoxicillin/clavulanate 875 mg IV q12h. Which of the following statements about this order is most accurate?",
+    "choices": [
+      "The route of administration is inappropriate",
+      "The dosing schedule is too frequent",
+      "The order is correct as written",
+      "The dose is inappropriate"
+    ],
+    "correct": null,
+    "notes": "The following order is written for an adult patient: Amoxicillin/clavulanate 875 mg IV\nq12h. Which of the following statements about this order is most accurate?"
+  },
+  {
+    "id": "ptcb-org-0115",
+    "raw_number": "3.39",
+    "text": "Look-alike/sound-alike precautions should be applied to medications with similar: PTCB Practice Exam (Questions Only) Page 29 of 85",
+    "choices": [
+      "manufacturer labels.",
+      "expiration dates.",
+      "therapeutic indications.",
+      "DEA classifications."
+    ],
+    "correct": null,
+    "notes": "Look-alike/sound-alike precautions should be applied to medications with similar:\nPTCB Practice Exam (Questions Only) Page 29 of 85"
+  },
+  {
+    "id": "ptcb-org-0116",
+    "raw_number": "3.40",
+    "text": "A logical and systematic process used to help identify what, how, and why something happened in order to prevent recurrence is referred to as:",
+    "choices": [
+      "root-cause analysis.",
+      "selection error assessment.",
+      "determination of cause analysis.",
+      "risk of error assessment."
+    ],
+    "correct": null,
+    "notes": "A logical and systematic process used to help identify what, how, and why something\nhappened in order to prevent recurrence is referred to as:"
+  },
+  {
+    "id": "ptcb-org-0117",
+    "raw_number": "3.41",
+    "text": "During order entry, pharmacy technicians should verify each medication's brand and generic names in order to ensure that:",
+    "choices": [
+      "the patient receives the correct dose.",
+      "look-alike selection errors are avoided.",
+      "therapeutic substitutions are avoided.",
+      "the correct patient has been selected."
+    ],
+    "correct": null,
+    "notes": "During order entry, pharmacy technicians should verify each medication's brand and\ngeneric names in order to ensure that:"
+  },
+  {
+    "id": "ptcb-org-0118",
+    "raw_number": "3.42",
+    "text": "According to the Institute for Safe Medication Practices (ISMP), which of the following are considered look-alike/sound-alike medications?",
+    "choices": [
+      "Metformin and methocarbamol",
+      "Prozac and Paxil",
+      "Zaditor and Zetia",
+      "Glyburide and glipizide"
+    ],
+    "correct": null,
+    "notes": "According to the Institute for Safe Medication Practices (ISMP), which of the following\nare considered look-alike/sound-alike medications?"
+  },
+  {
+    "id": "ptcb-org-0119",
+    "raw_number": "3.43",
+    "text": "Which of the following is a non-profit organization that focuses on educating healthcare providers and consumers with the goal of preventing medication errors? PTCB Practice Exam (Questions Only) Page 30 of 85",
+    "choices": [
+      "FDA",
+      "ISMP",
+      "DEA",
+      "CDC"
+    ],
+    "correct": null,
+    "notes": "Which of the following is a non-profit organization that focuses on educating\nhealthcare providers and consumers with the goal of preventing medication errors?\nPTCB Practice Exam (Questions Only) Page 30 of 85"
+  },
+  {
+    "id": "ptcb-org-0120",
+    "raw_number": "3.44",
+    "text": "Which of the following types of analysis examines the contributing factors of why and how an error (or near miss) occurred?",
+    "choices": [
+      "Clinical",
+      "Effect",
+      "Gap",
+      "Root cause"
+    ],
+    "correct": null,
+    "notes": "Which of the following types of analysis examines the contributing factors of why and\nhow an error (or near miss) occurred?"
+  },
+  {
+    "id": "ptcb-org-0121",
+    "raw_number": "3.45",
+    "text": "A prescription for acetaminophen 325 mg tablets was inadvertently filled with acetaminophen 500 mg tablets, but the verifying pharmacist caught and corrected the mistake prior to dispensing. It would be most appropriate to report this situation as a(n):",
+    "choices": [
+      "near miss.",
+      "adverse drug reaction.",
+      "drug allergy.",
+      "sentinel event."
+    ],
+    "correct": null,
+    "notes": "A prescription for acetaminophen 325 mg tablets was inadvertently filled with\nacetaminophen 500 mg tablets, but the verifying pharmacist caught and corrected the mistake prior\nto dispensing. It would be most appropriate to report this situation as a(n):"
+  },
+  {
+    "id": "ptcb-org-0122",
+    "raw_number": "3.46",
+    "text": "Healthcare practitioners and consumers are encouraged to report medication errors, close calls, hazardous conditions, preventable adverse drug reactions, and vaccine errors to the:",
+    "choices": [
+      "DEA.",
+      "EPA.",
+      "ISMP.",
+      "OBRA."
+    ],
+    "correct": null,
+    "notes": "Healthcare practitioners and consumers are encouraged to report medication errors,\nclose calls, hazardous conditions, preventable adverse drug reactions, and vaccine errors to the:"
+  },
+  {
+    "id": "ptcb-org-0123",
+    "raw_number": "3.47",
+    "text": "DUR is conducted to: PTCB Practice Exam (Questions Only) Page 31 of 85",
+    "choices": [
+      "compare trends in dispensing of generics versus trade name drugs.",
+      "monitor turnover of expensive drugs.",
+      "improve medication usage and optimize patient therapy.",
+      "evaluate purchases from prime vendors."
+    ],
+    "correct": null,
+    "notes": "DUR is conducted to:\nPTCB Practice Exam (Questions Only) Page 31 of 85"
+  },
+  {
+    "id": "ptcb-org-0124",
+    "raw_number": "3.48",
+    "text": "Which of the following best defines 'MedWatch'?",
+    "choices": [
+      "The NIH bulletin for reporting drug trial results",
+      "A medical program for disabled individuals",
+      "Terminology for timing doses of medications",
+      "The FDA program for reporting adverse events"
+    ],
+    "correct": null,
+    "notes": "Which of the following best defines 'MedWatch'?"
+  },
+  {
+    "id": "ptcb-org-0125",
+    "raw_number": "3.49",
+    "text": "Which of the following situations requires pharmacist intervention?",
+    "choices": [
+      "A patient asks the pharmacy technician where to find OTC antihistamines",
+      "A pharmacy technician processing a prescription is not sure when the patient will return to the pharmacy",
+      "A patient is prescribed a brand name only medication and asks if there is a less expensive alternative",
+      "A patient asks the pharmacy technician if the pharmacy accepts Medicaid insurance"
+    ],
+    "correct": null,
+    "notes": "Which of the following situations requires pharmacist intervention?"
+  },
+  {
+    "id": "ptcb-org-0126",
+    "raw_number": "3.50",
+    "text": "Methotrexate directions read: Take 7 tabs once per week. A patient with rheumatoid arthritis returns after 4 days to request a refill. The technician should:",
+    "choices": [
+      "suggest an OTC analgesic until the refill is due.",
+      "refill per the patient's request.",
+      "tell the patient to return in 3 weeks for the refill.",
+      "refer the patient to the pharmacist to discuss dosing."
+    ],
+    "correct": null,
+    "notes": "Methotrexate directions read: Take 7 tabs once per week. A patient with rheumatoid\narthritis returns after 4 days to request a refill. The technician should:"
+  },
+  {
+    "id": "ptcb-org-0127",
+    "raw_number": "3.51",
+    "text": "For safety reasons the medical abbreviations q.d. and QD should not be used; instead they should be written as: PTCB Practice Exam (Questions Only) Page 32 of 85",
+    "choices": [
+      "twice a day.",
+      "four times a day.",
+      "every four days.",
+      "once a day."
+    ],
+    "correct": null,
+    "notes": "For safety reasons the medical abbreviations q.d. and QD should not be used; instead\nthey should be written as:\nPTCB Practice Exam (Questions Only) Page 32 of 85"
+  },
+  {
+    "id": "ptcb-org-0128",
+    "raw_number": "3.52",
+    "text": "Which of the following is a recommended strategy for preventing medication errors?",
+    "choices": [
+      "Using only generic names of medications",
+      "Implementing systemwide use of Tall Man lettering",
+      "Verifying all written prescriptions by telephone",
+      "Stocking generic products next to brand products"
+    ],
+    "correct": null,
+    "notes": "Which of the following is a recommended strategy for preventing medication errors?"
+  },
+  {
+    "id": "ptcb-org-0129",
+    "raw_number": "3.53",
+    "text": "According to the Institute for Safe Medication Practices (ISMP), tretinoin is at risk of being confused with the generic name for:",
+    "choices": [
+      "Claravis.",
+      "BenzaClin.",
+      "Differin.",
+      "Tazorac."
+    ],
+    "correct": null,
+    "notes": "According to the Institute for Safe Medication Practices (ISMP), tretinoin is at risk of\nbeing confused with the generic name for:"
+  },
+  {
+    "id": "ptcb-org-0130",
+    "raw_number": "3.54",
+    "text": "Which task related to selling pseudoephedrine should be handed off from the technician to the pharmacist?",
+    "choices": [
+      "Retrieving the product from behind the counter",
+      "Ringing up the sale on the cash register",
+      "Answering questions regarding efficacy of pseudoephedrine versus phenylephrine",
+      "Checking to see how many packages of pseudoephedrine the patient has purchased in the past month"
+    ],
+    "correct": null,
+    "notes": "Which task related to selling pseudoephedrine should be handed off from the\ntechnician to the pharmacist?"
+  },
+  {
+    "id": "ptcb-org-0131",
+    "raw_number": "3.55",
+    "text": "According to the Institute for Safe Medication Practices (ISMP), a high-alert medication is a medication that: PTCB Practice Exam (Questions Only) Page 33 of 85",
+    "choices": [
+      "has the potential to cause significant harm to patients if used in error.",
+      "is commonly dispensed in error.",
+      "is associated with high dispensing volumes.",
+      "has been deemed unsafe for use and assigned a Black Box warning."
+    ],
+    "correct": null,
+    "notes": "According to the Institute for Safe Medication Practices (ISMP), a high-alert\nmedication is a medication that:\nPTCB Practice Exam (Questions Only) Page 33 of 85"
+  },
+  {
+    "id": "ptcb-org-0132",
+    "raw_number": "3.56",
+    "text": "The unapproved abbreviation 'Per os' could be mistaken for:",
+    "choices": [
+      "right eye.",
+      "left eye.",
+      "left ear.",
+      "right ear."
+    ],
+    "correct": null,
+    "notes": "The unapproved abbreviation 'Per os' could be mistaken for:"
+  },
+  {
+    "id": "ptcb-org-0133",
+    "raw_number": "3.57",
+    "text": "Tall Man lettering is used to:",
+    "choices": [
+      "alert patients of high cost medications.",
+      "highlight active ingredients' strengths.",
+      "indicate the drug manufacturer.",
+      "help prevent potential dispensing errors."
+    ],
+    "correct": null,
+    "notes": "Tall Man lettering is used to:"
+  },
+  {
+    "id": "ptcb-org-0134",
+    "raw_number": "3.58",
+    "text": "Which of the following medication pairs is an example of a look-alike/sound-alike error in which an antifungal drug is dispensed instead of an anesthetic drug?",
+    "choices": [
+      "Diflucan and Diprivan",
+      "Clonidine and Klonopin",
+      "Metronidazole and metformin",
+      "Amiloride and amlodipine"
+    ],
+    "correct": null,
+    "notes": "Which of the following medication pairs is an example of a look-alike/sound-alike\nerror in which an antifungal drug is dispensed instead of an anesthetic drug?"
+  },
+  {
+    "id": "ptcb-org-0135",
+    "raw_number": "3.59",
+    "text": "Insulins are considered high-alert medications because they can cause potentially fatal: PTCB Practice Exam (Questions Only) Page 34 of 85",
+    "choices": [
+      "nasopharyngitis.",
+      "anemia.",
+      "hypoglycemia.",
+      "nephrotoxicity."
+    ],
+    "correct": null,
+    "notes": "Insulins are considered high-alert medications because they can cause potentially\nfatal:\nPTCB Practice Exam (Questions Only) Page 34 of 85"
+  },
+  {
+    "id": "ptcb-org-0136",
+    "raw_number": "3.60",
+    "text": "According to USP Chapter 800, a reusable counting tray used to count out cyclophosphamide capsules must be:",
+    "choices": [
+      "activated before each use.",
+      "disposed of after each use.",
+      "decontaminated after each use.",
+      "sterilized before each use."
+    ],
+    "correct": null,
+    "notes": "According to USP Chapter 800, a reusable counting tray used to count out\ncyclophosphamide capsules must be:"
+  },
+  {
+    "id": "ptcb-org-0137",
+    "raw_number": "3.61",
+    "text": "Which of the following is least likely to cause significant patient harm if used in error?",
+    "choices": [
+      "Topical creams",
+      "Injectable insulins",
+      "Antineoplastic agents",
+      "Oral anticoagulants"
+    ],
+    "correct": null,
+    "notes": "Which of the following is least likely to cause significant patient harm if used in error?"
+  },
+  {
+    "id": "ptcb-org-0138",
+    "raw_number": "3.62",
+    "text": "Which of the following issues is the most likely target of a DUR?",
+    "choices": [
+      "Therapeutic duplication",
+      "Exorbitant price",
+      "Insurance coverage",
+      "Demographic information"
+    ],
+    "correct": null,
+    "notes": "Which of the following issues is the most likely target of a DUR?"
+  },
+  {
+    "id": "ptcb-org-0139",
+    "raw_number": "3.63",
+    "text": "Which of the following medication classes is considered high-alert? PTCB Practice Exam (Questions Only) Page 35 of 85",
+    "choices": [
+      "Antibiotics",
+      "Anticoagulants",
+      "Antidepressants",
+      "Vaccines"
+    ],
+    "correct": null,
+    "notes": "Which of the following medication classes is considered high-alert?\nPTCB Practice Exam (Questions Only) Page 35 of 85"
+  },
+  {
+    "id": "ptcb-org-0140",
+    "raw_number": "3.64",
+    "text": "A community pharmacy receives an order for: Digoxin 2.5 mg tablets, Take 1 tablet PO daily #30. Pharmacy staff should: requested strength. administration.",
+    "choices": [
+      "contact the prescriber for clarification because the medication is not commercially available in the",
+      "type the prescription as digoxin 2.5 mg tablets with directions that read 'Take one tablet by mouth daily.'",
+      "type the prescription as digoxin 0.25 mg tablets with directions that read 'Take 10 tablets by mouth daily.'",
+      "contact the prescriber for clarification regarding a mismatch between the medication and the route of"
+    ],
+    "correct": null,
+    "notes": "A community pharmacy receives an order for: Digoxin 2.5 mg tablets, Take 1 tablet PO\ndaily #30. Pharmacy staff should:\nrequested strength.\nadministration."
+  },
+  {
+    "id": "ptcb-org-0141",
+    "raw_number": "3.65",
+    "text": "A pharmacy technician receives a prescription for Dilaudid 4 mg tablets DAW. The pharmacy is out of Dilaudid. The technician fills it with hydromorphone. The pharmacist stops the check because:",
+    "choices": [
+      "the pharmacist cannot substitute any medications due to 'the patient's right.'",
+      "generic substitution is not authorized by prescriber.",
+      "the prescription is written as Dilaudid, not hydromorphone.",
+      "hydromorphone and Dilaudid are two different Schedule controlled substances."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician receives a prescription for Dilaudid 4 mg tablets DAW. The\npharmacy is out of Dilaudid. The technician fills it with hydromorphone. The pharmacist stops the\ncheck because:"
+  },
+  {
+    "id": "ptcb-org-0142",
+    "raw_number": "3.66",
+    "text": "Which of the following conditions may help prevent medication errors?",
+    "choices": [
+      "Frequent interruptions",
+      "Cluttered work spaces",
+      "Lengthy shifts",
+      "Sufficient lighting"
+    ],
+    "correct": null,
+    "notes": "Which of the following conditions may help prevent medication errors?"
+  },
+  {
+    "id": "ptcb-org-0143",
+    "raw_number": "3.67",
+    "text": "A pharmacy technician must refer a patient to a pharmacist to answer questions related to: PTCB Practice Exam (Questions Only) Page 36 of 85",
+    "choices": [
+      "prior authorizations.",
+      "insurance co-pays.",
+      "medication availability.",
+      "drug interactions."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician must refer a patient to a pharmacist to answer questions\nrelated to:\nPTCB Practice Exam (Questions Only) Page 36 of 85"
+  },
+  {
+    "id": "ptcb-org-0144",
+    "raw_number": "3.68",
+    "text": "It would be most appropriate to report which of the following to MedWatch?",
+    "choices": [
+      "Medication reimbursement complaints",
+      "Damaged medications received from a wholesaler",
+      "Complaints about pharmacy staff",
+      "Medical device malfunctions"
+    ],
+    "correct": null,
+    "notes": "It would be most appropriate to report which of the following to MedWatch?"
+  },
+  {
+    "id": "ptcb-org-0145",
+    "raw_number": "3.69",
+    "text": "A goal of VAERS is to:",
+    "choices": [
+      "detect possible safety issues with U.S. vaccines.",
+      "monitor possible safety issues with vaccinators.",
+      "surveil vaccination clinics with low adverse event reports.",
+      "provide feedback to vaccinators on incidence of adverse events."
+    ],
+    "correct": null,
+    "notes": "A goal of VAERS is to:"
+  },
+  {
+    "id": "ptcb-org-0146",
+    "raw_number": "3.70",
+    "text": "A pharmacy receives the following prescription: Xanax 5 mg tablets #10, Take 1 tablet PO b.i.d. p.r.n. The prescriber must be contacted for clarification because:",
+    "choices": [
+      "Xanax cannot be given b.i.d.",
+      "no refills have been authorized.",
+      "the maximum daily dose has not been specified.",
+      "Xanax is not commercially available in 5 mg tablets."
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives the following prescription: Xanax 5 mg tablets #10, Take 1 tablet\nPO b.i.d. p.r.n. The prescriber must be contacted for clarification because:"
+  },
+  {
+    "id": "ptcb-org-0147",
+    "raw_number": "3.71",
+    "text": "Which strategy reduces the frequency of prescription order entry errors? PTCB Practice Exam (Questions Only) Page 37 of 85",
+    "choices": [
+      "Entering one patient's prescriptions at a time",
+      "Grouping waiting prescriptions by time promised",
+      "Setting quotas and required dispensing rates",
+      "Working from original paper prescriptions instead of scanned images"
+    ],
+    "correct": null,
+    "notes": "Which strategy reduces the frequency of prescription order entry errors?\nPTCB Practice Exam (Questions Only) Page 37 of 85"
+  },
+  {
+    "id": "ptcb-org-0148",
+    "raw_number": "3.72",
+    "text": "If two drugs are commonly mistaken for each other, what strategy could reduce the possibility of an error reaching the patient?",
+    "choices": [
+      "Ordering generics from one manufacturer",
+      "Separating where drugs are kept on the shelves",
+      "Using only one wholesaler to purchase drugs",
+      "Stocking brand name products only"
+    ],
+    "correct": null,
+    "notes": "If two drugs are commonly mistaken for each other, what strategy could reduce the\npossibility of an error reaching the patient?"
+  },
+  {
+    "id": "ptcb-org-0149",
+    "raw_number": "3.73",
+    "text": "Which of the following must be included if a new prescription is to be considered complete and clear?",
+    "choices": [
+      "National stock number",
+      "Route of administration",
+      "NDC number",
+      "Pharmacy drug cost"
+    ],
+    "correct": null,
+    "notes": "Which of the following must be included if a new prescription is to be considered\ncomplete and clear?"
+  },
+  {
+    "id": "ptcb-org-0150",
+    "raw_number": "3.74",
+    "text": "Which of the following ACE inhibitors has a brand name that is a look-alike/sound- alike medication for Aciphex?",
+    "choices": [
+      "Quinapril",
+      "Enalapril",
+      "Lisinopril",
+      "Benazepril"
+    ],
+    "correct": null,
+    "notes": "Which of the following ACE inhibitors has a brand name that is a look-alike/sound-\nalike medication for Aciphex?"
+  },
+  {
+    "id": "ptcb-org-0151",
+    "raw_number": "3.75",
+    "text": "Which of the following statements regarding the proper use of gloves is correct? PTCB Practice Exam (Questions Only) Page 38 of 85",
+    "choices": [
+      "Hands should be washed before gloving because use of gloves does not replace handwashing",
+      "Gloves should not be used when an individual's hands have scrapes or abrasions",
+      "Handwashing is not necessary when gloves are being used",
+      "When glove use is indicated, reusable gloves should be worn"
+    ],
+    "correct": null,
+    "notes": "Which of the following statements regarding the proper use of gloves is correct?\nPTCB Practice Exam (Questions Only) Page 38 of 85"
+  },
+  {
+    "id": "ptcb-org-0152",
+    "raw_number": "3.76",
+    "text": "Tall Man lettering is used to:",
+    "choices": [
+      "indicate the main ingredient in the drug.",
+      "give the mechanism of action of the drug.",
+      "draw attention to dissimilarities in drug names.",
+      "tell the most commonly known brand name."
+    ],
+    "correct": null,
+    "notes": "Tall Man lettering is used to:"
+  },
+  {
+    "id": "ptcb-org-0153",
+    "raw_number": "3.77",
+    "text": "A pharmacy technician fills a prescription with the wrong medication because of container similarity but catches the error. The technician should:",
+    "choices": [
+      "not mention the error to anyone.",
+      "report the avoided error to MedWatch.",
+      "call the manufacturer of the medication and alert them to the problem.",
+      "let management know that the workload is problematic."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician fills a prescription with the wrong medication because of\ncontainer similarity but catches the error. The technician should:"
+  },
+  {
+    "id": "ptcb-org-0154",
+    "raw_number": "3.78",
+    "text": "Prior to filling the following prescription, what information should be obtained from the prescriber to prevent a dispensing error? Metoprolol 50 mg #30, 50 mg daily.",
+    "choices": [
+      "Route of administration",
+      "Salt form",
+      "Medication strength",
+      "Patient age"
+    ],
+    "correct": null,
+    "notes": "Prior to filling the following prescription, what information should be obtained from\nthe prescriber to prevent a dispensing error? Metoprolol 50 mg #30, 50 mg daily."
+  },
+  {
+    "id": "ptcb-org-0155",
+    "raw_number": "3.79",
+    "text": "An order for a drug with a whole number strength should never be followed by a trailing zero (e.g., 10.0 mg) because the patient could be: PTCB Practice Exam (Questions Only) Page 39 of 85",
+    "choices": [
+      "underdosed 10-fold.",
+      "overdosed 10-fold.",
+      "underdosed 100-fold.",
+      "overdosed 100-fold."
+    ],
+    "correct": null,
+    "notes": "An order for a drug with a whole number strength should never be followed by a\ntrailing zero (e.g., 10.0 mg) because the patient could be:\nPTCB Practice Exam (Questions Only) Page 39 of 85"
+  },
+  {
+    "id": "ptcb-org-0156",
+    "raw_number": "3.80",
+    "text": "The pediatric dose of a medication is 25 to 100 mg/kg/day in 2 or 3 split doses. A child weighing 10 kg is prescribed 250 mg q6h. This is a(n):",
+    "choices": [
+      "drug overdose.",
+      "drug scheduling error.",
+      "appropriate medication order.",
+      "drug underdose."
+    ],
+    "correct": null,
+    "notes": "The pediatric dose of a medication is 25 to 100 mg/kg/day in 2 or 3 split doses. A child\nweighing 10 kg is prescribed 250 mg q6h. This is a(n):"
+  },
+  {
+    "id": "ptcb-org-0157",
+    "raw_number": "3.81",
+    "text": "The pediatric dose of a medication is 25 to 100 mg/kg/day in 2 or 3 split doses. A child weighing 10 kg is prescribed 500 mg q8h. This is a(n): SECTION 4: INSTITUTIONAL PHARMACY ORDER ENTRY, CONVERSIONS & MATH MATHEMATICAL DERIVATIONS",
+    "choices": [
+      "drug overdose.",
+      "drug scheduling error.",
+      "appropriate medication order.",
+      "drug underdose."
+    ],
+    "correct": null,
+    "notes": "The pediatric dose of a medication is 25 to 100 mg/kg/day in 2 or 3 split doses. A child\nweighing 10 kg is prescribed 500 mg q8h. This is a(n):\nSECTION 4: INSTITUTIONAL PHARMACY ORDER ENTRY, CONVERSIONS\n& MATH MATHEMATICAL DERIVATIONS"
+  },
+  {
+    "id": "ptcb-org-0158",
+    "raw_number": "4.1",
+    "text": "Which of the following is a method that can reduce the likelihood of dispensing an expired medication?",
+    "choices": [
+      "Verifying each lot number",
+      "Using the recalled medications first",
+      "Rotating stock on a regular basis",
+      "Using the last in, first out method"
+    ],
+    "correct": null,
+    "notes": "Which of the following is a method that can reduce the likelihood of dispensing an\nexpired medication?"
+  },
+  {
+    "id": "ptcb-org-0159",
+    "raw_number": "4.2",
+    "text": "A stock bottle labeled with NDC number 00046-0867-81 contains the same medication as a bottle labeled with which of the following NDC numbers? PTCB Practice Exam (Questions Only) Page 40 of 85",
+    "choices": [
+      "00046-0867-91",
+      "00867-0046-81",
+      "00046-0866-81",
+      "00081-0867-46"
+    ],
+    "correct": null,
+    "notes": "A stock bottle labeled with NDC number 00046-0867-81 contains the same medication\nas a bottle labeled with which of the following NDC numbers?\nPTCB Practice Exam (Questions Only) Page 40 of 85"
+  },
+  {
+    "id": "ptcb-org-0160",
+    "raw_number": "4.3",
+    "text": "If the expiration date of a drug product is May 2027, the drug should no longer be used by patients after:",
+    "choices": [
+      "April 30, 2027",
+      "May 1, 2027",
+      "May 31, 2027",
+      "June 1, 2027"
+    ],
+    "correct": null,
+    "notes": "If the expiration date of a drug product is May 2027, the drug should no longer be used\nby patients after:"
+  },
+  {
+    "id": "ptcb-org-0161",
+    "raw_number": "4.4",
+    "text": "Two stock bottles of atenolol have the following NDC numbers: 00781-1506-10 and 00781-1506-01. What is the difference in the bottles?",
+    "choices": [
+      "Package size",
+      "Dosage",
+      "Manufacturer",
+      "Strength"
+    ],
+    "correct": null,
+    "notes": "Two stock bottles of atenolol have the following NDC numbers: 00781-1506-10 and\n00781-1506-01. What is the difference in the bottles?"
+  },
+  {
+    "id": "ptcb-org-0162",
+    "raw_number": "4.5",
+    "text": "Which of the following is the procedure for proper disposal of legend drugs that have passed the expiration date printed on the stock container by the manufacturer? medication until routine removal of all expired products from the pharmacy the FDA distribution agent",
+    "choices": [
+      "Put an \"Expired\" label on the container and place it behind any current stock containers of the same",
+      "Remove the medication from the shelf, place it in a container labeled \"DiscardedExpired,\" and send it to",
+      "Mix the expired stock with an inactivating agent and have the mixture removed as hazardous waste",
+      "Isolate and label the expired medication until it can be processed for disposal by an approved reverse"
+    ],
+    "correct": null,
+    "notes": "Which of the following is the procedure for proper disposal of legend drugs that have\npassed the expiration date printed on the stock container by the manufacturer?\nmedication until routine removal of all expired products from the pharmacy\nthe FDA\ndistribution agent"
+  },
+  {
+    "id": "ptcb-org-0163",
+    "raw_number": "4.6",
+    "text": "If a drug has the expiration date December 2025, it actually expires at midnight on: PTCB Practice Exam (Questions Only) Page 41 of 85",
+    "choices": [
+      "November 30, 2025.",
+      "December 1, 2026.",
+      "December 15, 2026.",
+      "December 31, 2025."
+    ],
+    "correct": null,
+    "notes": "If a drug has the expiration date December 2025, it actually expires at midnight on:\nPTCB Practice Exam (Questions Only) Page 41 of 85"
+  },
+  {
+    "id": "ptcb-org-0164",
+    "raw_number": "4.7",
+    "text": "When used on a prescription, \"PR\" indicates a particular:",
+    "choices": [
+      "route of administration.",
+      "frequency of dosing.",
+      "medication strength.",
+      "dosage form."
+    ],
+    "correct": null,
+    "notes": "When used on a prescription, \"PR\" indicates a particular:"
+  },
+  {
+    "id": "ptcb-org-0165",
+    "raw_number": "4.8",
+    "text": "According to federal law, which of the following drug products must bear two sets of expiration information in its labeling?",
+    "choices": [
+      "A homeopathic product that is marketed to treat a serious disease or condition",
+      "An allergenic extract that is labeled 'No U.S. Standard of Potency'",
+      "An OTC product that is stable for at least three years of full potency and safety",
+      "A prescription medication intended for reconstitution prior to dispensing"
+    ],
+    "correct": null,
+    "notes": "According to federal law, which of the following drug products must bear two sets of\nexpiration information in its labeling?"
+  },
+  {
+    "id": "ptcb-org-0166",
+    "raw_number": "4.9",
+    "text": "A pharmacy technician compounding which of the following may adhere to the standards of USP Chapter 755 only?",
+    "choices": [
+      "A batch of 15 bottles of nonhazardous ear drops",
+      "An eye drop bottle for a specific patient",
+      "Three bags of parenteral nutrition",
+      "A hazardous oral suspension from capsules"
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician compounding which of the following may adhere to the\nstandards of USP Chapter 755 only?"
+  },
+  {
+    "id": "ptcb-org-0167",
+    "raw_number": "4.10",
+    "text": "An expiration date of 7/2025 on a vial of mumps virus live vaccine means that the vial contents expire: PTCB Practice Exam (Questions Only) Page 42 of 85",
+    "choices": [
+      "on 6/30 of 2025.",
+      "on 7/1 of 2025.",
+      "on 7/31 of 2025.",
+      "6 months past this date."
+    ],
+    "correct": null,
+    "notes": "An expiration date of 7/2025 on a vial of mumps virus live vaccine means that the vial\ncontents expire:\nPTCB Practice Exam (Questions Only) Page 42 of 85"
+  },
+  {
+    "id": "ptcb-org-0168",
+    "raw_number": "4.11",
+    "text": "In order to ensure that the appropriate product was selected from the shelf, a pharmacy technician should verify the medication's:",
+    "choices": [
+      "expiration date.",
+      "lot number.",
+      "package size.",
+      "National Drug Code."
+    ],
+    "correct": null,
+    "notes": "In order to ensure that the appropriate product was selected from the shelf, a\npharmacy technician should verify the medication's:"
+  },
+  {
+    "id": "ptcb-org-0169",
+    "raw_number": "4.12",
+    "text": "Pen needles would be most appropriate for a patient with a prescription for which of the following injectable medications?",
+    "choices": [
+      "Lovenox",
+      "Depo-Provera",
+      "Enbrel",
+      "Byetta"
+    ],
+    "correct": null,
+    "notes": "Pen needles would be most appropriate for a patient with a prescription for which of\nthe following injectable medications?"
+  },
+  {
+    "id": "ptcb-org-0170",
+    "raw_number": "4.13",
+    "text": "Which two items on a manufacturer's bottle are typically used to identify recalled drugs?",
+    "choices": [
+      "DEA number and medication schedule",
+      "NDC number and expiration date",
+      "Lot number and expiration date",
+      "NDC number and lot number."
+    ],
+    "correct": null,
+    "notes": "Which two items on a manufacturer's bottle are typically used to identify recalled\ndrugs?"
+  },
+  {
+    "id": "ptcb-org-0171",
+    "raw_number": "4.14",
+    "text": "The abbreviation \"b.i.d.\" is an example of a medication: PTCB Practice Exam (Questions Only) Page 43 of 85",
+    "choices": [
+      "quantity.",
+      "strength.",
+      "dosage form.",
+      "frequency."
+    ],
+    "correct": null,
+    "notes": "The abbreviation \"b.i.d.\" is an example of a medication:\nPTCB Practice Exam (Questions Only) Page 43 of 85"
+  },
+  {
+    "id": "ptcb-org-0172",
+    "raw_number": "4.15",
+    "text": "Which of the following abbreviations represents \"under the tongue\"?",
+    "choices": [
+      "PO",
+      "SL",
+      "SQ",
+      "PR"
+    ],
+    "correct": null,
+    "notes": "Which of the following abbreviations represents \"under the tongue\"?"
+  },
+  {
+    "id": "ptcb-org-0173",
+    "raw_number": "4.16",
+    "text": "Which of the following statements regarding specific patient medication returns in the hospital setting is correct?",
+    "choices": [
+      "Unlabeled medications may be dispensed by the nurse at discharge",
+      "Unopened units-of-use returned from outpatients may be redispensed",
+      "Unopened units-of-use returned from inpatients may be redispensed",
+      "Crediting of used doses should be completed prior to dispensing"
+    ],
+    "correct": null,
+    "notes": "Which of the following statements regarding specific patient medication returns in the\nhospital setting is correct?"
+  },
+  {
+    "id": "ptcb-org-0174",
+    "raw_number": "4.17",
+    "text": "A physician writes the following prescription: Carafate oral suspension 1 g/10 mL, Sig: 10 mL q.i.d. a.c. & h.s., Disp: 14 oz. This prescription label should read:",
+    "choices": [
+      "Take 1 tablespoonful 4 times a day after meals and at bedtime",
+      "Take 2 teaspoonfuls 4 times a day before meals and at bedtime",
+      "Take 2 teaspoonfuls 4 times a day after meals and at bedtime",
+      "Take 1 tablespoonful 4 times a day before meals and at bedtime"
+    ],
+    "correct": null,
+    "notes": "A physician writes the following prescription: Carafate oral suspension 1 g/10 mL,\nSig: 10 mL q.i.d. a.c. & h.s., Disp: 14 oz. This prescription label should read:"
+  },
+  {
+    "id": "ptcb-org-0175",
+    "raw_number": "4.18",
+    "text": "A pharmacy technician is asked to divide a bulk bottle of chloral hydrate 500 mg/5 mL into 1 tsp unit-of-use packaging. The best option for portioning out the drug is to use a(n): PTCB Practice Exam (Questions Only) Page 44 of 85",
+    "choices": [
+      "oral liquid syringe.",
+      "medicine cup.",
+      "small glass bottle.",
+      "hypodermic syringe."
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician is asked to divide a bulk bottle of chloral hydrate 500 mg/5 mL\ninto 1 tsp unit-of-use packaging. The best option for portioning out the drug is to use a(n):\nPTCB Practice Exam (Questions Only) Page 44 of 85"
+  },
+  {
+    "id": "ptcb-org-0176",
+    "raw_number": "4.19",
+    "text": "A reverse distributor for pharmaceuticals:",
+    "choices": [
+      "distributes pharmaceuticals to hospitals.",
+      "removes and disposes of pharmaceutical waste.",
+      "transports medications from the manufacturer to the wholesaler.",
+      "transports medications in an emergency."
+    ],
+    "correct": null,
+    "notes": "A reverse distributor for pharmaceuticals:"
+  },
+  {
+    "id": "ptcb-org-0177",
+    "raw_number": "4.20",
+    "text": "A 25 year old patient with type 1 diabetes presents the following prescription: Humalog 5 units SQ t.i.d. 5 min p.c. and 2 units SQ q.h.s. UD. The patient is instructed to inject 5 units three times a day:",
+    "choices": [
+      "5 minutes after meals and 2 units every hour as directed.",
+      "5 minutes after meals and 2 units at bedtime as directed.",
+      "5 minutes before meals and 2 units every hour as directed.",
+      "5 minutes before meals and 2 units at bedtime as directed."
+    ],
+    "correct": null,
+    "notes": "A 25 year old patient with type 1 diabetes presents the following prescription:\nHumalog 5 units SQ t.i.d. 5 min p.c. and 2 units SQ q.h.s. UD. The patient is instructed to inject 5\nunits three times a day:"
+  },
+  {
+    "id": "ptcb-org-0178",
+    "raw_number": "4.21",
+    "text": "Medications' lot numbers are assigned by the:",
+    "choices": [
+      "Food and Drug Administration (FDA).",
+      "Drug Enforcement Administration (DEA).",
+      "wholesaler.",
+      "manufacturer."
+    ],
+    "correct": null,
+    "notes": "Medications' lot numbers are assigned by the:"
+  },
+  {
+    "id": "ptcb-org-0179",
+    "raw_number": "4.22",
+    "text": "The pharmacy receives the following prescription: Levofloxacin 0.5% solution, #1 bottle, Sig: 2 gtts OD q2h while awake on days 1-2 then 2 gtts OD q4h while awake on days 3-7. Where is the patient instructed to use the medication? PTCB Practice Exam (Questions Only) Page 45 of 85",
+    "choices": [
+      "Left eye",
+      "Left ear",
+      "Right eye",
+      "Right ear"
+    ],
+    "correct": null,
+    "notes": "The pharmacy receives the following prescription: Levofloxacin 0.5% solution, #1\nbottle, Sig: 2 gtts OD q2h while awake on days 1-2 then 2 gtts OD q4h while awake on days 3-7.\nWhere is the patient instructed to use the medication?\nPTCB Practice Exam (Questions Only) Page 45 of 85"
+  },
+  {
+    "id": "ptcb-org-0180",
+    "raw_number": "4.23",
+    "text": "A particular manufacturer packages amlodipine 2.5 mg tablets with an NDC of 00603-2108-02. If a pharmacy technician wants to receive hydrochlorothiazide 12.5 mg capsules from the same manufacturer, which of the following NDCs should they order?",
+    "choices": [
+      "16590-580-90",
+      "42543-710-02",
+      "0527-2108-10",
+      "0603-3855-21"
+    ],
+    "correct": null,
+    "notes": "A particular manufacturer packages amlodipine 2.5 mg tablets with an NDC of\n00603-2108-02. If a pharmacy technician wants to receive hydrochlorothiazide 12.5 mg capsules from\nthe same manufacturer, which of the following NDCs should they order?"
+  },
+  {
+    "id": "ptcb-org-0181",
+    "raw_number": "4.24",
+    "text": "A prescription medication that has passed its expiration date should be:",
+    "choices": [
+      "removed from active stock and set aside for disposal processing.",
+      "verified by the pharmacist so that it may be repackaged as a unit dose.",
+      "used to fill a prescription as soon as possible to minimize loss.",
+      "dispensed as usual for a period of no longer than 6 months."
+    ],
+    "correct": null,
+    "notes": "A prescription medication that has passed its expiration date should be:"
+  },
+  {
+    "id": "ptcb-org-0182",
+    "raw_number": "4.25",
+    "text": "An expiration date provided by a manufacturer is 5/25. The last day this drug would be considered safely potent would be:",
+    "choices": [
+      "043025",
+      "050125",
+      "052525",
+      "053125"
+    ],
+    "correct": null,
+    "notes": "An expiration date provided by a manufacturer is 5/25. The last day this drug would be\nconsidered safely potent would be:"
+  },
+  {
+    "id": "ptcb-org-0183",
+    "raw_number": "4.26",
+    "text": "One agent that can be added to liquid preparations made from tablets to keep the medication uniformly suspended is: PTCB Practice Exam (Questions Only) Page 46 of 85",
+    "choices": [
+      "ascorbic acid.",
+      "methylcellulose.",
+      "methylparaben.",
+      "lactose."
+    ],
+    "correct": null,
+    "notes": "One agent that can be added to liquid preparations made from tablets to keep the\nmedication uniformly suspended is:\nPTCB Practice Exam (Questions Only) Page 46 of 85"
+  },
+  {
+    "id": "ptcb-org-0184",
+    "raw_number": "4.27",
+    "text": "Which of the following is an example of a medication in unit-of-use packaging?",
+    "choices": [
+      "Lidocaine viscous 2%, 120 mL bottle",
+      "Nystatin powder, 30 g bottle",
+      "Heparin 100 units/mL 1 mL vial",
+      "Hydrocortisone 2.5% ointment, 30 g tube"
+    ],
+    "correct": null,
+    "notes": "Which of the following is an example of a medication in unit-of-use packaging?"
+  },
+  {
+    "id": "ptcb-org-0185",
+    "raw_number": "4.28",
+    "text": "Which of the following medications should be pulled from inventory due to incorrect storage?",
+    "choices": [
+      "Boostrix that was stored in a refrigerator",
+      "Havrix that was stored in a refrigerator",
+      "Shingrix that was stored in a freezer",
+      "Varivax that was stored in a freezer"
+    ],
+    "correct": null,
+    "notes": "Which of the following medications should be pulled from inventory due to incorrect\nstorage?"
+  },
+  {
+    "id": "ptcb-org-0186",
+    "raw_number": "4.29",
+    "text": "A vial of medication shows the manufacturer's expiration date as November 2026. The last date on which this medication may be used is:",
+    "choices": [
+      "October 31, 2026.",
+      "November 1, 2026.",
+      "November 30, 2026.",
+      "6 months after the stated date."
+    ],
+    "correct": null,
+    "notes": "A vial of medication shows the manufacturer's expiration date as November 2026. The\nlast date on which this medication may be used is:"
+  },
+  {
+    "id": "ptcb-org-0187",
+    "raw_number": "4.30",
+    "text": "A private company that serves pharmacies by returning certain unwanted or expired medications to the manufacturer is called a: PTCB Practice Exam (Questions Only) Page 47 of 85",
+    "choices": [
+      "distribution center.",
+      "take-back program.",
+      "reverse distributor.",
+      "third-party payer."
+    ],
+    "correct": null,
+    "notes": "A private company that serves pharmacies by returning certain unwanted or expired\nmedications to the manufacturer is called a:\nPTCB Practice Exam (Questions Only) Page 47 of 85"
+  },
+  {
+    "id": "ptcb-org-0188",
+    "raw_number": "4.31",
+    "text": "Which part of the meniscus should the pharmacy technician use to measure water in a graduated cylinder?",
+    "choices": [
+      "The top",
+      "The bottom",
+      "The left",
+      "The right"
+    ],
+    "correct": null,
+    "notes": "Which part of the meniscus should the pharmacy technician use to measure water in\na graduated cylinder?"
+  },
+  {
+    "id": "ptcb-org-0189",
+    "raw_number": "4.32",
+    "text": "The primary purpose of rotating inventory in the pharmacy is to:",
+    "choices": [
+      "reduce the potential for dispensing expired medications.",
+      "check for drug recalls.",
+      "help determine what needs to be placed on the next inventory order.",
+      "provide work for students and interns in the pharmacy."
+    ],
+    "correct": null,
+    "notes": "The primary purpose of rotating inventory in the pharmacy is to:"
+  },
+  {
+    "id": "ptcb-org-0190",
+    "raw_number": "4.33",
+    "text": "Which of the following needle gauges designates the largest bore?",
+    "choices": [
+      "16",
+      "19",
+      "22",
+      "27"
+    ],
+    "correct": null,
+    "notes": "Which of the following needle gauges designates the largest bore?"
+  },
+  {
+    "id": "ptcb-org-0191",
+    "raw_number": "4.34",
+    "text": "A prescriber orders a medication for a patient with the following directions: Sig: i-ii tabs PO q4-6h p.r.n. pain. What is the appropriate translation for the prescription label? PTCB Practice Exam (Questions Only) Page 48 of 85",
+    "choices": [
+      "Take 1 to 2 tablets by mouth every 6 hours as needed for pain",
+      "Take 1 to 2 tablets by mouth every 4 or 6 hours as needed",
+      "Take 1 to 2 tablets PO every 4 to 6 hours as needed for pain",
+      "Take 1 to 2 tablets by mouth every 4 to 6 hours as needed for pain"
+    ],
+    "correct": null,
+    "notes": "A prescriber orders a medication for a patient with the following directions: Sig: i-ii\ntabs PO q4-6h p.r.n. pain. What is the appropriate translation for the prescription label?\nPTCB Practice Exam (Questions Only) Page 48 of 85"
+  },
+  {
+    "id": "ptcb-org-0192",
+    "raw_number": "4.35",
+    "text": "Which of the following should be used to identify a particular batch of compounded product?",
+    "choices": [
+      "Lot number",
+      "Expiration date",
+      "Prescriber name",
+      "Pharmacy name"
+    ],
+    "correct": null,
+    "notes": "Which of the following should be used to identify a particular batch of compounded\nproduct?"
+  },
+  {
+    "id": "ptcb-org-0193",
+    "raw_number": "4.36",
+    "text": "Hyperglycemia is a condition in which the patient has which of the following in their blood?",
+    "choices": [
+      "Too little salt",
+      "Too little sugar",
+      "Too much salt",
+      "Too much sugar"
+    ],
+    "correct": null,
+    "notes": "Hyperglycemia is a condition in which the patient has which of the following in their\nblood?"
+  },
+  {
+    "id": "ptcb-org-0194",
+    "raw_number": "4.37",
+    "text": "Which of the following products should be administered using a nebulizer?",
+    "choices": [
+      "Flovent HFA",
+      "Advair Diskus",
+      "Spiriva Handi Haler",
+      "Pulmicort Respules"
+    ],
+    "correct": null,
+    "notes": "Which of the following products should be administered using a nebulizer?"
+  },
+  {
+    "id": "ptcb-org-0195",
+    "raw_number": "4.38",
+    "text": "A pharmacy receives the following prescription: Cephalexin 500 mg capsules, 1 cap PO q.i.d. #28. The prescription label should direct the patient to take 1 capsule by mouth: PTCB Practice Exam (Questions Only) Page 49 of 85",
+    "choices": [
+      "every other day.",
+      "every 6 hours.",
+      "four times a day.",
+      "every 4 hours."
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives the following prescription: Cephalexin 500 mg capsules, 1 cap\nPO q.i.d. #28. The prescription label should direct the patient to take 1 capsule by mouth:\nPTCB Practice Exam (Questions Only) Page 49 of 85"
+  },
+  {
+    "id": "ptcb-org-0196",
+    "raw_number": "4.39",
+    "text": "What action should be taken to prevent an expired product from being used to fill prescriptions?",
+    "choices": [
+      "Segregate the product from regular inventory",
+      "Store the product with slow-selling items",
+      "Place the product at the back of the shelf",
+      "Place the product at the front of the shelf"
+    ],
+    "correct": null,
+    "notes": "What action should be taken to prevent an expired product from being used to fill\nprescriptions?"
+  },
+  {
+    "id": "ptcb-org-0197",
+    "raw_number": "4.40",
+    "text": "When verifying National Drug Codes on a received shipment, a pharmacy technician discovers that the supplier filled a purchase order for NDC 0093-3145-05 with NDC 0093-3107-05. The pharmacy technician realizes that the item received:",
+    "choices": [
+      "was made by a different manufacturer than the item on the purchase order.",
+      "is in a different package size than the item on the purchase order.",
+      "is generically equivalent to the item on the purchase order.",
+      "contains a different strength, form, or formulation than the item on the purchase order."
+    ],
+    "correct": null,
+    "notes": "When verifying National Drug Codes on a received shipment, a pharmacy technician\ndiscovers that the supplier filled a purchase order for NDC 0093-3145-05 with NDC 0093-3107-05. The\npharmacy technician realizes that the item received:"
+  },
+  {
+    "id": "ptcb-org-0198",
+    "raw_number": "4.41",
+    "text": "A prescriber has ordered KCL 20 mEq PO daily for hypokalemia. The medication is supplied in 10 mEq/15 mL. How much, in mL, should be administered daily?",
+    "choices": [
+      "0.5",
+      "5",
+      "7.5",
+      "10"
+    ],
+    "correct": null,
+    "notes": "A prescriber has ordered KCL 20 mEq PO daily for hypokalemia. The medication is\nsupplied in 10 mEq/15 mL. How much, in mL, should be administered daily?"
+  },
+  {
+    "id": "ptcb-org-0199",
+    "raw_number": "4.42",
+    "text": "A dose of 1.5 fl oz is equivalent to: PTCB Practice Exam (Questions Only) Page 50 of 85",
+    "choices": [
+      "3 tsp.",
+      "3 tbsp.",
+      "15 mL.",
+      "1.5 tbsp."
+    ],
+    "correct": null,
+    "notes": "A dose of 1.5 fl oz is equivalent to:\nPTCB Practice Exam (Questions Only) Page 50 of 85"
+  },
+  {
+    "id": "ptcb-org-0200",
+    "raw_number": "4.43",
+    "text": "The following order is written for acetaminophen with codeine elixir 120 mg/5 mL and 12 mg/5 mL, respectively: Sig: 1 tbsp PO q6h p.r.n., Disp: 4 oz. How much acetaminophen and codeine will each prescribed dose contain?",
+    "choices": [
+      "120 mg acetaminophen and 12 mg codeine.",
+      "240 mg acetaminophen and 24 mg codeine.",
+      "300 mg acetaminophen and 20 mg codeine.",
+      "360 mg acetaminophen and 36 mg codeine."
+    ],
+    "correct": null,
+    "notes": "The following order is written for acetaminophen with codeine elixir 120 mg/5 mL and\n12 mg/5 mL, respectively: Sig: 1 tbsp PO q6h p.r.n., Disp: 4 oz. How much acetaminophen and\ncodeine will each prescribed dose contain?"
+  },
+  {
+    "id": "ptcb-org-0201",
+    "raw_number": "4.44",
+    "text": "How much hydrocortisone, in mg, is contained in 1 oz of 2% hydrocortisone ointment?",
+    "choices": [
+      "30",
+      "60",
+      "300",
+      "600"
+    ],
+    "correct": null,
+    "notes": "How much hydrocortisone, in mg, is contained in 1 oz of 2% hydrocortisone\nointment?"
+  },
+  {
+    "id": "ptcb-org-0202",
+    "raw_number": "4.45",
+    "text": "A patient is to receive 2 tsp of a 5 mg/mL solution at bedtime, and b.i.d. p.r.n. A 480 mL stock bottle is dispensed. What is the minimum number of days this prescription will last?",
+    "choices": [
+      "16",
+      "32",
+      "48",
+      "80"
+    ],
+    "correct": null,
+    "notes": "A patient is to receive 2 tsp of a 5 mg/mL solution at bedtime, and b.i.d. p.r.n. A 480\nmL stock bottle is dispensed. What is the minimum number of days this prescription will last?"
+  },
+  {
+    "id": "ptcb-org-0203",
+    "raw_number": "4.46",
+    "text": "A prescription is written for U-100 insulin to dispense 10 mL with directions to inject 40 units subcutaneously daily. How many days should the supply last if the medication is used as directed? PTCB Practice Exam (Questions Only) Page 51 of 85",
+    "choices": [
+      "2",
+      "4",
+      "25",
+      "30"
+    ],
+    "correct": null,
+    "notes": "A prescription is written for U-100 insulin to dispense 10 mL with directions to inject\n40 units subcutaneously daily. How many days should the supply last if the medication is used as\ndirected?\nPTCB Practice Exam (Questions Only) Page 51 of 85"
+  },
+  {
+    "id": "ptcb-org-0204",
+    "raw_number": "4.47",
+    "text": "A patient injects 30 units of U-100 insulin every morning and 15 units every evening. How long, in days, should a 10 mL vial last the patient if taken as directed?",
+    "choices": [
+      "2",
+      "22",
+      "28",
+      "33"
+    ],
+    "correct": null,
+    "notes": "A patient injects 30 units of U-100 insulin every morning and 15 units every evening.\nHow long, in days, should a 10 mL vial last the patient if taken as directed?"
+  },
+  {
+    "id": "ptcb-org-0205",
+    "raw_number": "4.48",
+    "text": "A physician writes a prescription for 1 gallon of sterile NS irrigation to be dispensed to a patient. The pharmacy stocks only 1000 mL bottles. How many bottles should be dispensed?",
+    "choices": [
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "correct": null,
+    "notes": "A physician writes a prescription for 1 gallon of sterile NS irrigation to be dispensed\nto a patient. The pharmacy stocks only 1000 mL bottles. How many bottles should be dispensed?"
+  },
+  {
+    "id": "ptcb-org-0206",
+    "raw_number": "4.49",
+    "text": "A prescription for a patient indicates a dosage of 1 fl oz t.i.d. for 5 days. What volume, in mL, should be dispensed?",
+    "choices": [
+      "15",
+      "150",
+      "225",
+      "450"
+    ],
+    "correct": null,
+    "notes": "A prescription for a patient indicates a dosage of 1 fl oz t.i.d. for 5 days. What volume,\nin mL, should be dispensed?"
+  },
+  {
+    "id": "ptcb-org-0207",
+    "raw_number": "4.50",
+    "text": "What daily dose, in g, of a drug prescribed at 15 mg/kg/day should be administered to a patient weighing 65 kg? PTCB Practice Exam (Questions Only) Page 52 of 85",
+    "choices": [
+      "0.633",
+      "0.975",
+      "633",
+      "975"
+    ],
+    "correct": null,
+    "notes": "What daily dose, in g, of a drug prescribed at 15 mg/kg/day should be administered to\na patient weighing 65 kg?\nPTCB Practice Exam (Questions Only) Page 52 of 85"
+  },
+  {
+    "id": "ptcb-org-0208",
+    "raw_number": "4.51",
+    "text": "How much acetylcysteine, in mg, is in 6 mL of acetylcysteine 20%?",
+    "choices": [
+      "120",
+      "600",
+      "1200",
+      "3000"
+    ],
+    "correct": null,
+    "notes": "How much acetylcysteine, in mg, is in 6 mL of acetylcysteine 20%?"
+  },
+  {
+    "id": "ptcb-org-0209",
+    "raw_number": "4.52",
+    "text": "If there are approximately 20 drops per mL in an eye solution, how long, in days, will 10 mL last if given 2 gtts OS b.i.d.?",
+    "choices": [
+      "25",
+      "30",
+      "50",
+      "60"
+    ],
+    "correct": null,
+    "notes": "If there are approximately 20 drops per mL in an eye solution, how long, in days, will\n10 mL last if given 2 gtts OS b.i.d.?"
+  },
+  {
+    "id": "ptcb-org-0210",
+    "raw_number": "4.53",
+    "text": "The pharmacy receives the following prescription: Tamsulosin 0.4 mg caps, Sig: 0.4 mg PO daily for 2 weeks then increase to 0.8 mg daily thereafter. What quantity of capsules will be needed for the first 30 days?",
+    "choices": [
+      "30",
+      "44",
+      "46",
+      "60"
+    ],
+    "correct": null,
+    "notes": "The pharmacy receives the following prescription: Tamsulosin 0.4 mg caps, Sig: 0.4\nmg PO daily for 2 weeks then increase to 0.8 mg daily thereafter. What quantity of capsules will be\nneeded for the first 30 days?"
+  },
+  {
+    "id": "ptcb-org-0211",
+    "raw_number": "4.54",
+    "text": "A pharmacy technician receives a prescription for Biaxin 7.5 mg/kg every 12 hours for 10 days. The patient weighs 20 lb. How many mg should be dispensed per dose? PTCB Practice Exam (Questions Only) Page 53 of 85",
+    "choices": [
+      "68",
+      "80",
+      "136",
+      "150"
+    ],
+    "correct": null,
+    "notes": "A pharmacy technician receives a prescription for Biaxin 7.5 mg/kg every 12 hours for\n10 days. The patient weighs 20 lb. How many mg should be dispensed per dose?\nPTCB Practice Exam (Questions Only) Page 53 of 85"
+  },
+  {
+    "id": "ptcb-org-0212",
+    "raw_number": "4.55",
+    "text": "When 80 g of an ointment contains 4 g of zinc oxide, the percent strength of zinc oxide is:",
+    "choices": [
+      "0.05%",
+      "2%",
+      "5%",
+      "20%"
+    ],
+    "correct": null,
+    "notes": "When 80 g of an ointment contains 4 g of zinc oxide, the percent strength of zinc\noxide is:"
+  },
+  {
+    "id": "ptcb-org-0213",
+    "raw_number": "4.56",
+    "text": "A pharmacy receives an order for lactulose syrup 10 g/15 mL that reads, \"Sig: 20 g PO q.h.s. Disp: 60 days supply.\" What should each dose of this prescription be, and what should be the total amount dispensed?",
+    "choices": [
+      "2 tbsp; 60 oz",
+      "5 tsp; 50 oz",
+      "1 tbsp; 30 oz",
+      "4 tsp; 40 oz"
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives an order for lactulose syrup 10 g/15 mL that reads, \"Sig: 20 g PO\nq.h.s. Disp: 60 days supply.\" What should each dose of this prescription be, and what should be the\ntotal amount dispensed?"
+  },
+  {
+    "id": "ptcb-org-0214",
+    "raw_number": "4.57",
+    "text": "The pharmacy stocks a 300 mL bottle of 7.5% solution. If the dose of the solution is 1 tsp, what is the drug dose?",
+    "choices": [
+      "0.375 mg",
+      "22.5 mg",
+      "0.375 g",
+      "22.5 g"
+    ],
+    "correct": null,
+    "notes": "The pharmacy stocks a 300 mL bottle of 7.5% solution. If the dose of the solution is 1\ntsp, what is the drug dose?"
+  },
+  {
+    "id": "ptcb-org-0215",
+    "raw_number": "4.58",
+    "text": "What volume, in mL, should a patient requiring 40 units of U-100 insulin receive? PTCB Practice Exam (Questions Only) Page 54 of 85",
+    "choices": [
+      "0.4",
+      "1.0",
+      "2.5",
+      "4.0"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, should a patient requiring 40 units of U-100 insulin receive?\nPTCB Practice Exam (Questions Only) Page 54 of 85"
+  },
+  {
+    "id": "ptcb-org-0216",
+    "raw_number": "4.59",
+    "text": "How many methylphenidate 10 mg tablets are required to fill this prescription?",
+    "choices": [
+      "38",
+      "42",
+      "44",
+      "48"
+    ],
+    "correct": null,
+    "notes": "How many methylphenidate 10 mg tablets are required to fill this prescription?"
+  },
+  {
+    "id": "ptcb-org-0217",
+    "raw_number": "4.60",
+    "text": "A prescription is written for 1 drop of a specified sodium fluoride solution daily; a volume of 24 mL is dispensed. If 1 mL of the solution provides 15 drops, for how many days will the patient's supply last?",
+    "choices": [
+      "24",
+      "30",
+      "36",
+      "360"
+    ],
+    "correct": null,
+    "notes": "A prescription is written for 1 drop of a specified sodium fluoride solution daily; a\nvolume of 24 mL is dispensed. If 1 mL of the solution provides 15 drops, for how many days will the\npatient's supply last?"
+  },
+  {
+    "id": "ptcb-org-0218",
+    "raw_number": "4.61",
+    "text": "If a patient is taking 0.5 g of cephalexin monohydrate t.i.d., the daily dose, in mg, is:",
+    "choices": [
+      "500",
+      "1000",
+      "1500",
+      "2000"
+    ],
+    "correct": null,
+    "notes": "If a patient is taking 0.5 g of cephalexin monohydrate t.i.d., the daily dose, in mg, is:"
+  },
+  {
+    "id": "ptcb-org-0219",
+    "raw_number": "4.62",
+    "text": "A 10 mL bottle of Humulin-N U-100 insulin is dispensed to a patient. If dosed at 35 units subcutaneously daily, for how long, in days, should this medication last? PTCB Practice Exam (Questions Only) Page 55 of 85",
+    "choices": [
+      "15",
+      "28",
+      "30",
+      "35"
+    ],
+    "correct": null,
+    "notes": "A 10 mL bottle of Humulin-N U-100 insulin is dispensed to a patient. If dosed at 35\nunits subcutaneously daily, for how long, in days, should this medication last?\nPTCB Practice Exam (Questions Only) Page 55 of 85"
+  },
+  {
+    "id": "ptcb-org-0220",
+    "raw_number": "4.63",
+    "text": "How many 0.75 mg dexamethasone tablets are needed to administer a 3 mg dose?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": null,
+    "notes": "How many 0.75 mg dexamethasone tablets are needed to administer a 3 mg dose?"
+  },
+  {
+    "id": "ptcb-org-0221",
+    "raw_number": "4.64",
+    "text": "A prescription for prednisone specifies dosing as 1 tsp q.i.d. for 3 days, then 1 tsp b.i.d. for 3 days, and finally 1 tsp daily for 3 days. Which of the following is the smallest bottle size, in fl oz, that can be used for the entire prescription?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correct": null,
+    "notes": "A prescription for prednisone specifies dosing as 1 tsp q.i.d. for 3 days, then 1 tsp\nb.i.d. for 3 days, and finally 1 tsp daily for 3 days. Which of the following is the smallest bottle size, in\nfl oz, that can be used for the entire prescription?"
+  },
+  {
+    "id": "ptcb-org-0222",
+    "raw_number": "4.65",
+    "text": "A pharmacy receives a prescription for a 250 mg/5 mL suspension of cephalexin. The directions indicate that the patient should take 1.5 tsp three times a day. If the pharmacy stocks a 125 mg/5 mL suspension of cephalexin, the appropriate volume, in mL, per dose is:",
+    "choices": [
+      "7.5",
+      "10",
+      "15",
+      "22.5"
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives a prescription for a 250 mg/5 mL suspension of cephalexin. The\ndirections indicate that the patient should take 1.5 tsp three times a day. If the pharmacy stocks a 125\nmg/5 mL suspension of cephalexin, the appropriate volume, in mL, per dose is:"
+  },
+  {
+    "id": "ptcb-org-0223",
+    "raw_number": "4.66",
+    "text": "A patient presents the following prescription: Humulin 70/30 U-100, Sig: 45 units subcutaneous q.a.m. and 55 units subcutaneous q.p.m. Disp: 30 days supply. The number of 10 mL vials to be entered into the patient profile for the quantity ordered is: PTCB Practice Exam (Questions Only) Page 56 of 85",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": null,
+    "notes": "A patient presents the following prescription: Humulin 70/30 U-100, Sig: 45 units\nsubcutaneous q.a.m. and 55 units subcutaneous q.p.m. Disp: 30 days supply. The number of 10 mL\nvials to be entered into the patient profile for the quantity ordered is:\nPTCB Practice Exam (Questions Only) Page 56 of 85"
+  },
+  {
+    "id": "ptcb-org-0224",
+    "raw_number": "4.67",
+    "text": "Given the following prescription: Hydrocortisone 1% ointment 15 g, Clotrimazole 1% cream 25 g, Petrolatum ointment q.s. ad 120 g. How much petrolatum ointment, in g, is needed for compounding?",
+    "choices": [
+      "40",
+      "80",
+      "95",
+      "120"
+    ],
+    "correct": null,
+    "notes": "Given the following prescription: Hydrocortisone 1% ointment 15 g, Clotrimazole 1%\ncream 25 g, Petrolatum ointment q.s. ad 120 g. How much petrolatum ointment, in g, is needed for\ncompounding?"
+  },
+  {
+    "id": "ptcb-org-0225",
+    "raw_number": "4.68",
+    "text": "What amount, in g, of active ingredient is in a 60 g tube of 2% triamcinolone cream?",
+    "choices": [
+      "1.2",
+      "2",
+      "60",
+      "120"
+    ],
+    "correct": null,
+    "notes": "What amount, in g, of active ingredient is in a 60 g tube of 2% triamcinolone cream?"
+  },
+  {
+    "id": "ptcb-org-0226",
+    "raw_number": "4.69",
+    "text": "A patient presents a prescription for Lovenox 60 mg b.i.d. for 2 weeks. How many doses should be dispensed to the patient?",
+    "choices": [
+      "7",
+      "14",
+      "28",
+      "42"
+    ],
+    "correct": null,
+    "notes": "A patient presents a prescription for Lovenox 60 mg b.i.d. for 2 weeks. How many\ndoses should be dispensed to the patient?"
+  },
+  {
+    "id": "ptcb-org-0227",
+    "raw_number": "4.70",
+    "text": "A prescriber orders 1,000,000 units of penicillin G. The penicillin G on hand is available as a solution containing 250,000 units/mL. What volume of stock solution, in mL, is required? PTCB Practice Exam (Questions Only) Page 57 of 85",
+    "choices": [
+      "0.2",
+      "0.4",
+      "2",
+      "4"
+    ],
+    "correct": null,
+    "notes": "A prescriber orders 1,000,000 units of penicillin G. The penicillin G on hand is\navailable as a solution containing 250,000 units/mL. What volume of stock solution, in mL, is\nrequired?\nPTCB Practice Exam (Questions Only) Page 57 of 85"
+  },
+  {
+    "id": "ptcb-org-0228",
+    "raw_number": "4.71",
+    "text": "If a child weighing 12 kg is to receive 40 mg/kg/dose of amoxicillin 400 mg/5 mL suspension, what should the volume of each dose be in mL?",
+    "choices": [
+      "1.2",
+      "5",
+      "6",
+      "12"
+    ],
+    "correct": null,
+    "notes": "If a child weighing 12 kg is to receive 40 mg/kg/dose of amoxicillin 400 mg/5 mL\nsuspension, what should the volume of each dose be in mL?"
+  },
+  {
+    "id": "ptcb-org-0229",
+    "raw_number": "4.72",
+    "text": "The pharmacy receives a prescription for prednisone with the following directions: \"Take 20 mg a day for the first three days, then decrease dose by 5 mg every three days until finished.\" How many 5 mg tablets should be dispensed to fill this prescription?",
+    "choices": [
+      "10",
+      "12",
+      "25",
+      "30"
+    ],
+    "correct": null,
+    "notes": "The pharmacy receives a prescription for prednisone with the following directions:\n\"Take 20 mg a day for the first three days, then decrease dose by 5 mg every three days until\nfinished.\" How many 5 mg tablets should be dispensed to fill this prescription?"
+  },
+  {
+    "id": "ptcb-org-0230",
+    "raw_number": "4.73",
+    "text": "A pharmacy receives an order for amoxicillin suspension 200 mg to be taken every 8 hours. How many doses can be prepared from a 100 mL stock bottle of amoxicillin 250 mg/5 mL?",
+    "choices": [
+      "20",
+      "25",
+      "28",
+      "30"
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives an order for amoxicillin suspension 200 mg to be taken every 8\nhours. How many doses can be prepared from a 100 mL stock bottle of amoxicillin 250 mg/5 mL?"
+  },
+  {
+    "id": "ptcb-org-0231",
+    "raw_number": "4.74",
+    "text": "A patient brings in a prescription for amoxicillin 400 mg/5 mL suspension. The directions are to take 1 tsp PO q8h for 10 days. What volume, in mL, will the patient receive over the course of the 10 days? PTCB Practice Exam (Questions Only) Page 58 of 85",
+    "choices": [
+      "150",
+      "180",
+      "200",
+      "240"
+    ],
+    "correct": null,
+    "notes": "A patient brings in a prescription for amoxicillin 400 mg/5 mL suspension. The\ndirections are to take 1 tsp PO q8h for 10 days. What volume, in mL, will the patient receive over the\ncourse of the 10 days?\nPTCB Practice Exam (Questions Only) Page 58 of 85"
+  },
+  {
+    "id": "ptcb-org-0232",
+    "raw_number": "4.75",
+    "text": "A prescriber has written the following prescription: \"Zithromax 100 mg/5 mL. Take 80 mg on day 1 and 40 mg once daily on days 2-5.\" The patient should:",
+    "choices": [
+      "take 1 tsp on day 1, then take 0.5 tsp once a day on days 2-5.",
+      "take 1 tsp on day 1, then take 2 mL once a day on days 2-5.",
+      "take 2 mL on day 1, then take 1 mL once a day on days 2-5.",
+      "take 4 mL on day 1, then take 2 mL once a day on days 2-5."
+    ],
+    "correct": null,
+    "notes": "A prescriber has written the following prescription: \"Zithromax 100 mg/5 mL. Take 80\nmg on day 1 and 40 mg once daily on days 2-5.\" The patient should:"
+  },
+  {
+    "id": "ptcb-org-0233",
+    "raw_number": "4.76",
+    "text": "What quantity, in mL, of 3% acetic acid must be mixed with 15% acetic acid to give 2500 mL of 10% acetic acid?",
+    "choices": [
+      "1040",
+      "1460",
+      "2080",
+      "2460"
+    ],
+    "correct": null,
+    "notes": "What quantity, in mL, of 3% acetic acid must be mixed with 15% acetic acid to give\n2500 mL of 10% acetic acid?"
+  },
+  {
+    "id": "ptcb-org-0234",
+    "raw_number": "4.77",
+    "text": "What quantity of neomycin is contained in 50 mL of a 1% neomycin solution?",
+    "choices": [
+      "5 mg",
+      "500 mg",
+      "5 g",
+      "500 g"
+    ],
+    "correct": null,
+    "notes": "What quantity of neomycin is contained in 50 mL of a 1% neomycin solution?"
+  },
+  {
+    "id": "ptcb-org-0235",
+    "raw_number": "4.78",
+    "text": "Given the following prescription: Hydrocortisone 1.5%, Hydrophilic ointment q.s. ad 30 g. How many hydrocortisone 50 mg tablets are needed for dispensing? PTCB Practice Exam (Questions Only) Page 59 of 85",
+    "choices": [
+      "9",
+      "10",
+      "45",
+      "50"
+    ],
+    "correct": null,
+    "notes": "Given the following prescription: Hydrocortisone 1.5%, Hydrophilic ointment q.s. ad\n30 g. How many hydrocortisone 50 mg tablets are needed for dispensing?\nPTCB Practice Exam (Questions Only) Page 59 of 85"
+  },
+  {
+    "id": "ptcb-org-0236",
+    "raw_number": "4.79",
+    "text": "How many rifampin 300 mg capsules are required to make a 240 mL stock solution of rifampin syrup 10 mg/mL?",
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "30"
+    ],
+    "correct": null,
+    "notes": "How many rifampin 300 mg capsules are required to make a 240 mL stock solution of\nrifampin syrup 10 mg/mL?"
+  },
+  {
+    "id": "ptcb-org-0237",
+    "raw_number": "4.80",
+    "text": "A 4 oz volume of hydrocodone/chlorpheniramine suspension is dispensed to fill a prescription reading, \"Sig: 1 tsp q12h p.r.n. cough.\" What is the minimum number of days that this medication should last?",
+    "choices": [
+      "12",
+      "18",
+      "24",
+      "30"
+    ],
+    "correct": null,
+    "notes": "A 4 oz volume of hydrocodone/chlorpheniramine suspension is dispensed to fill a\nprescription reading, \"Sig: 1 tsp q12h p.r.n. cough.\" What is the minimum number of days that this\nmedication should last?"
+  },
+  {
+    "id": "ptcb-org-0238",
+    "raw_number": "4.81",
+    "text": "The pharmacy receives the following prescription: Verapamil ER 120 mg, Disp: 30 tabs with 11 RF, Sig: 1 tab PO daily. The patient requests a 90 days supply of this medication. What quantity of tablets and refills could be dispensed with prescriber approval?",
+    "choices": [
+      "60 tablets plus 5 refills",
+      "90 tablets plus 2 refills",
+      "90 tablets plus 3 refills",
+      "100 tablets plus 3 refills"
+    ],
+    "correct": null,
+    "notes": "The pharmacy receives the following prescription: Verapamil ER 120 mg, Disp: 30\ntabs with 11 RF, Sig: 1 tab PO daily. The patient requests a 90 days supply of this medication. What\nquantity of tablets and refills could be dispensed with prescriber approval?"
+  },
+  {
+    "id": "ptcb-org-0239",
+    "raw_number": "4.82",
+    "text": "How many 45 g jars of 0.1% triamcinolone cream can be prepared from six 480 g jars? PTCB Practice Exam (Questions Only) Page 60 of 85",
+    "choices": [
+      "11",
+      "64",
+      "96",
+      "128"
+    ],
+    "correct": null,
+    "notes": "How many 45 g jars of 0.1% triamcinolone cream can be prepared from six 480 g jars?\nPTCB Practice Exam (Questions Only) Page 60 of 85"
+  },
+  {
+    "id": "ptcb-org-0240",
+    "raw_number": "4.83",
+    "text": "Directions for reconstitution of an oral antibiotic suspension read: \"Add 80 mL distilled water; each 5 mL contains 0.25 g.\" What is the dose of a prescription for 3/4 tsp?",
+    "choices": [
+      "150 mg",
+      "187.5 mg",
+      "0.25 g",
+      "1 g"
+    ],
+    "correct": null,
+    "notes": "Directions for reconstitution of an oral antibiotic suspension read: \"Add 80 mL\ndistilled water; each 5 mL contains 0.25 g.\" What is the dose of a prescription for 3/4 tsp?"
+  },
+  {
+    "id": "ptcb-org-0241",
+    "raw_number": "4.84",
+    "text": "The usual dose of pyrantel pamoate suspension for the treatment of pinworms is 11 mg/kg of body weight. How many mg of pyrantel pamoate should be given to a child weighing 88 lb?",
+    "choices": [
+      "110",
+      "220",
+      "330",
+      "440"
+    ],
+    "correct": null,
+    "notes": "The usual dose of pyrantel pamoate suspension for the treatment of pinworms is 11\nmg/kg of body weight. How many mg of pyrantel pamoate should be given to a child weighing 88 lb?"
+  },
+  {
+    "id": "ptcb-org-0242",
+    "raw_number": "4.85",
+    "text": "If a pharmacy technician has drawn 50 units of U-100 insulin into a syringe, the plunger has been drawn to:",
+    "choices": [
+      "0.05 mL",
+      "0.5 mL",
+      "5 mL",
+      "50 mL"
+    ],
+    "correct": null,
+    "notes": "If a pharmacy technician has drawn 50 units of U-100 insulin into a syringe, the\nplunger has been drawn to:"
+  },
+  {
+    "id": "ptcb-org-0243",
+    "raw_number": "4.86",
+    "text": "A 5 g suppository contains 5% phenylephrine and 20% zinc oxide as the active ingredients. How much zinc oxide, in g, is in the suppository? PTCB Practice Exam (Questions Only) Page 61 of 85",
+    "choices": [
+      "0.2",
+      "0.5",
+      "1",
+      "10"
+    ],
+    "correct": null,
+    "notes": "A 5 g suppository contains 5% phenylephrine and 20% zinc oxide as the active\ningredients. How much zinc oxide, in g, is in the suppository?\nPTCB Practice Exam (Questions Only) Page 61 of 85"
+  },
+  {
+    "id": "ptcb-org-0244",
+    "raw_number": "4.87",
+    "text": "A prescription is written for a tapering dose of prednisone 10 mg #42: Take 60 mg for 2 days and decrease by 10 mg every other day. What is the estimated days supply for this prescription?",
+    "choices": [
+      "6",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct": null,
+    "notes": "A prescription is written for a tapering dose of prednisone 10 mg #42: Take 60 mg for\n2 days and decrease by 10 mg every other day. What is the estimated days supply for this\nprescription?"
+  },
+  {
+    "id": "ptcb-org-0245",
+    "raw_number": "4.88",
+    "text": "A prescription reads, \"Fentanyl transdermal patches 50 mcg/hr #10.\" The directions are to apply two patches and change them every 72 hours. How many days should be billed to the insurance?",
+    "choices": [
+      "5",
+      "8",
+      "10",
+      "15"
+    ],
+    "correct": null,
+    "notes": "A prescription reads, \"Fentanyl transdermal patches 50 mcg/hr #10.\" The directions\nare to apply two patches and change them every 72 hours. How many days should be billed to the\ninsurance?"
+  },
+  {
+    "id": "ptcb-org-0246",
+    "raw_number": "4.89",
+    "text": "Strong iodine solution containing 2.5 g/50 mL is prescribed at 0.3 mL t.i.d. How much iodine, in mg, should be administered daily?",
+    "choices": [
+      "0.45",
+      "0.5",
+      "30",
+      "45"
+    ],
+    "correct": null,
+    "notes": "Strong iodine solution containing 2.5 g/50 mL is prescribed at 0.3 mL t.i.d. How much\niodine, in mg, should be administered daily?"
+  },
+  {
+    "id": "ptcb-org-0247",
+    "raw_number": "4.90",
+    "text": "How much active ingredient, in mg, is present in 3 mL of a 20% solution? PTCB Practice Exam (Questions Only) Page 62 of 85",
+    "choices": [
+      "30",
+      "60",
+      "300",
+      "600"
+    ],
+    "correct": null,
+    "notes": "How much active ingredient, in mg, is present in 3 mL of a 20% solution?\nPTCB Practice Exam (Questions Only) Page 62 of 85"
+  },
+  {
+    "id": "ptcb-org-0248",
+    "raw_number": "4.91",
+    "text": "The physician gives the following order for a prescription: Cefaclor 250 mg/5mL, 1 tsp PO t.i.d. for 10 days. What is the amount, in mL, needed to fill the order?",
+    "choices": [
+      "100",
+      "150",
+      "250",
+      "450"
+    ],
+    "correct": null,
+    "notes": "The physician gives the following order for a prescription: Cefaclor 250 mg/5mL, 1 tsp\nPO t.i.d. for 10 days. What is the amount, in mL, needed to fill the order?"
+  },
+  {
+    "id": "ptcb-org-0249",
+    "raw_number": "4.92",
+    "text": "How much of a drug prescribed at 5 mg/kg should be administered to a patient weighing 132 lbs?",
+    "choices": [
+      "33 mg",
+      "300 mg",
+      "660 mg",
+      "3 g"
+    ],
+    "correct": null,
+    "notes": "How much of a drug prescribed at 5 mg/kg should be administered to a patient\nweighing 132 lbs?"
+  },
+  {
+    "id": "ptcb-org-0250",
+    "raw_number": "4.93",
+    "text": "A patient's prescription calls for cephalexin 125 mg/5 mL 1 tsp t.i.d. What volume, in mL, is the total daily dose?",
+    "choices": [
+      "15",
+      "20",
+      "30",
+      "45"
+    ],
+    "correct": null,
+    "notes": "A patient's prescription calls for cephalexin 125 mg/5 mL 1 tsp t.i.d. What volume, in\nmL, is the total daily dose?"
+  },
+  {
+    "id": "ptcb-org-0251",
+    "raw_number": "4.94",
+    "text": "A hospice patient requires lorazepam 1 mg PO q8h p.r.n. agitation. How many oral syringes can be prepared from two 30 mL lorazepam 2 mg/mL bottles? PTCB Practice Exam (Questions Only) Page 63 of 85",
+    "choices": [
+      "30",
+      "60",
+      "90",
+      "120"
+    ],
+    "correct": null,
+    "notes": "A hospice patient requires lorazepam 1 mg PO q8h p.r.n. agitation. How many oral\nsyringes can be prepared from two 30 mL lorazepam 2 mg/mL bottles?\nPTCB Practice Exam (Questions Only) Page 63 of 85"
+  },
+  {
+    "id": "ptcb-org-0252",
+    "raw_number": "4.95",
+    "text": "A patient with epilepsy receives phenobarbital 55 mg PO b.i.d. How many mL should be administered per dose if the elixir provides 20 mg/5 mL?",
+    "choices": [
+      "11.5",
+      "12.5",
+      "13.75",
+      "27.5"
+    ],
+    "correct": null,
+    "notes": "A patient with epilepsy receives phenobarbital 55 mg PO b.i.d. How many mL should\nbe administered per dose if the elixir provides 20 mg/5 mL?"
+  },
+  {
+    "id": "ptcb-org-0253",
+    "raw_number": "4.96",
+    "text": "A prescription is written for \"2 tbsp q.i.d. (a.c. and h.s.)\". What is the daily dose in mL?",
+    "choices": [
+      "15",
+      "30",
+      "60",
+      "120"
+    ],
+    "correct": null,
+    "notes": "A prescription is written for \"2 tbsp q.i.d. (a.c. and h.s.)\". What is the daily dose in\nmL?"
+  },
+  {
+    "id": "ptcb-org-0254",
+    "raw_number": "4.97",
+    "text": "What volume, in mL, of a medication available as a 75 mg/mL solution is required to deliver a dose of 65 mg?",
+    "choices": [
+      "0.78",
+      "0.87",
+      "1.2",
+      "8.7"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of a medication available as a 75 mg/mL solution is required to\ndeliver a dose of 65 mg?"
+  },
+  {
+    "id": "ptcb-org-0255",
+    "raw_number": "4.98",
+    "text": "A prescriber orders 1000 mg of a certain medication. If the label on the stock bottle indicates that each tablet contains 0.1 g, how many tablets should the patient receive? PTCB Practice Exam (Questions Only) Page 64 of 85",
+    "choices": [
+      "1",
+      "10",
+      "100",
+      "1000"
+    ],
+    "correct": null,
+    "notes": "A prescriber orders 1000 mg of a certain medication. If the label on the stock bottle\nindicates that each tablet contains 0.1 g, how many tablets should the patient receive?\nPTCB Practice Exam (Questions Only) Page 64 of 85"
+  },
+  {
+    "id": "ptcb-org-0256",
+    "raw_number": "4.99",
+    "text": "Indomethacin liquid must be compounded according to the following prescription: Indomethacin 2 mg/mL, Cherry syrup q.s. ad 100 mL, Sig: 5 mL PO b.i.d. Only 50 mg capsules of indomethacin are available. How many capsules should be used to prepare this prescription?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correct": null,
+    "notes": "Indomethacin liquid must be compounded according to the following prescription:\nIndomethacin 2 mg/mL, Cherry syrup q.s. ad 100 mL, Sig: 5 mL PO b.i.d. Only 50 mg capsules of\nindomethacin are available. How many capsules should be used to prepare this prescription?"
+  },
+  {
+    "id": "ptcb-org-0257",
+    "raw_number": "4.100",
+    "text": "A physician orders a 4.5 mcg/kg PO b.i.d. maintenance dose of digoxin pediatric elixir for an 11 lb baby. Each dose is administered with an oral syringe. What volume, in mL, of 0.05 mg/mL elixir should be drawn up in the syringe to deliver each dose?",
+    "choices": [
+      "0.045",
+      "0.45",
+      "4.5",
+      "45"
+    ],
+    "correct": null,
+    "notes": "A physician orders a 4.5 mcg/kg PO b.i.d. maintenance dose of digoxin pediatric\nelixir for an 11 lb baby. Each dose is administered with an oral syringe. What volume, in mL, of 0.05\nmg/mL elixir should be drawn up in the syringe to deliver each dose?"
+  },
+  {
+    "id": "ptcb-org-0258",
+    "raw_number": "4.101",
+    "text": "A patient presents the following prescription: Humulin insulin U-100, Qty 10 mL vial, Inject 20 units subcutaneously in the morning and 30 units subcutaneously in the evening. How many vials should be dispensed for a 30 days supply?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": null,
+    "notes": "A patient presents the following prescription: Humulin insulin U-100, Qty 10 mL vial,\nInject 20 units subcutaneously in the morning and 30 units subcutaneously in the evening. How\nmany vials should be dispensed for a 30 days supply?"
+  },
+  {
+    "id": "ptcb-org-0259",
+    "raw_number": "4.102",
+    "text": "A compound requires 200,000 units of nystatin powder. The powder is available at 690 units/mg. How much of the powder, in g, is needed to prepare the compound? PTCB Practice Exam (Questions Only) Page 65 of 85",
+    "choices": [
+      "0.29",
+      "2.9",
+      "28.99",
+      "289.86"
+    ],
+    "correct": null,
+    "notes": "A compound requires 200,000 units of nystatin powder. The powder is available at\n690 units/mg. How much of the powder, in g, is needed to prepare the compound?\nPTCB Practice Exam (Questions Only) Page 65 of 85"
+  },
+  {
+    "id": "ptcb-org-0260",
+    "raw_number": "4.103",
+    "text": "A prescription requires amoxicillin 250 mg/5 mL 2 tsp t.i.d. for 10 days. Which of the following is the most appropriate bottle size, in fluid oz, for the entire 10 days supply?",
+    "choices": [
+      "4",
+      "8",
+      "12",
+      "32"
+    ],
+    "correct": null,
+    "notes": "A prescription requires amoxicillin 250 mg/5 mL 2 tsp t.i.d. for 10 days. Which of the\nfollowing is the most appropriate bottle size, in fluid oz, for the entire 10 days supply?"
+  },
+  {
+    "id": "ptcb-org-0261",
+    "raw_number": "4.104",
+    "text": "What volume, in mL, of Humulin R U-100 insulin is necessary to withdraw 28 units?",
+    "choices": [
+      "0.028",
+      "0.28",
+      "2.8",
+      "28"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of Humulin R U-100 insulin is necessary to withdraw 28 units?"
+  },
+  {
+    "id": "ptcb-org-0262",
+    "raw_number": "4.105",
+    "text": "How much hydrocortisone powder, in g, is needed to compound 1 lb of 4% ointment?",
+    "choices": [
+      "18.16",
+      "19.2",
+      "181.6",
+      "192"
+    ],
+    "correct": null,
+    "notes": "How much hydrocortisone powder, in g, is needed to compound 1 lb of 4%\nointment?"
+  },
+  {
+    "id": "ptcb-org-0263",
+    "raw_number": "4.106",
+    "text": "A physician orders amoxicillin 50 mg/mL for a child at 1 mL PO q8h for 10 days. What is the total volume that must be dispensed, in mL, if the amoxicillin stock is 125 mg/5 mL? PTCB Practice Exam (Questions Only) Page 66 of 85",
+    "choices": [
+      "2",
+      "30",
+      "60",
+      "150"
+    ],
+    "correct": null,
+    "notes": "A physician orders amoxicillin 50 mg/mL for a child at 1 mL PO q8h for 10 days.\nWhat is the total volume that must be dispensed, in mL, if the amoxicillin stock is 125 mg/5 mL?\nPTCB Practice Exam (Questions Only) Page 66 of 85"
+  },
+  {
+    "id": "ptcb-org-0264",
+    "raw_number": "4.107",
+    "text": "If a prescription for aspirin 325 mg reads, \"Sig: i tab PO q4-6h p.r.n.,\" what is the maximum number of tablets the patient may consume per day?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correct": null,
+    "notes": "If a prescription for aspirin 325 mg reads, \"Sig: i tab PO q4-6h p.r.n.,\" what is the\nmaximum number of tablets the patient may consume per day?"
+  },
+  {
+    "id": "ptcb-org-0265",
+    "raw_number": "4.108",
+    "text": "A cefaclor suspension label states, \"Add 80 mL of water to yield 100 mL of 250 mg/5 mL.\" How much total water, in mL, is needed to yield 200 mL of 125 mg/5 mL?",
+    "choices": [
+      "80",
+      "100",
+      "180",
+      "200"
+    ],
+    "correct": null,
+    "notes": "A cefaclor suspension label states, \"Add 80 mL of water to yield 100 mL of 250 mg/5\nmL.\" How much total water, in mL, is needed to yield 200 mL of 125 mg/5 mL?"
+  },
+  {
+    "id": "ptcb-org-0266",
+    "raw_number": "4.109",
+    "text": "A patient presents the following prescription: Norvasc 5 mg, 1 tab daily on even days, 2 tabs daily on odd days. Dispense a 1 month supply. How many tablets are needed to dispense a 30 days supply?",
+    "choices": [
+      "30",
+      "40",
+      "45",
+      "60"
+    ],
+    "correct": null,
+    "notes": "A patient presents the following prescription: Norvasc 5 mg, 1 tab daily on even\ndays, 2 tabs daily on odd days. Dispense a 1 month supply. How many tablets are needed to\ndispense a 30 days supply?"
+  },
+  {
+    "id": "ptcb-org-0267",
+    "raw_number": "4.110",
+    "text": "On 3/15/2025 a pharmacist asks a pharmacy technician to remove any medications from the pharmacy's shelves that have an expiration date fewer than 90 days from 3/15/2025. Which of the following products should be removed? PTCB Practice Exam (Questions Only) Page 67 of 85",
+    "choices": [
+      "A bottle of amoxicillin 250 mg chewable tablets expiring 5/26",
+      "A refrigerated bottle of Humulin N expiring 12/25",
+      "A bottle of warfarin sodium 10 mg tablets expiring 6/25",
+      "A bottle of digoxin 0.125 mg expiring 5/25"
+    ],
+    "correct": null,
+    "notes": "On 3/15/2025 a pharmacist asks a pharmacy technician to remove any medications\nfrom the pharmacy's shelves that have an expiration date fewer than 90 days from 3/15/2025. Which\nof the following products should be removed?\nPTCB Practice Exam (Questions Only) Page 67 of 85"
+  },
+  {
+    "id": "ptcb-org-0268",
+    "raw_number": "4.111",
+    "text": "What volume, in mL, of a liquid suspension should be dispensed to administer a dose of 2 tbsp?",
+    "choices": [
+      "2",
+      "10",
+      "30",
+      "60"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of a liquid suspension should be dispensed to administer a\ndose of 2 tbsp?"
+  },
+  {
+    "id": "ptcb-org-0269",
+    "raw_number": "4.112",
+    "text": "How many 2 tsp doses of cough syrup are contained in a 6 fl oz bottle?",
+    "choices": [
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
+    "correct": null,
+    "notes": "How many 2 tsp doses of cough syrup are contained in a 6 fl oz bottle?"
+  },
+  {
+    "id": "ptcb-org-0270",
+    "raw_number": "4.113",
+    "text": "A wholesale company's return policy allows the return of unopened stock containers for full credit as long as their expiration dates are at least 6 months away. If today's date is February 28, 2024, a pharmacy should be eligible to receive full credit for which of the following products?",
+    "choices": [
+      "A box of 10 enoxaparin 80 mg/0.8 mL syringes with an expiration date of April 30, 2024",
+      "A 3 mL bottle of moxifloxacin ophthalmic solution 0.5% with an expiration date of June 30, 2024",
+      "A 90 count bottle of rosuvastatin 20 mg with an expiration date of July 31, 2024",
+      "An 80 g tube of triamcinolone cream 0.1% with an expiration date of September 30, 2024"
+    ],
+    "correct": null,
+    "notes": "A wholesale company's return policy allows the return of unopened stock containers\nfor full credit as long as their expiration dates are at least 6 months away. If today's date is February\n28, 2024, a pharmacy should be eligible to receive full credit for which of the following products?"
+  },
+  {
+    "id": "ptcb-org-0271",
+    "raw_number": "4.114",
+    "text": "How many 2 fl oz containers may be repackaged from a 3 L container? PTCB Practice Exam (Questions Only) Page 68 of 85",
+    "choices": [
+      "50",
+      "100",
+      "180",
+      "300"
+    ],
+    "correct": null,
+    "notes": "How many 2 fl oz containers may be repackaged from a 3 L container?\nPTCB Practice Exam (Questions Only) Page 68 of 85"
+  },
+  {
+    "id": "ptcb-org-0272",
+    "raw_number": "4.115",
+    "text": "A patient who weighs 110 lb requires an infusion of phenytoin at 5 mg/kg/dose t.i.d. How much phenytoin, in mg, should the patient receive daily?",
+    "choices": [
+      "250",
+      "675",
+      "750",
+      "1650"
+    ],
+    "correct": null,
+    "notes": "A patient who weighs 110 lb requires an infusion of phenytoin at 5 mg/kg/dose t.i.d.\nHow much phenytoin, in mg, should the patient receive daily?"
+  },
+  {
+    "id": "ptcb-org-0273",
+    "raw_number": "4.116",
+    "text": "How many 8 fl oz bottles can be packaged from a 1 gallon bottle of cough syrup?",
+    "choices": [
+      "10",
+      "14",
+      "15",
+      "16"
+    ],
+    "correct": null,
+    "notes": "How many 8 fl oz bottles can be packaged from a 1 gallon bottle of cough syrup?"
+  },
+  {
+    "id": "ptcb-org-0274",
+    "raw_number": "4.117",
+    "text": "Vials of 0.25 mg/5 mL Aloxi contain sufficient overfill to prepare 11 pre-filled syringes from 10 vials of drug. The number of pre-filled syringes that can be prepared from 50 vials of drug is:",
+    "choices": [
+      "50",
+      "55",
+      "500",
+      "550"
+    ],
+    "correct": null,
+    "notes": "Vials of 0.25 mg/5 mL Aloxi contain sufficient overfill to prepare 11 pre-filled syringes\nfrom 10 vials of drug. The number of pre-filled syringes that can be prepared from 50 vials of drug is:"
+  },
+  {
+    "id": "ptcb-org-0275",
+    "raw_number": "4.118",
+    "text": "If one tablespoon is prescribed q.i.d. (p.c. and h.s.) for 30 days, how many fluid oz should be dispensed to the patient? PTCB Practice Exam (Questions Only) Page 69 of 85",
+    "choices": [
+      "4",
+      "6",
+      "20",
+      "60"
+    ],
+    "correct": null,
+    "notes": "If one tablespoon is prescribed q.i.d. (p.c. and h.s.) for 30 days, how many fluid oz\nshould be dispensed to the patient?\nPTCB Practice Exam (Questions Only) Page 69 of 85"
+  },
+  {
+    "id": "ptcb-org-0276",
+    "raw_number": "4.119",
+    "text": "A patient is to take 1.5 g of amoxicillin prior to a dental appointment. The capsules available in the pharmacy are amoxicillin 500 mg. What is the number of capsules that will be dispensed to the patient?",
+    "choices": [
+      "3",
+      "6",
+      "30",
+      "33"
+    ],
+    "correct": null,
+    "notes": "A patient is to take 1.5 g of amoxicillin prior to a dental appointment. The capsules\navailable in the pharmacy are amoxicillin 500 mg. What is the number of capsules that will be\ndispensed to the patient?"
+  },
+  {
+    "id": "ptcb-org-0277",
+    "raw_number": "4.120",
+    "text": "The following order arrives in the pharmacy: Lantus SoloStar #1 box (5 pens each containing 3 mL), Sig: 25 units SQ q.p.m. How long, in days, should this box of prefilled pens last the patient?",
+    "choices": [
+      "28",
+      "30",
+      "60",
+      "90"
+    ],
+    "correct": null,
+    "notes": "The following order arrives in the pharmacy: Lantus SoloStar #1 box (5 pens each\ncontaining 3 mL), Sig: 25 units SQ q.p.m. How long, in days, should this box of prefilled pens last the\npatient?"
+  },
+  {
+    "id": "ptcb-org-0278",
+    "raw_number": "4.121",
+    "text": "The stock solution of a medication contains 2 g/5 mL. What volume, in mL, is needed to deliver a dose of 100 mg?",
+    "choices": [
+      "0.25",
+      "0.5",
+      "2.5",
+      "25"
+    ],
+    "correct": null,
+    "notes": "The stock solution of a medication contains 2 g/5 mL. What volume, in mL, is needed\nto deliver a dose of 100 mg?"
+  },
+  {
+    "id": "ptcb-org-0279",
+    "raw_number": "4.122",
+    "text": "If 200 mL of a 30% solution is diluted to a volume of 2 L, what is the resulting concentration? PTCB Practice Exam (Questions Only) Page 70 of 85",
+    "choices": [
+      "0.3%",
+      "3%",
+      "0.6%",
+      "6%"
+    ],
+    "correct": null,
+    "notes": "If 200 mL of a 30% solution is diluted to a volume of 2 L, what is the resulting\nconcentration?\nPTCB Practice Exam (Questions Only) Page 70 of 85"
+  },
+  {
+    "id": "ptcb-org-0280",
+    "raw_number": "4.123",
+    "text": "A prescription reads: Zithromax 200 mg/5 mL q.s. 1.5 tsp on day 1, then 3/4 tsp on days 2-5. What volume, in mL, of Zithromax 200 mg/5 mL is needed for the entire course of therapy?",
+    "choices": [
+      "11.5",
+      "15",
+      "22.5",
+      "30"
+    ],
+    "correct": null,
+    "notes": "A prescription reads: Zithromax 200 mg/5 mL q.s. 1.5 tsp on day 1, then 3/4 tsp on\ndays 2-5. What volume, in mL, of Zithromax 200 mg/5 mL is needed for the entire course of therapy?"
+  },
+  {
+    "id": "ptcb-org-0281",
+    "raw_number": "4.124",
+    "text": "What volume, in mL, of 125 mg/5 mL amoxicillin suspension should be prepared to deliver a prescribed dose of 375 mg?",
+    "choices": [
+      "3",
+      "15",
+      "25",
+      "75"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of 125 mg/5 mL amoxicillin suspension should be prepared to\ndeliver a prescribed dose of 375 mg?"
+  },
+  {
+    "id": "ptcb-org-0282",
+    "raw_number": "4.125",
+    "text": "How many g of a drug are in 250 mL of a 40% solution?",
+    "choices": [
+      "4",
+      "10",
+      "40",
+      "100"
+    ],
+    "correct": null,
+    "notes": "How many g of a drug are in 250 mL of a 40% solution?"
+  },
+  {
+    "id": "ptcb-org-0283",
+    "raw_number": "4.126",
+    "text": "A community pharmacy receives the following prescription: Meclizine 25 mg tabs #60, Sig: 1 tab PO q6h p.r.n. for vertigo. If the patient last received a dose of meclizine in an emergency department at 1:00 P.M., when may the next dose be administered if symptoms return? PTCB Practice Exam (Questions Only) Page 71 of 85",
+    "choices": [
+      "6:00 A.M.",
+      "6:00 P.M.",
+      "7:00 P.M.",
+      "9:00 P.M."
+    ],
+    "correct": null,
+    "notes": "A community pharmacy receives the following prescription: Meclizine 25 mg tabs\n#60, Sig: 1 tab PO q6h p.r.n. for vertigo. If the patient last received a dose of meclizine in an\nemergency department at 1:00 P.M., when may the next dose be administered if symptoms return?\nPTCB Practice Exam (Questions Only) Page 71 of 85"
+  },
+  {
+    "id": "ptcb-org-0284",
+    "raw_number": "4.127",
+    "text": "An ear drop suspension contains 15 drops/mL. If the prescription reads, \"Use 4 gtts AU h.s.\", how many days should a 7.5 mL bottle last?",
+    "choices": [
+      "2",
+      "8",
+      "14",
+      "28"
+    ],
+    "correct": null,
+    "notes": "An ear drop suspension contains 15 drops/mL. If the prescription reads, \"Use 4 gtts\nAU h.s.\", how many days should a 7.5 mL bottle last?"
+  },
+  {
+    "id": "ptcb-org-0285",
+    "raw_number": "4.128",
+    "text": "How many 4 mg syringes can be prepared from a 10 mL vial of midazolam 2 mg/2 mL injection?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": null,
+    "notes": "How many 4 mg syringes can be prepared from a 10 mL vial of midazolam 2 mg/2 mL\ninjection?"
+  },
+  {
+    "id": "ptcb-org-0286",
+    "raw_number": "4.129",
+    "text": "A prescription is written for a Flovent HFA inhaler supplying 120 metered doses. The directions are 2 puffs b.i.d. What is the days supply?",
+    "choices": [
+      "15",
+      "30",
+      "45",
+      "60"
+    ],
+    "correct": null,
+    "notes": "A prescription is written for a Flovent HFA inhaler supplying 120 metered doses. The\ndirections are 2 puffs b.i.d. What is the days supply?"
+  },
+  {
+    "id": "ptcb-org-0287",
+    "raw_number": "4.130",
+    "text": "A prescription is written for an albuterol HFA inhaler 18 g 2 puffs q.i.d. The inhaler supplies 200 metered doses. What is the days supply? PTCB Practice Exam (Questions Only) Page 72 of 85",
+    "choices": [
+      "18",
+      "25",
+      "50",
+      "100"
+    ],
+    "correct": null,
+    "notes": "A prescription is written for an albuterol HFA inhaler 18 g 2 puffs q.i.d. The inhaler\nsupplies 200 metered doses. What is the days supply?\nPTCB Practice Exam (Questions Only) Page 72 of 85"
+  },
+  {
+    "id": "ptcb-org-0288",
+    "raw_number": "4.131",
+    "text": "What amount of a drug, in mL, is required to prepare 2 pints of a 1:1300 solution?",
+    "choices": [
+      "0.73",
+      "1.374",
+      "728",
+      "1374"
+    ],
+    "correct": null,
+    "notes": "What amount of a drug, in mL, is required to prepare 2 pints of a 1:1300 solution?"
+  },
+  {
+    "id": "ptcb-org-0289",
+    "raw_number": "4.132",
+    "text": "A prescription order reads: Potassium chloride 10% (40 mEq/30 mL), Dispense: 240 mL, Sig: 1 tsp t.i.d. How many mEq of KCl are to be taken daily?",
+    "choices": [
+      "10",
+      "20",
+      "30",
+      "45"
+    ],
+    "correct": null,
+    "notes": "A prescription order reads: Potassium chloride 10% (40 mEq/30 mL), Dispense: 240\nmL, Sig: 1 tsp t.i.d. How many mEq of KCl are to be taken daily?"
+  },
+  {
+    "id": "ptcb-org-0290",
+    "raw_number": "4.133",
+    "text": "The following prescription is written for ProAir HFA: Sig: 2 puffs PO q.i.d. Dispense two inhalers of 8.5 g. How long, in days, should the supply last if there are 200 metered doses in each inhaler?",
+    "choices": [
+      "25",
+      "30",
+      "50",
+      "100"
+    ],
+    "correct": null,
+    "notes": "The following prescription is written for ProAir HFA: Sig: 2 puffs PO q.i.d. Dispense\ntwo inhalers of 8.5 g. How long, in days, should the supply last if there are 200 metered doses in each\ninhaler?"
+  },
+  {
+    "id": "ptcb-org-0291",
+    "raw_number": "4.134",
+    "text": "A prescription is written for cefdinir 125 mg/5 mL #60 mL \"Sig: 150 mg PO b.i.d.\" How many days should the medication last? PTCB Practice Exam (Questions Only) Page 73 of 85",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "10"
+    ],
+    "correct": null,
+    "notes": "A prescription is written for cefdinir 125 mg/5 mL #60 mL \"Sig: 150 mg PO b.i.d.\"\nHow many days should the medication last?\nPTCB Practice Exam (Questions Only) Page 73 of 85"
+  },
+  {
+    "id": "ptcb-org-0292",
+    "raw_number": "4.135",
+    "text": "A physician prescribes 5 mg of a drug per kg of body weight twice daily for a patient weighing 110 lb. How many 0.5 g tablets of the drug are required for a 10 day duration?",
+    "choices": [
+      "5",
+      "10",
+      "20",
+      "40"
+    ],
+    "correct": null,
+    "notes": "A physician prescribes 5 mg of a drug per kg of body weight twice daily for a patient\nweighing 110 lb. How many 0.5 g tablets of the drug are required for a 10 day duration?"
+  },
+  {
+    "id": "ptcb-org-0293",
+    "raw_number": "4.136",
+    "text": "According to the following prescription order: Keflex 125 mg/5 mL, Sig: 1/2 tsp PO q.i.d. What dose, in mg, of Keflex should be administered daily?",
+    "choices": [
+      "125",
+      "250",
+      "500",
+      "750"
+    ],
+    "correct": null,
+    "notes": "According to the following prescription order: Keflex 125 mg/5 mL, Sig: 1/2 tsp PO\nq.i.d. What dose, in mg, of Keflex should be administered daily?"
+  },
+  {
+    "id": "ptcb-org-0294",
+    "raw_number": "4.137",
+    "text": "The recommended starting dose of a chemotherapy agent is 20 mg/kg, calculated to the nearest whole tablet. It is available in 250 mg tablets. A patient weighing 162 lbs should receive a starting dose of how many tablets?",
+    "choices": [
+      "6",
+      "13",
+      "29",
+      "30"
+    ],
+    "correct": null,
+    "notes": "The recommended starting dose of a chemotherapy agent is 20 mg/kg, calculated to\nthe nearest whole tablet. It is available in 250 mg tablets. A patient weighing 162 lbs should receive a\nstarting dose of how many tablets?"
+  },
+  {
+    "id": "ptcb-org-0295",
+    "raw_number": "4.138",
+    "text": "How long, in days, should it take for the patient to finish this medication? PTCB Practice Exam (Questions Only) Page 74 of 85",
+    "choices": [
+      "7",
+      "10",
+      "14",
+      "16"
+    ],
+    "correct": null,
+    "notes": "How long, in days, should it take for the patient to finish this medication?\nPTCB Practice Exam (Questions Only) Page 74 of 85"
+  },
+  {
+    "id": "ptcb-org-0296",
+    "raw_number": "4.139",
+    "text": "How many syringes of enoxaparin 80 mg need to be dispensed for a 14 days supply if a patient weighs 165 lb and the dosage prescribed is 1 mg/kg q12h?",
+    "choices": [
+      "14",
+      "28",
+      "42",
+      "56"
+    ],
+    "correct": null,
+    "notes": "How many syringes of enoxaparin 80 mg need to be dispensed for a 14 days supply\nif a patient weighs 165 lb and the dosage prescribed is 1 mg/kg q12h?"
+  },
+  {
+    "id": "ptcb-org-0297",
+    "raw_number": "4.140",
+    "text": "A prescription calls for a dose of 24 mg the first day, decreased by 4 mg daily on subsequent days until the dose reaches zero. How many 8 mg tablets are needed to fill the prescription?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct": null,
+    "notes": "A prescription calls for a dose of 24 mg the first day, decreased by 4 mg daily on\nsubsequent days until the dose reaches zero. How many 8 mg tablets are needed to fill the\nprescription?"
+  },
+  {
+    "id": "ptcb-org-0298",
+    "raw_number": "4.141",
+    "text": "What is the final concentration of a solution made by diluting a 4 oz bottle of a 15% solution to a final volume of 1 L?",
+    "choices": [
+      "0.9%",
+      "1.5%",
+      "1.8%",
+      "18%"
+    ],
+    "correct": null,
+    "notes": "What is the final concentration of a solution made by diluting a 4 oz bottle of a 15%\nsolution to a final volume of 1 L?"
+  },
+  {
+    "id": "ptcb-org-0299",
+    "raw_number": "4.142",
+    "text": "What size bottle, in oz, is most appropriate to dispense 140 mL of ibuprofen suspension? PTCB Practice Exam (Questions Only) Page 75 of 85",
+    "choices": [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": null,
+    "notes": "What size bottle, in oz, is most appropriate to dispense 140 mL of ibuprofen\nsuspension?\nPTCB Practice Exam (Questions Only) Page 75 of 85"
+  },
+  {
+    "id": "ptcb-org-0300",
+    "raw_number": "4.143",
+    "text": "A pharmacy receives a prescription that reads: Prednisone 10 mg, Quantity: q.s. Take 3 tabs q.i.d. for 4 days, then 2 tabs t.i.d. for 3 days, then 1 tab t.i.d. for 2 days, then 1 tab b.i.d. for 2 days, then 1 tab q.d. for 2 days, then 1/2 tab q.d. for 2 days. How many 10 mg tablets must be dispensed to fill the prescription?",
+    "choices": [
+      "25",
+      "56",
+      "67",
+      "79"
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives a prescription that reads: Prednisone 10 mg, Quantity: q.s.\nTake 3 tabs q.i.d. for 4 days, then 2 tabs t.i.d. for 3 days, then 1 tab t.i.d. for 2 days, then 1 tab b.i.d. for\n2 days, then 1 tab q.d. for 2 days, then 1/2 tab q.d. for 2 days. How many 10 mg tablets must be\ndispensed to fill the prescription?"
+  },
+  {
+    "id": "ptcb-org-0301",
+    "raw_number": "4.144",
+    "text": "How many 1 oz bottles can be filled if 100 mL of a 30% acetic acid solution is diluted to 4%?",
+    "choices": [
+      "25",
+      "30",
+      "45",
+      "55"
+    ],
+    "correct": null,
+    "notes": "How many 1 oz bottles can be filled if 100 mL of a 30% acetic acid solution is diluted\nto 4%?"
+  },
+  {
+    "id": "ptcb-org-0302",
+    "raw_number": "4.145",
+    "text": "A pharmacy receives a new prescription that reads: Prednisone 5 mg, Sig: 30 mg PO day 1, 25 mg PO day 2, 20 mg PO day 3, 10 mg PO day 4, 5 mg PO day 5, 2.5 mg PO day 6. What is the correct number of tablets to be dispensed?",
+    "choices": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives a new prescription that reads: Prednisone 5 mg, Sig: 30 mg PO\nday 1, 25 mg PO day 2, 20 mg PO day 3, 10 mg PO day 4, 5 mg PO day 5, 2.5 mg PO day 6. What is the\ncorrect number of tablets to be dispensed?"
+  },
+  {
+    "id": "ptcb-org-0303",
+    "raw_number": "4.146",
+    "text": "What volume, in mL, of 50% stock solution should be administered to a patient who is prescribed magnesium sulfate 2 g IV? PTCB Practice Exam (Questions Only) Page 76 of 85",
+    "choices": [
+      "0.04",
+      "0.4",
+      "4",
+      "40"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of 50% stock solution should be administered to a patient who\nis prescribed magnesium sulfate 2 g IV?\nPTCB Practice Exam (Questions Only) Page 76 of 85"
+  },
+  {
+    "id": "ptcb-org-0304",
+    "raw_number": "4.147",
+    "text": "Amoxicillin is ordered at 40 mg/kg/day in 3 divided doses for a 15 lb infant. If the stock solution is amoxicillin 125 mg/5 mL, what volume, in mL, should be administered per dose?",
+    "choices": [
+      "1.5",
+      "3.6",
+      "4.0",
+      "10.8"
+    ],
+    "correct": null,
+    "notes": "Amoxicillin is ordered at 40 mg/kg/day in 3 divided doses for a 15 lb infant. If the\nstock solution is amoxicillin 125 mg/5 mL, what volume, in mL, should be administered per dose?"
+  },
+  {
+    "id": "ptcb-org-0305",
+    "raw_number": "4.148",
+    "text": "How many fentanyl transdermal patches should be dispensed to a patient who is applying one patch every 72 hours for 2 weeks?",
+    "choices": [
+      "2",
+      "4",
+      "5",
+      "14"
+    ],
+    "correct": null,
+    "notes": "How many fentanyl transdermal patches should be dispensed to a patient who is\napplying one patch every 72 hours for 2 weeks?"
+  },
+  {
+    "id": "ptcb-org-0306",
+    "raw_number": "4.149",
+    "text": "A patient whose body surface area is 1.78 m2 is to receive 5-fluorouracil 650 mg/m2/ day for 5 days. What is the total amount of medication, in g, this patient should receive during this course of therapy?",
+    "choices": [
+      "1.157",
+      "5.785",
+      "1157",
+      "5785"
+    ],
+    "correct": null,
+    "notes": "A patient whose body surface area is 1.78 m2 is to receive 5-fluorouracil 650 mg/m2/\nday for 5 days. What is the total amount of medication, in g, this patient should receive during this\ncourse of therapy?"
+  },
+  {
+    "id": "ptcb-org-0307",
+    "raw_number": "4.150",
+    "text": "A patient is taking a medication prescribed by a physician at a dosing schedule of 2 tablets every 4 hours. If the patient is receiving 240 tablets at each fill, for how many days will the prescription supply last? PTCB Practice Exam (Questions Only) Page 77 of 85",
+    "choices": [
+      "20",
+      "30",
+      "40",
+      "60"
+    ],
+    "correct": null,
+    "notes": "A patient is taking a medication prescribed by a physician at a dosing schedule of 2\ntablets every 4 hours. If the patient is receiving 240 tablets at each fill, for how many days will the\nprescription supply last?\nPTCB Practice Exam (Questions Only) Page 77 of 85"
+  },
+  {
+    "id": "ptcb-org-0308",
+    "raw_number": "4.151",
+    "text": "How many 1 oz jars can be filled with 500 g of a triple antibiotic ointment?",
+    "choices": [
+      "16",
+      "25",
+      "32",
+      "50"
+    ],
+    "correct": null,
+    "notes": "How many 1 oz jars can be filled with 500 g of a triple antibiotic ointment?"
+  },
+  {
+    "id": "ptcb-org-0309",
+    "raw_number": "4.152",
+    "text": "What volume, in mL, of a co-trimoxazole oral suspension containing trimethoprim 40 mg per teaspoon and sulfamethoxazole 200 mg per teaspoon should be repackaged in an oral syringe to equal co-trimoxazole double strength, containing trimethoprim 160 mg and sulfamethoxazole 800 mg?",
+    "choices": [
+      "4",
+      "10",
+      "16",
+      "20"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of a co-trimoxazole oral suspension containing trimethoprim 40\nmg per teaspoon and sulfamethoxazole 200 mg per teaspoon should be repackaged in an oral\nsyringe to equal co-trimoxazole double strength, containing trimethoprim 160 mg and\nsulfamethoxazole 800 mg?"
+  },
+  {
+    "id": "ptcb-org-0310",
+    "raw_number": "4.153",
+    "text": "The recommended dosage of a medication is 30 mg/kg b.i.d. The daily dose, in mg, for a 126 lb patient would be:",
+    "choices": [
+      "756",
+      "1718",
+      "3000",
+      "3436"
+    ],
+    "correct": null,
+    "notes": "The recommended dosage of a medication is 30 mg/kg b.i.d. The daily dose, in mg,\nfor a 126 lb patient would be:"
+  },
+  {
+    "id": "ptcb-org-0311",
+    "raw_number": "4.154",
+    "text": "The directions for diluting a 0.25 g vial of a drug read, \"Add 0.8 mL sterile water; each mL will contain 0.25 g.\" What volume, in mL, of the final solution will deliver a 500 mg dose? PTCB Practice Exam (Questions Only) Page 78 of 85",
+    "choices": [
+      "0.5",
+      "2",
+      "10",
+      "20"
+    ],
+    "correct": null,
+    "notes": "The directions for diluting a 0.25 g vial of a drug read, \"Add 0.8 mL sterile water;\neach mL will contain 0.25 g.\" What volume, in mL, of the final solution will deliver a 500 mg dose?\nPTCB Practice Exam (Questions Only) Page 78 of 85"
+  },
+  {
+    "id": "ptcb-org-0312",
+    "raw_number": "4.155",
+    "text": "A patient is to receive 30 mcg of a drug every day until a total cumulative dose of 1.5 mg is achieved. How many days will this therapy last?",
+    "choices": [
+      "30",
+      "45",
+      "50",
+      "55"
+    ],
+    "correct": null,
+    "notes": "A patient is to receive 30 mcg of a drug every day until a total cumulative dose of 1.5\nmg is achieved. How many days will this therapy last?"
+  },
+  {
+    "id": "ptcb-org-0313",
+    "raw_number": "4.156",
+    "text": "The prescribed dose of Humulin R U-100 insulin is 10 units q.a.m. and 30 units q.p.m. a.c. How many 10 mL vials will be needed for a minimum of 30 days supply?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": null,
+    "notes": "The prescribed dose of Humulin R U-100 insulin is 10 units q.a.m. and 30 units\nq.p.m. a.c. How many 10 mL vials will be needed for a minimum of 30 days supply?"
+  },
+  {
+    "id": "ptcb-org-0314",
+    "raw_number": "4.157",
+    "text": "A physician writes a prescription for \"lactulose syrup 1 tbsp PO b.i.d.\" What volume, in mL, should the patient take per day?",
+    "choices": [
+      "5",
+      "10",
+      "30",
+      "60"
+    ],
+    "correct": null,
+    "notes": "A physician writes a prescription for \"lactulose syrup 1 tbsp PO b.i.d.\" What volume,\nin mL, should the patient take per day?"
+  },
+  {
+    "id": "ptcb-org-0315",
+    "raw_number": "4.158",
+    "text": "What volume, in mL, of digitoxin 0.2 mg/mL solution is required to deliver 0.03 mg of digitoxin? PTCB Practice Exam (Questions Only) Page 79 of 85",
+    "choices": [
+      "0.015",
+      "0.15",
+      "0.60",
+      "1.50"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of digitoxin 0.2 mg/mL solution is required to deliver 0.03 mg of\ndigitoxin?\nPTCB Practice Exam (Questions Only) Page 79 of 85"
+  },
+  {
+    "id": "ptcb-org-0316",
+    "raw_number": "4.159",
+    "text": "A physician prescribes 210 mL of amoxicillin 250 mg/5 mL with the directions 2 tsp PO three times daily. What is the days supply of this prescription?",
+    "choices": [
+      "7",
+      "8",
+      "10",
+      "14"
+    ],
+    "correct": null,
+    "notes": "A physician prescribes 210 mL of amoxicillin 250 mg/5 mL with the directions 2 tsp\nPO three times daily. What is the days supply of this prescription?"
+  },
+  {
+    "id": "ptcb-org-0317",
+    "raw_number": "4.160",
+    "text": "How much Mylanta, in mL, should be dispensed for the following prescription? Mylanta 1 oz q.i.d. (a.c. and h.s.) x 7 days.",
+    "choices": [
+      "210",
+      "420",
+      "660",
+      "840"
+    ],
+    "correct": null,
+    "notes": "How much Mylanta, in mL, should be dispensed for the following prescription?\nMylanta 1 oz q.i.d. (a.c. and h.s.) x 7 days."
+  },
+  {
+    "id": "ptcb-org-0318",
+    "raw_number": "4.161",
+    "text": "A prescription for a child calls for amoxicillin suspension 150 mg q8h. The available amoxicillin suspension is 250 mg/5 mL. What volume, in mL, should the child receive daily?",
+    "choices": [
+      "2.4",
+      "3",
+      "9",
+      "24"
+    ],
+    "correct": null,
+    "notes": "A prescription for a child calls for amoxicillin suspension 150 mg q8h. The available\namoxicillin suspension is 250 mg/5 mL. What volume, in mL, should the child receive daily?"
+  },
+  {
+    "id": "ptcb-org-0319",
+    "raw_number": "4.162",
+    "text": "What volume, in mL, of morphine sulfate that comes in 10 mL vials at a concentration of 5 mg/ mL will be needed to fill an order for 25 mg? PTCB Practice Exam (Questions Only) Page 80 of 85",
+    "choices": [
+      "0.5",
+      "2",
+      "2.5",
+      "5"
+    ],
+    "correct": null,
+    "notes": "What volume, in mL, of morphine sulfate that comes in 10 mL vials at a\nconcentration of 5 mg/ mL will be needed to fill an order for 25 mg?\nPTCB Practice Exam (Questions Only) Page 80 of 85"
+  },
+  {
+    "id": "ptcb-org-0320",
+    "raw_number": "4.163",
+    "text": "A chemotherapy regimen calls for cisplatin 75 mg/m2. The patient's weight is listed at 80 kg, and his body surface area (BSA) is 1.8 square meters. What is the proper dosage of cisplatin, in mg?",
+    "choices": [
+      "41.7",
+      "135",
+      "243",
+      "600"
+    ],
+    "correct": null,
+    "notes": "A chemotherapy regimen calls for cisplatin 75 mg/m2. The patient's weight is listed\nat 80 kg, and his body surface area (BSA) is 1.8 square meters. What is the proper dosage of\ncisplatin, in mg?"
+  },
+  {
+    "id": "ptcb-org-0321",
+    "raw_number": "4.164",
+    "text": "A prescription reads: Famotidine 40 mg/5 mL, 50 mL, Sig: 0.4 mL PO t.i.d. What amount of medication, in mg, is given each day?",
+    "choices": [
+      "1.2",
+      "3.2",
+      "6.4",
+      "9.6"
+    ],
+    "correct": null,
+    "notes": "A prescription reads: Famotidine 40 mg/5 mL, 50 mL, Sig: 0.4 mL PO t.i.d. What\namount of medication, in mg, is given each day?"
+  },
+  {
+    "id": "ptcb-org-0322",
+    "raw_number": "4.165",
+    "text": "The recommended child dose of cephalexin is 25 mg/kg/day in two divided doses. If the child weighs 44 lb, what is the correct individual dose?",
+    "choices": [
+      "250 mg b.i.d.",
+      "375 mg b.i.d.",
+      "250 mg daily",
+      "375 mg daily"
+    ],
+    "correct": null,
+    "notes": "The recommended child dose of cephalexin is 25 mg/kg/day in two divided doses. If\nthe child weighs 44 lb, what is the correct individual dose?"
+  },
+  {
+    "id": "ptcb-org-0323",
+    "raw_number": "4.166",
+    "text": "A physician prescribes 5 mg of a drug per kg of body weight b.i.d. for a patient weighing 110 lb. How many 0.5 g tablets of the drug are required for a 10 day duration? PTCB Practice Exam (Questions Only) Page 81 of 85",
+    "choices": [
+      "5",
+      "10",
+      "20",
+      "40"
+    ],
+    "correct": null,
+    "notes": "A physician prescribes 5 mg of a drug per kg of body weight b.i.d. for a patient\nweighing 110 lb. How many 0.5 g tablets of the drug are required for a 10 day duration?\nPTCB Practice Exam (Questions Only) Page 81 of 85"
+  },
+  {
+    "id": "ptcb-org-0324",
+    "raw_number": "4.167",
+    "text": "How many grams of dextrose are contained in 400 mL of 70% dextrose solution?",
+    "choices": [
+      "120",
+      "280",
+      "400",
+      "700"
+    ],
+    "correct": null,
+    "notes": "How many grams of dextrose are contained in 400 mL of 70% dextrose solution?"
+  },
+  {
+    "id": "ptcb-org-0325",
+    "raw_number": "4.168",
+    "text": "How much diphenhydramine elixir 12.5 mg/tsp is required, in mL, to fill the prescription, \"Diphenhydramine 50 mg t.i.d. for 7 days\"?",
+    "choices": [
+      "105",
+      "240",
+      "420",
+      "480"
+    ],
+    "correct": null,
+    "notes": "How much diphenhydramine elixir 12.5 mg/tsp is required, in mL, to fill the\nprescription, \"Diphenhydramine 50 mg t.i.d. for 7 days\"?"
+  },
+  {
+    "id": "ptcb-org-0326",
+    "raw_number": "4.169",
+    "text": "A patient's prescribed dose is 500 mg PO q.i.d. How many tablets are required to provide a 24 hour supply if the pharmacy stocks only 250 mg tablets?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": null,
+    "notes": "A patient's prescribed dose is 500 mg PO q.i.d. How many tablets are required to\nprovide a 24 hour supply if the pharmacy stocks only 250 mg tablets?"
+  },
+  {
+    "id": "ptcb-org-0327",
+    "raw_number": "4.170",
+    "text": "How many total drops should be given in a day with the instructions, \"ii gtt OU q.i.d.\"? PTCB Practice Exam (Questions Only) Page 82 of 85",
+    "choices": [
+      "4",
+      "8",
+      "16",
+      "20"
+    ],
+    "correct": null,
+    "notes": "How many total drops should be given in a day with the instructions, \"ii gtt OU\nq.i.d.\"?\nPTCB Practice Exam (Questions Only) Page 82 of 85"
+  },
+  {
+    "id": "ptcb-org-0328",
+    "raw_number": "4.171",
+    "text": "How many 0.75 mg tablets are needed to administer a 6 mg dose daily for 4 days?",
+    "choices": [
+      "6",
+      "14",
+      "16",
+      "32"
+    ],
+    "correct": null,
+    "notes": "How many 0.75 mg tablets are needed to administer a 6 mg dose daily for 4 days?"
+  },
+  {
+    "id": "ptcb-org-0329",
+    "raw_number": "4.172",
+    "text": "How much magnesium sulfate 50%, in mL, is needed for a dose of 42 g?",
+    "choices": [
+      "21",
+      "42",
+      "63",
+      "84"
+    ],
+    "correct": null,
+    "notes": "How much magnesium sulfate 50%, in mL, is needed for a dose of 42 g?"
+  },
+  {
+    "id": "ptcb-org-0330",
+    "raw_number": "4.173",
+    "text": "A physician orders phenobarbital elixir 60 mg for a patient. The drug is available in a 20 mg/5 mL concentration. How many tsp should be given for each dose?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": null,
+    "notes": "A physician orders phenobarbital elixir 60 mg for a patient. The drug is available in a\n20 mg/5 mL concentration. How many tsp should be given for each dose?"
+  },
+  {
+    "id": "ptcb-org-0331",
+    "raw_number": "4.174",
+    "text": "The pharmacy needs 300 mL of 25% dextrose. The pharmacy has 75% dextrose on hand. What volume of sterile water, in mL, will be needed to achieve the desired strength of 25%? PTCB Practice Exam (Questions Only) Page 83 of 85",
+    "choices": [
+      "100",
+      "150",
+      "170",
+      "200"
+    ],
+    "correct": null,
+    "notes": "The pharmacy needs 300 mL of 25% dextrose. The pharmacy has 75% dextrose on\nhand. What volume of sterile water, in mL, will be needed to achieve the desired strength of 25%?\nPTCB Practice Exam (Questions Only) Page 83 of 85"
+  },
+  {
+    "id": "ptcb-org-0332",
+    "raw_number": "4.175",
+    "text": "A pharmacy receives the following prescription: Warfarin 2.5 mg tablets, Disp: 4 weeks supply, Sig: 1 tab PO on Monday, Wednesday, and Friday, and 0.5 tab on Sunday, Tuesday, Thursday, and Saturday. What quantity of tablets will be needed to fill this prescription if the first dose is taken on a Sunday?",
+    "choices": [
+      "14",
+      "20",
+      "22",
+      "28"
+    ],
+    "correct": null,
+    "notes": "A pharmacy receives the following prescription: Warfarin 2.5 mg tablets, Disp: 4\nweeks supply, Sig: 1 tab PO on Monday, Wednesday, and Friday, and 0.5 tab on Sunday, Tuesday,\nThursday, and Saturday. What quantity of tablets will be needed to fill this prescription if the first\ndose is taken on a Sunday?"
+  },
+  {
+    "id": "ptcb-org-0333",
+    "raw_number": "4.176",
+    "text": "A medication is ordered in a dose of 0.5 mg/kg/day. If the patient weighs 260 lb, what should the daily dose be, in mg?",
+    "choices": [
+      "30",
+      "59",
+      "120",
+      "180"
+    ],
+    "correct": null,
+    "notes": "A medication is ordered in a dose of 0.5 mg/kg/day. If the patient weighs 260 lb, what\nshould the daily dose be, in mg?"
+  },
+  {
+    "id": "ptcb-org-0334",
+    "raw_number": "4.177",
+    "text": "How much neomycin, in g, is needed to make 1500 mL of a 0.25% solution for irrigation?",
+    "choices": [
+      "3.75",
+      "6",
+      "37.5",
+      "60"
+    ],
+    "correct": null,
+    "notes": "How much neomycin, in g, is needed to make 1500 mL of a 0.25% solution for\nirrigation?"
+  },
+  {
+    "id": "ptcb-org-0335",
+    "raw_number": "4.178",
+    "text": "If 250 mL of 10% methyl salicylate in alcohol is diluted to 1000 mL, what will be the percentage strength of the final volume? PTCB Practice Exam (Questions Only) Page 84 of 85",
+    "choices": [
+      "0.25%",
+      "2.5%",
+      "10%",
+      "25%"
+    ],
+    "correct": null,
+    "notes": "If 250 mL of 10% methyl salicylate in alcohol is diluted to 1000 mL, what will be the\npercentage strength of the final volume?\nPTCB Practice Exam (Questions Only) Page 84 of 85"
+  },
+  {
+    "id": "ptcb-org-0336",
+    "raw_number": "4.179",
+    "text": "An order for a 1 mg atropine injection is filled using a vial labeled 0.4 mg/mL. What volume of the solution, in mL, should be administered? PTCB Practice Exam (Questions Only) Page 85 of 85",
+    "choices": [
+      "0.4",
+      "1.5",
+      "2",
+      "2.5"
+    ],
+    "correct": null,
+    "notes": "An order for a 1 mg atropine injection is filled using a vial labeled 0.4 mg/mL. What\nvolume of the solution, in mL, should be administered?\nPTCB Practice Exam (Questions Only) Page 85 of 85"
+  }
+]

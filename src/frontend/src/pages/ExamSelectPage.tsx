@@ -61,6 +61,37 @@ const DOMAIN_WEIGHTS = [
   { kind: "OrderEntry" as const, pct: 21.25 },
 ];
 
+function getPracticeVersionIds(examId: string): string[] {
+  if (examId === "ptcb-org") {
+    return ["ptcb-org-v1", "ptcb-org-v2", "ptcb-org-v3"];
+  }
+
+  return [
+    "ptcb-v1",
+    "ptcb-v2",
+    "ptcb-v3",
+    "ptcb-v4",
+    "ptcb-v5",
+    "ptcb-v6",
+    "ptcb-v7",
+    "ptcb-v8",
+    "ptcb-v9",
+    "ptcb-v10",
+    "ptcb-v11",
+  ];
+}
+
+function getSpecialVersionId(
+  examId: string,
+  mode: "daily-quiz" | "weak-areas" | "randomized" | "full-pool",
+): string {
+  return `${examId}-${mode}`;
+}
+
+function getPoolSize(examId: string): number {
+  return examId === "ptcb-org" ? 336 : 990;
+}
+
 /* Removed static fallback catalog (now using backend-supplied versions only) */
 
 /** Fisher-Yates shuffle using a string seed */
@@ -172,23 +203,11 @@ function WeakAreasVersionCard({
   const actorReady = !!actor && !isFetching;
 
   const handleStart = async () => {
-    if (!actor || isFetching || weakKinds.length === 0) return;
+    if (!actor || isFetching) return;
     setIsBuilding(true);
     setBuildError(null);
     try {
-      const versionIds = [
-        "ptcb-v1",
-        "ptcb-v2",
-        "ptcb-v3",
-        "ptcb-v4",
-        "ptcb-v5",
-        "ptcb-v6",
-        "ptcb-v7",
-        "ptcb-v8",
-        "ptcb-v9",
-        "ptcb-v10",
-        "ptcb-v11",
-      ];
+      const versionIds = getPracticeVersionIds(examId);
       const results = await Promise.allSettled(
         versionIds.map((id) =>
           (actor as unknown as AnyActor).getExamQuestions(id),
@@ -209,9 +228,10 @@ function WeakAreasVersionCard({
       }
 
       // Filter to weak domain questions only
-      const weakPool = pool.filter((q) =>
-        weakKinds.includes(q.knowledgeDomain.__kind__),
-      );
+      const weakPool =
+        weakKinds.length > 0
+          ? pool.filter((q) => weakKinds.includes(q.knowledgeDomain.__kind__))
+          : [];
       const shuffled = fisherYates(
         weakPool.length > 0 ? weakPool : pool,
         Date.now().toString(),
@@ -220,7 +240,7 @@ function WeakAreasVersionCard({
       const selected = shuffled.slice(0, TARGET);
 
       startSession(
-        "ptcb-weak-areas",
+        getSpecialVersionId(examId, "weak-areas"),
         examId,
         selected,
         45, // 45-minute timer for 35 questions
@@ -229,7 +249,7 @@ function WeakAreasVersionCard({
       );
       router.navigate({
         to: "/exam/$versionId",
-        params: { versionId: "ptcb-weak-areas" },
+        params: { versionId: getSpecialVersionId(examId, "weak-areas") },
       });
     } catch {
       setBuildError("Failed to build Weak Areas exam. Please try again.");
@@ -369,17 +389,20 @@ function DailyQuizVersionCard({
 
   const QUIZ_QUESTION_COUNT = 25;
   const QUIZ_TIMER_MINUTES = 30;
+  const isPtcbOrg = examId === "ptcb-org";
+  const poolSize = getPoolSize(examId);
 
   const handleStart = async () => {
     if (!actor || isFetching) return;
     setIsBuilding(true);
     setBuildError(null);
     try {
-      const results = await Promise.allSettled([
-        (actor as unknown as AnyActor).getExamQuestions("ptcb-v1"),
-        (actor as unknown as AnyActor).getExamQuestions("ptcb-v2"),
-        (actor as unknown as AnyActor).getExamQuestions("ptcb-v3"),
-      ]);
+      const versionIds = getPracticeVersionIds(examId);
+      const results = await Promise.allSettled(
+        versionIds.map((id) =>
+          (actor as unknown as AnyActor).getExamQuestions(id),
+        ),
+      );
       const pool = results
         .filter(
           (r): r is PromiseFulfilledResult<Question[]> =>
@@ -416,7 +439,7 @@ function DailyQuizVersionCard({
       );
 
       startSession(
-        "ptcb-daily-quiz",
+        getSpecialVersionId(examId, "daily-quiz"),
         examId,
         quizQuestions,
         QUIZ_TIMER_MINUTES,
@@ -425,7 +448,7 @@ function DailyQuizVersionCard({
       );
       router.navigate({
         to: "/exam/$versionId",
-        params: { versionId: "ptcb-daily-quiz" },
+        params: { versionId: getSpecialVersionId(examId, "daily-quiz") },
       });
     } catch {
       setBuildError("Failed to build the Daily Quiz. Please try again.");
@@ -455,8 +478,9 @@ function DailyQuizVersionCard({
             </span>
           </div>
           <p className="text-xs font-body text-muted-foreground max-w-xl">
-            25 randomized questions sampled across all PTCE domains — perfect
-            for a quick daily practice session. Finish in under 30 minutes.
+            {isPtcbOrg
+              ? `25 randomized questions sampled from the full ${poolSize}-question PTCB ORG pool — perfect for a quick daily review session.`
+              : "25 randomized questions sampled across all PTCE domains — perfect for a quick daily practice session. Finish in under 30 minutes."}
           </p>
         </div>
       </div>
@@ -476,7 +500,7 @@ function DailyQuizVersionCard({
         </span>
         <span className="flex items-center gap-1.5">
           <Zap className="w-3.5 h-3.5 text-primary" />
-          PTCE domain-weighted
+          {isPtcbOrg ? `${poolSize}-question pool sample` : "PTCE domain-weighted"}
         </span>
       </div>
 
@@ -528,18 +552,18 @@ function VersionCard({
   examId: string;
   index: number;
 }) {
-  if (version.id === "ptcb-daily-quiz") {
+  if (version.id.endsWith("-daily-quiz")) {
     return <DailyQuizVersionCard examId={examId} index={index} />;
   }
-  if (version.id === "ptcb-weak-areas") {
+  if (version.id.endsWith("-weak-areas")) {
     return <WeakAreasVersionCard examId={examId} index={index} />;
   }
-  if (version.id === "ptcb-randomized") {
+  if (version.id.endsWith("-randomized")) {
     return (
       <RandomizedVersionCard version={version} examId={examId} index={index} />
     );
   }
-  if (version.id === "ptcb-full-pool") {
+  if (version.id.endsWith("-full-pool")) {
     return (
       <FullPoolVersionCard version={version} examId={examId} index={index} />
     );
@@ -604,10 +628,10 @@ function StandardVersionCard({
         </div>
         <span className="text-xs font-mono text-primary font-semibold bg-primary/10 border border-primary/20 px-2 py-1 rounded-md">
           {(() => {
-            const m = version.id.match(/^ptcb-v(\d+)$/);
+            const m = version.id.match(/-v(\d+)$/);
             if (m) return `v${m[1]}`;
-            if (version.id === "ptcb-randomized") return "RAND";
-            if (version.id === "ptcb-full-pool") return "FULL";
+            if (version.id.endsWith("-randomized")) return "RAND";
+            if (version.id.endsWith("-full-pool")) return "FULL";
             return "";
           })()}
         </span>
@@ -685,17 +709,20 @@ function RandomizedVersionCard({
   const [isBuilding, setIsBuilding] = useState(false);
   const [buildError, setBuildError] = useState<string | null>(null);
   const { actor, isFetching } = useActor(createActor);
+  const isPtcbOrg = examId === "ptcb-org";
+  const poolSize = getPoolSize(examId);
 
   const handleStart = async () => {
     if (!actor || isFetching) return;
     setIsBuilding(true);
     setBuildError(null);
     try {
-      const results = await Promise.allSettled([
-        (actor as unknown as AnyActor).getExamQuestions("ptcb-v1"),
-        (actor as unknown as AnyActor).getExamQuestions("ptcb-v2"),
-        (actor as unknown as AnyActor).getExamQuestions("ptcb-v3"),
-      ]);
+      const versionIds = getPracticeVersionIds(examId);
+      const results = await Promise.allSettled(
+        versionIds.map((id) =>
+          (actor as unknown as AnyActor).getExamQuestions(id),
+        ),
+      );
       const pool = results
         .filter(
           (r): r is PromiseFulfilledResult<Question[]> =>
@@ -749,8 +776,9 @@ function RandomizedVersionCard({
             </h3>
           </div>
           <p className="text-xs font-body text-muted-foreground">
-            90 random questions drawn from all PTCB versions. A new set each
-            time you start.
+            {isPtcbOrg
+              ? `90 random questions drawn from the full ${poolSize}-question PTCB ORG pool. A new set each time you start.`
+              : "90 random questions drawn from all PTCB versions. A new set each time you start."}
           </p>
         </div>
         <span className="text-xs font-mono text-primary font-semibold bg-primary/10 border border-primary/20 px-2 py-1 rounded-md shrink-0">
@@ -829,8 +857,11 @@ function FullPoolVersionCard({
   const [buildError, setBuildError] = useState<string | null>(null);
   const [loadedCount, setLoadedCount] = useState(0);
   const { actor, isFetching } = useActor(createActor);
+  const isPtcbOrg = examId === "ptcb-org";
+  const poolSize = getPoolSize(examId);
 
-  const TOTAL_VERSIONS = 11;
+  const versionIds = getPracticeVersionIds(examId);
+  const TOTAL_VERSIONS = versionIds.length;
 
   const handleStart = async () => {
     if (!actor || isFetching) return;
@@ -838,19 +869,6 @@ function FullPoolVersionCard({
     setBuildError(null);
     setLoadedCount(0);
     try {
-      const versionIds = [
-        "ptcb-v1",
-        "ptcb-v2",
-        "ptcb-v3",
-        "ptcb-v4",
-        "ptcb-v5",
-        "ptcb-v6",
-        "ptcb-v7",
-        "ptcb-v8",
-        "ptcb-v9",
-        "ptcb-v10",
-        "ptcb-v11",
-      ];
       const allQuestions: Question[] = [];
       let successCount = 0;
       for (const id of versionIds) {
@@ -876,7 +894,7 @@ function FullPoolVersionCard({
         ? timerMinutes
         : Number(version.timeLimitMinutes);
       startSession(
-        "ptcb-full-pool",
+        getSpecialVersionId(examId, "full-pool"),
         examId,
         shuffled,
         effectiveMinutes,
@@ -885,7 +903,7 @@ function FullPoolVersionCard({
       );
       router.navigate({
         to: "/exam/$versionId",
-        params: { versionId: "ptcb-full-pool" },
+        params: { versionId: getSpecialVersionId(examId, "full-pool") },
       });
     } catch {
       setBuildError("Failed to build the Full Pool exam. Please try again.");
@@ -908,16 +926,18 @@ function FullPoolVersionCard({
           <div className="flex items-center gap-2 mb-1">
             <Database className="w-4 h-4 text-accent" />
             <h3 className="font-display font-semibold text-foreground">
-              Full Pool Exam — All Questions
+              {isPtcbOrg
+                ? `Full Pool Exam — All ${poolSize} Questions`
+                : "Full Pool Exam — All Questions"}
             </h3>
             <span className="text-xs font-mono text-accent font-semibold bg-accent/10 border border-accent/20 px-2 py-0.5 rounded-md">
               FULL
             </span>
           </div>
           <p className="text-xs font-body text-muted-foreground max-w-xl">
-            All ~990 questions from the complete PTCB question pool in a single
-            session — shuffled fresh every time. Far more coverage than the real
-            PTCE (90 questions) — ideal for exhaustive preparation.
+            {isPtcbOrg
+              ? `All ${poolSize} imported PTCB ORG questions in one session — shuffled fresh every time for maximum coverage of the full pool.`
+              : "All ~990 questions from the complete PTCB question pool in a single session — shuffled fresh every time. Far more coverage than the real PTCE (90 questions) — ideal for exhaustive preparation."}
           </p>
         </div>
       </div>
@@ -925,11 +945,11 @@ function FullPoolVersionCard({
       <div className="flex flex-wrap items-center gap-5 text-xs font-body text-muted-foreground">
         <span className="flex items-center gap-1.5">
           <ListOrdered className="w-3.5 h-3.5" />
-          ~990 questions total
+          {isPtcbOrg ? `${poolSize} questions total` : "~990 questions total"}
         </span>
         <span className="flex items-center gap-1.5">
           <HelpCircle className="w-3.5 h-3.5" />
-          All ~990 scored
+          {isPtcbOrg ? `All ${poolSize} scored` : "All ~990 scored"}
         </span>
         <span className="flex items-center gap-1.5">
           <Clock className="w-3.5 h-3.5" />
@@ -937,31 +957,43 @@ function FullPoolVersionCard({
         </span>
       </div>
 
-      <div className="bg-muted/30 border border-border rounded-lg px-4 py-3">
-        <p className="text-xs font-display font-semibold text-muted-foreground mb-2.5 uppercase tracking-wider">
-          Official PTCE Domain Distribution
-        </p>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {PTCE_DOMAINS.map((d) => (
-            <div key={d.label} className="flex flex-col gap-1">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-body text-muted-foreground truncate pr-1">
-                  {d.label}
-                </span>
-                <span className="text-xs font-mono font-semibold text-foreground shrink-0">
-                  {d.pct}%
-                </span>
-              </div>
-              <div className="h-1.5 bg-muted rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-primary/60 rounded-full"
-                  style={{ width: `${d.pct}%` }}
-                />
-              </div>
-            </div>
-          ))}
+      {isPtcbOrg ? (
+        <div className="bg-muted/30 border border-border rounded-lg px-4 py-3">
+          <p className="text-xs font-display font-semibold text-muted-foreground mb-1 uppercase tracking-wider">
+            PTCB ORG Pool Coverage
+          </p>
+          <p className="text-xs font-body text-muted-foreground">
+            Combines all three imported variants (112 + 112 + 112) for a full
+            {` ${poolSize}`}-question session.
+          </p>
         </div>
-      </div>
+      ) : (
+        <div className="bg-muted/30 border border-border rounded-lg px-4 py-3">
+          <p className="text-xs font-display font-semibold text-muted-foreground mb-2.5 uppercase tracking-wider">
+            Official PTCE Domain Distribution
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {PTCE_DOMAINS.map((d) => (
+              <div key={d.label} className="flex flex-col gap-1">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-body text-muted-foreground truncate pr-1">
+                    {d.label}
+                  </span>
+                  <span className="text-xs font-mono font-semibold text-foreground shrink-0">
+                    {d.pct}%
+                  </span>
+                </div>
+                <div className="h-1.5 bg-muted rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-primary/60 rounded-full"
+                    style={{ width: `${d.pct}%` }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {buildError && (
         <ErrorBanner message={buildError} onRetry={() => setBuildError(null)} />
@@ -1089,14 +1121,14 @@ export function ExamSelectPage() {
   const useStaticCatalog = false;
 
   // Order versions: keep Daily Quiz and Weak Areas first, then numeric practice
-  // tests sorted by their numeric suffix (ptcb-v1..ptcb-v11), then remaining
+  // tests sorted by their numeric suffix (*-v1..*-vN), then remaining
   // special modes (randomized/full-pool).
   function extractNumericVersionId(v: ExamVersion) {
-    const m = v.id.match(/^ptcb-v(\d+)$/);
+    const m = v.id.match(/-v(\d+)$/);
     return m ? Number(m[1]) : null;
   }
   const specialsFirst = displayVersions.filter(
-    (v) => v.id === "ptcb-daily-quiz" || v.id === "ptcb-weak-areas",
+    (v) => v.id.endsWith("-daily-quiz") || v.id.endsWith("-weak-areas"),
   );
   const numericVersions = displayVersions
     .filter((v) => extractNumericVersionId(v) !== null)
@@ -1106,8 +1138,8 @@ export function ExamSelectPage() {
     );
   const otherModes = displayVersions.filter(
     (v) =>
-      v.id !== "ptcb-daily-quiz" &&
-      v.id !== "ptcb-weak-areas" &&
+      !v.id.endsWith("-daily-quiz") &&
+      !v.id.endsWith("-weak-areas") &&
       extractNumericVersionId(v) === null,
   );
   const orderedVersions = [...specialsFirst, ...numericVersions, ...otherModes];
