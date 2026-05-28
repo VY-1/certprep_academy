@@ -166,6 +166,62 @@ module {
     };
   };
 
+  /// Upsert a persisted explanation overlay entry (overwrite if exists).
+  public func upsertExplanation(
+    explanations : List.List<QuestionExplanation>,
+    expl : QuestionExplanation
+  ) : () {
+    var i : Nat = 0;
+    let n : Nat = explanations.size();
+    var replaced : Bool = false;
+    while (i < n) {
+      let e = explanations.at(i);
+      if (e.id == expl.id) {
+        explanations.put(i, expl);
+        replaced := true;
+        break;
+      };
+      i += 1;
+    };
+    if (not replaced) { explanations.add(expl) };
+  };
+
+  /// Upsert a question entry (overwrite if exists).
+  public func upsertQuestion(
+    questions : List.List<Question>,
+    question : Question
+  ) : () {
+    var i : Nat = 0;
+    let n : Nat = questions.size();
+    var replaced : Bool = false;
+    while (i < n) {
+      let q = questions.at(i);
+      if (q.id == question.id) {
+        questions.put(i, question);
+        replaced := true;
+        break;
+      };
+      i += 1;
+    };
+    if (not replaced) { questions.add(question) };
+  };
+
+  /// Bulk upsert questions.
+  public func upsertQuestions(
+    questions : List.List<Question>,
+    qs : [Question]
+  ) : () {
+    for (q in qs.values()) { upsertQuestion(questions, q) };
+  };
+
+  /// Bulk upsert persisted explanation overlays.
+  public func upsertExplanations(
+    explanations : List.List<QuestionExplanation>,
+    expls : [QuestionExplanation]
+  ) : () {
+    for (ex in expls.values()) { upsertExplanation(explanations, ex) };
+  };
+
   /// Add a certification exam only if it does not already exist (idempotent).
   public func addExamIfMissing(
     exams : List.List<CertificationExam>,

@@ -3,31 +3,31 @@
     "explanation": "Sharps containers are rigid, puncture-resistant medical disposal units constructed safely for discarding needles,\nactive syringes, and lancets."
   },
   "ptcb-org-0002": {
-    "explanation": "Pseudoephedrine is a precursor chemical used in the illicit synthesis of methamphetamine. Federal rules restrict\nsales with identification checks."
+    "explanation": "Pseudoephedrine is a precursor chemical used in the illicit synthesis of methamphetamine. Federal rules restrict\nsales with identification checks.\nPTCB Master Blueprint Edition Page 1 of 142"
   },
   "ptcb-org-0003": {
     "explanation": "The Controlled Substances Act mandates that DEA-registered pharmacies perform a comprehensive physical\ninventory count of all controlled items biennially (every 2 years)."
   },
   "ptcb-org-0004": {
-    "explanation": "Risk Evaluation and Mitigation Strategies (REMS) are comprehensive drug safety protocols mandated by the FDA\nto ensure benefits outweigh serious risks."
+    "explanation": "Risk Evaluation and Mitigation Strategies (REMS) are comprehensive drug safety protocols mandated by the FDA\nto ensure benefits outweigh serious risks.\nPTCB Master Blueprint Edition Page 2 of 142"
   },
   "ptcb-org-0005": {
     "explanation": "A lot number identifies a specific batch or production run of a drug from a manufacturer, critical for tracking quality\ncontrol and recalls."
   },
   "ptcb-org-0006": {
-    "explanation": "Suspensions contain undissolved solid particles that settle over time. Shaking ensures uniform distribution of the\nactive ingredient before each dose."
+    "explanation": "Suspensions contain undissolved solid particles that settle over time. Shaking ensures uniform distribution of the\nactive ingredient before each dose.\nPTCB Master Blueprint Edition Page 3 of 142"
   },
   "ptcb-org-0007": {
     "explanation": "The first two segments of an NDC identify the labeler and product formula. If those match, the medication inside is\nidentical, differing only by the last segment (package size)."
   },
   "ptcb-org-0008": {
-    "explanation": "When a manufacturer's expiration date specifies only a month and a year, the product remains safe and fully potent\nuntil the final day of that month."
+    "explanation": "When a manufacturer's expiration date specifies only a month and a year, the product remains safe and fully potent\nuntil the final day of that month.\nPTCB Master Blueprint Edition Page 4 of 142"
   },
   "ptcb-org-0009": {
     "explanation": "Matching labeler (00781) and product code (1506) mean the manufacturer and strength are identical; the varying\nfinal 2 digits represent different pack counts."
   },
   "ptcb-org-0010": {
-    "explanation": "Expired legend drugs must be quarantined from regular inventory and safely transferred to an authorized reverse\ndistributor for legal destruction and credit."
+    "explanation": "Expired legend drugs must be quarantined from regular inventory and safely transferred to an authorized reverse\ndistributor for legal destruction and credit.\nPTCB Master Blueprint Edition Page 5 of 142"
   },
   "ptcb-org-0011": {
     "explanation": "Potency parameters extend up to midnight of the very last day of the calendar month printed on the commercial\npackage."
@@ -36,19 +36,19 @@
     "explanation": "The Latin abbreviation 'PR' (per rectum) identifies a rectal route of administration."
   },
   "ptcb-org-0013": {
-    "explanation": "Dry-powder antibiotics requiring reconstitution must specify the dry shelf life expiration as well as the short-term\nactive limit once liquid is introduced."
+    "explanation": "Dry-powder antibiotics requiring reconstitution must specify the dry shelf life expiration as well as the short-term\nactive limit once liquid is introduced.\nPTCB Master Blueprint Edition Page 6 of 142"
   },
   "ptcb-org-0014": {
     "explanation": "USP Chapter 795 explicitly sets standard regulations for non-sterile compounding (such as basic liquids, ear drops,\ncreams, or ointments)."
   },
   "ptcb-org-0015": {
-    "explanation": "Standard FDA manufacturing policy validates the active potency of biological vaccine vials until the absolute final\ncalendar day of July."
+    "explanation": "Standard FDA manufacturing policy validates the active potency of biological vaccine vials until the absolute final\ncalendar day of July.\nPTCB Master Blueprint Edition Page 7 of 142"
   },
   "ptcb-org-0016": {
     "explanation": "The National Drug Code (NDC) acts as a universal identifier confirming drug identity, manufacturer, and exact\npackage size, preventing pick errors."
   },
   "ptcb-org-0017": {
-    "explanation": "Byetta (Exenatide) is an injectable medication provided in a multi-dose pen delivery device that requires an\nattachable external pen needle."
+    "explanation": "Byetta (Exenatide) is an injectable medication provided in a multi-dose pen delivery device that requires an\nattachable external pen needle.\nPTCB Master Blueprint Edition Page 8 of 142"
   },
   "ptcb-org-0018": {
     "explanation": "Drug product recalls target specific batches. The NDC establishes the product profile line, and the Lot Number\npoints to the affected facility batch."
@@ -57,7 +57,7 @@
     "explanation": "'b.i.d.' represents bis in die, translating directly to 'twice a day', defining the daily frequency parameter."
   },
   "ptcb-org-0020": {
-    "explanation": "'SL ' stands for sublingual, meaning to place or administer a fast-dissolving tablet beneath the tongue."
+    "explanation": "'SL ' stands for sublingual, meaning to place or administer a fast-dissolving tablet beneath the tongue.\nPTCB Master Blueprint Edition Page 9 of 142"
   },
   "ptcb-org-0021": {
     "explanation": "In an internal hospital environment, unopened unit-dose packages returned from floor stock are acceptable to\nreturn to active inventory."
@@ -72,19 +72,19 @@
     "explanation": "Reverse distributors operate to coordinate legal compliance destruction, verification logging, and credits for expired\ncommercial pharmaceuticals."
   },
   "ptcb-org-0025": {
-    "explanation": "'t.i.d.' means three times daily, 'p.c.' means after meals (post cibum), and 'q.h.s.' signifies at bedtime (hora somni)."
+    "explanation": "'t.i.d.' means three times daily, 'p.c.' means after meals (post cibum), and 'q.h.s.' signifies at bedtime (hora somni).\nPTCB Master Blueprint Edition Page 11 of 142"
   },
   "ptcb-org-0026": {
     "explanation": "Lot identification sequences are strictly designated internally by the manufacturer during batch production to track\nchemical synthesis lines."
   },
   "ptcb-org-0027": {
-    "explanation": "The abbreviation 'OD' stands for oculus dexter, which is the standard abbreviation designating the patient's right\neye."
+    "explanation": "The abbreviation 'OD' stands for oculus dexter, which is the standard abbreviation designating the patient's right\neye.\nPTCB Master Blueprint Edition Page 12 of 142"
   },
   "ptcb-org-0028": {
     "explanation": "Shingrix (recombinant shingles vaccine) must be refrigerated between 2°C and 8°C. Freezing it permanently\ndegrades the active viral protein structure."
   },
   "ptcb-org-0029": {
-    "explanation": "When the manufacturer label specifies only the month, the item remains fully potent until the final calendar day of\nthat month (November 30, 2026)."
+    "explanation": "When the manufacturer label specifies only the month, the item remains fully potent until the final calendar day of\nthat month (November 30, 2026).\nPTCB Master Blueprint Edition Page 13 of 142"
   },
   "ptcb-org-0030": {
     "explanation": "Due to capillary action and surface tension, clear liquids form a downward curve in glass containers.\nMeasurements must always be verified at the lowest point, or bottom, of the meniscus curve."
@@ -93,31 +93,31 @@
     "explanation": "Stock rotation ensures that shorter-dated stock is placed forward so that it is consumed before reaching its\nexpiration date."
   },
   "ptcb-org-0032": {
-    "explanation": "Needle gauge scaling is inversely proportional to the diameter size. Therefore, a smaller number code represents a\nlarger physical needle bore diameter."
+    "explanation": "Needle gauge scaling is inversely proportional to the diameter size. Therefore, a smaller number code represents a\nlarger physical needle bore diameter.\nPTCB Master Blueprint Edition Page 14 of 142"
   },
   "ptcb-org-0033": {
     "explanation": "A lot or batch number uniquely logs a specific production run of a compiled or compounded preparation for\ntrackability."
   },
   "ptcb-org-0034": {
-    "explanation": "Class I recalls are the most serious category, designated for situations where exposure to a product has a\nreasonable probability of causing death or permanent severe harm."
+    "explanation": "Class I recalls are the most serious category, designated for situations where exposure to a product has a\nreasonable probability of causing death or permanent severe harm.\nPTCB Master Blueprint Edition Page 15 of 142"
   },
   "ptcb-org-0035": {
     "explanation": "Class III recalls involve minor defects or formatting issues that are unlikely to result in adverse health\nconsequences."
   },
   "ptcb-org-0036": {
-    "explanation": "Fentanyl (Duragesic) is a high-potency opioid classified federally under Controlled Substances Act Schedule II due\nto high potential for severe dependence."
+    "explanation": "Fentanyl (Duragesic) is a high-potency opioid classified federally under Controlled Substances Act Schedule II due\nto high potential for severe dependence.\nPTCB Master Blueprint Edition Page 16 of 142"
   },
   "ptcb-org-0037": {
     "explanation": "OSHA and USP Chapter 800 mandate that specialized toxic containment spill kits be instantly accessible in spaces\nhandling hazardous agents."
   },
   "ptcb-org-0038": {
-    "explanation": "USP Chapter 800 sets absolute safety parameters specifying protective personal equipment barriers including\nappropriate specialized chemotherapy gloves.\nSECTION 2: CONTROLLED SUBSTANCES ACT & FEDERAL LEGAL\nFRAMEWORKS"
+    "explanation": "USP Chapter 800 sets absolute safety parameters specifying protective personal equipment barriers including\nappropriate specialized chemotherapy gloves.\nPTCB Master Blueprint Edition Page 17 of 142\nSECTION 2: CONTROLLED SUBSTANCES ACT & FEDERAL LEGAL\nFRAMEWORKS"
   },
   "ptcb-org-0039": {
     "explanation": "Cisplatin is an antineoplastic (chemotherapy) agent classified as a Group 1 hazardous drug by NIOSH, carrying\ncarcinogenicity and reproductive toxicity risks."
   },
   "ptcb-org-0040": {
-    "explanation": "Task-specific Personal Protective Equipment (PPE), including chemotherapy-rated gowns and double gloving, is a\nbaseline mandate by NIOSH and USP <800>."
+    "explanation": "Task-specific Personal Protective Equipment (PPE), including chemotherapy-rated gowns and double gloving, is a\nbaseline mandate by NIOSH and USP <800>.\nPTCB Master Blueprint Edition Page 18 of 142"
   },
   "ptcb-org-0041": {
     "explanation": "Class I recalls are designated by the FDA for defective, contaminated, or mislabeled products where there is a\nreasonable probability of life-threatening injury or death."
@@ -126,13 +126,13 @@
     "explanation": "OSHA mandates that Safety Data Sheets (SDSs) must be accessible to workplace personnel for every hazardous\nchemical or material kept in the facility."
   },
   "ptcb-org-0043": {
-    "explanation": "The Drug Supply Chain Security Act (DSCSA) requires specific '3Ts' tracing data for prescription drugs:\nTransaction Information (TI), Transaction History (TH), and Transaction Statement (TS)."
+    "explanation": "The Drug Supply Chain Security Act (DSCSA) requires specific '3Ts' tracing data for prescription drugs:\nTransaction Information (TI), Transaction History (TH), and Transaction Statement (TS).\nPTCB Master Blueprint Edition Page 19 of 142"
   },
   "ptcb-org-0044": {
     "explanation": "Isotretinoin is linked to extreme teratogenicity risks (severe birth defects). Consequently, the FDA mandates\nparticipation in the iPLEDGE REMS safety framework."
   },
   "ptcb-org-0045": {
-    "explanation": "Under federal DEA regulations, all records pertaining to controlled substances must be maintained and kept\navailable for inspection for at least 2 years from the date of the last transaction."
+    "explanation": "Under federal DEA regulations, all records pertaining to controlled substances must be maintained and kept\navailable for inspection for at least 2 years from the date of the last transaction.\nPTCB Master Blueprint Edition Page 20 of 142"
   },
   "ptcb-org-0046": {
     "explanation": "The FDA issues medical device safety alerts when an apparatus in commercial circulation presents an\nunreasonable risk of substantial harm or systematic performance failure."
@@ -141,31 +141,31 @@
     "explanation": "Morphine is a Schedule II controlled substance. Federal law mandates that Schedule II drugs must be ordered\nusing the DEA's Controlled Substance Ordering System (CSOS) or Form 222."
   },
   "ptcb-org-0048": {
-    "explanation": "Under the Federal Controlled Substances Act (21 CFR 1304.04), all required inventories and records related to\ncontrolled substances must be kept available for inspection for at least two years."
+    "explanation": "Under the Federal Controlled Substances Act (21 CFR 1304.04), all required inventories and records related to\ncontrolled substances must be kept available for inspection for at least two years.\nPTCB Master Blueprint Edition Page 21 of 142"
   },
   "ptcb-org-0049": {
     "explanation": "The Resource Conservation and Recovery Act (RCRA) is the primary federal law that governs and regulates the\ndisposal of hazardous pharmaceutical waste to protect environment safety."
   },
   "ptcb-org-0050": {
-    "explanation": "The Drug Enforcement Administration (DEA) must be notified in writing within one business day of discovering any\nsignificant theft or loss of controlled substances."
+    "explanation": "The Drug Enforcement Administration (DEA) must be notified in writing within one business day of discovering any\nsignificant theft or loss of controlled substances.\nPTCB Master Blueprint Edition Page 22 of 142"
   },
   "ptcb-org-0051": {
     "explanation": "Diazepam is a Schedule IV controlled substance. Refills can be transferred between pharmacies that do not share\na common database a maximum of one single time."
   },
   "ptcb-org-0052": {
-    "explanation": "Class III recalls are issued for low-danger violations where exposure is unlikely to cause adverse health\nconsequences, such as minor pill count issues."
+    "explanation": "Class III recalls are issued for low-danger violations where exposure is unlikely to cause adverse health\nconsequences, such as minor pill count issues.\nPTCB Master Blueprint Edition Page 23 of 142"
   },
   "ptcb-org-0053": {
     "explanation": "The CMEA mandates behind-the-counter tracking logs and government-issued ID checks for products containing\npseudoephedrine, ephedrine, or phenylpropanolamine."
   },
   "ptcb-org-0054": {
-    "explanation": "Risk Evaluation and Mitigation Strategies (REMS) are safety programs required by the FDA for high-risk drugs,\nwhich frequently necessitate a mandatory Medication Guide."
+    "explanation": "Risk Evaluation and Mitigation Strategies (REMS) are safety programs required by the FDA for high-risk drugs,\nwhich frequently necessitate a mandatory Medication Guide.\nPTCB Master Blueprint Edition Page 24 of 142"
   },
   "ptcb-org-0055": {
     "explanation": "Federal labeling laws dictate that a dispensed controlled substance label must contain the pharmacy name/\naddress, serial number, date of filling, patient name, and prescriber name."
   },
   "ptcb-org-0056": {
-    "explanation": "The Food and Drug Administration (FDA) is the direct regulatory agency responsible for monitoring pharmaceutical\nsafety and coordinating product recalls."
+    "explanation": "The Food and Drug Administration (FDA) is the direct regulatory agency responsible for monitoring pharmaceutical\nsafety and coordinating product recalls.\nPTCB Master Blueprint Edition Page 25 of 142"
   },
   "ptcb-org-0057": {
     "explanation": "The Controlled Substances Act mandates that a pharmacy must execute a comprehensive, accurate physical\ninventory of all stock controlled substances at least once every two years."
@@ -174,13 +174,13 @@
     "explanation": "Federal regulations demand that all valid controlled substance prescriptions written by a healthcare practitioner\nexplicitly display the prescriber's DEA registration number."
   },
   "ptcb-org-0059": {
-    "explanation": "An incorrect expiration date on a stable pharmaceutical item constitutes a minor compliance or labeling violation\nthat is unlikely to cause adverse clinical harm (Class III)."
+    "explanation": "An incorrect expiration date on a stable pharmaceutical item constitutes a minor compliance or labeling violation\nthat is unlikely to cause adverse clinical harm (Class III).\nPTCB Master Blueprint Edition Page 26 of 142"
   },
   "ptcb-org-0060": {
     "explanation": "The Environmental Protection Agency (EPA) enforces federal provisions regarding eco-safe disposal parameters to\nshield groundwater systems from chemical contamination."
   },
   "ptcb-org-0061": {
-    "explanation": "Under federal law, prescriptions written for Schedule III or Schedule IV controlled substances can be refilled a\nmaximum of 5 times within a 6-month period from issue date."
+    "explanation": "Under federal law, prescriptions written for Schedule III or Schedule IV controlled substances can be refilled a\nmaximum of 5 times within a 6-month period from issue date.\nPTCB Master Blueprint Edition Page 27 of 142"
   },
   "ptcb-org-0062": {
     "explanation": "The DSCSA requires a product identifier on prescription drug packages, consisting of the NDC, a unique serial\nnumber, lot number, and expiration date to facilitate tracking."
@@ -189,7 +189,7 @@
     "explanation": "Duragesic patches contain fentanyl, a highly potent opioid analgesic that carries a high potential for abuse and\nsevere dependency, placing it strictly within Schedule II."
   },
   "ptcb-org-0064": {
-    "explanation": "When a drug has significant safety issues, the FDA requires a Risk Evaluation and Mitigation Strategy (REMS) to\nreinforce safe use parameters."
+    "explanation": "When a drug has significant safety issues, the FDA requires a Risk Evaluation and Mitigation Strategy (REMS) to\nreinforce safe use parameters.\nPTCB Master Blueprint Edition Page 28 of 142"
   },
   "ptcb-org-0065": {
     "explanation": "Alprazolam is a Schedule IV controlled substance, permitting refill transfer. Schedule II substances\n(Methylphenidate, Fentanyl, Hydromorphone) are legally barred from refill transfers."
@@ -198,7 +198,7 @@
     "explanation": "NIOSH classification criteria for hazardous drugs include organ toxicity at low doses, carcinogenicity, genotoxicity,\nand teratogenicity (birth defects)."
   },
   "ptcb-org-0067": {
-    "explanation": "Under the iPLEDGE REMS safety protocol, females of childbearing potential must have their isotretinoin\nprescription filled and dispensed within 7 days from negative pregnancy sample collection."
+    "explanation": "Under the iPLEDGE REMS safety protocol, females of childbearing potential must have their isotretinoin\nprescription filled and dispensed within 7 days from negative pregnancy sample collection.\nPTCB Master Blueprint Edition Page 29 of 142"
   },
   "ptcb-org-0068": {
     "explanation": "The DEA mandates that every registered pharmacy execute a comprehensive physical inventory of all controlled\nstocks on hand at least once every two years (biennially)."
@@ -207,7 +207,7 @@
     "explanation": "To satisfy safety guidelines (OSHA and USP <800>), a specialized chemical spill kit containing neutralizers and\nspecific PPE barriers must be instantly available."
   },
   "ptcb-org-0070": {
-    "explanation": "Contaminated medical needles, lancets, and operational glass fragments must be discarded into a rigid, leak-proof\nsharps container."
+    "explanation": "Contaminated medical needles, lancets, and operational glass fragments must be discarded into a rigid, leak-proof\nsharps container.\nPTCB Master Blueprint Edition Page 30 of 142"
   },
   "ptcb-org-0071": {
     "explanation": "For Schedule III-V controlled substance transfers, the transaction is documented via standard invoices or\nmanifests serving as the required local record."
@@ -216,13 +216,13 @@
     "explanation": "Under the Controlled Substances Act, paper hardcopies of Schedule II prescriptions must be maintained in a\ndedicated, completely separate storage file to facilitate auditing."
   },
   "ptcb-org-0073": {
-    "explanation": "MethCheck is an electronic platform harnessed to track over-the-counter purchases of pseudoephedrine and\nephedrine to prevent diversion for methamphetamine labs."
+    "explanation": "MethCheck is an electronic platform harnessed to track over-the-counter purchases of pseudoephedrine and\nephedrine to prevent diversion for methamphetamine labs.\nPTCB Master Blueprint Edition Page 31 of 142"
   },
   "ptcb-org-0074": {
     "explanation": "Under 21 CFR 1304.04, federal law mandates that all execution documents, records of receipt, invoices, and\ndestruction files for controlled materials be archived for at least 2 years."
   },
   "ptcb-org-0075": {
-    "explanation": "Class I recalls involve highly defective or dangerous products where exposure carries a reasonable probability of\ncausing life-threatening complications, irreversible harm, or death."
+    "explanation": "Class I recalls involve highly defective or dangerous products where exposure carries a reasonable probability of\ncausing life-threatening complications, irreversible harm, or death.\nPTCB Master Blueprint Edition Page 32 of 142"
   },
   "ptcb-org-0076": {
     "explanation": "Because rescue inhalers (like Proventil HFA) are crucial rescue items, a device containing zero active ingredient\ncarries a direct high risk of life-threatening injury or death (Class I).\nSECTION 3: PATIENT SAFETY, ERROR INTERCEPTION & QUALITY\nASSURANCE METRICS"
@@ -234,13 +234,13 @@
     "explanation": "A 90-tablet quantity with 'one daily' instructions is a 90-day supply. Requesting a refill at 30 days indicates early fill\nutilization concerns that must be referred directly to a pharmacist."
   },
   "ptcb-org-0079": {
-    "explanation": "CDC guidelines state restroom hygiene requires soap and water. Mechanical friction under running water is\nnecessary to eliminate organic matter and bacterial spores like C. difficile."
+    "explanation": "CDC guidelines state restroom hygiene requires soap and water. Mechanical friction under running water is\nnecessary to eliminate organic matter and bacterial spores like C. difficile.\nPTCB Master Blueprint Edition Page 34 of 142"
   },
   "ptcb-org-0080": {
     "explanation": "Managing missed oral contraceptives requires evaluating complex pharmacokinetic timelines and backup non-\nhormonal contraception windows, restricted entirely to a pharmacist's scope."
   },
   "ptcb-org-0081": {
-    "explanation": "Immediate and extended-release profiles represent distinct dosage forms. Interchanging them is classified as a\nwrong dosage form error with severe risks like dose dumping."
+    "explanation": "Immediate and extended-release profiles represent distinct dosage forms. Interchanging them is classified as a\nwrong dosage form error with severe risks like dose dumping.\nPTCB Master Blueprint Edition Page 35 of 142"
   },
   "ptcb-org-0082": {
     "explanation": "Oral hypoglycemic agents (like sulfonylureas) are on the ISMP high-alert list due to high risks of triggering severe\nor life-threatening hypoglycemic events if mis-dosed."
@@ -249,25 +249,25 @@
     "explanation": "A dispensing error describes any divergence between what was authorized by the prescriber on the original legal\norder and the final product received by the patient."
   },
   "ptcb-org-0084": {
-    "explanation": "Reporting and documenting medication errors permits retrospective systemwide tracking and aggregate root-cause\nanalysis to build barriers against repeat incidents."
+    "explanation": "Reporting and documenting medication errors permits retrospective systemwide tracking and aggregate root-cause\nanalysis to build barriers against repeat incidents.\nPTCB Master Blueprint Edition Page 36 of 142"
   },
   "ptcb-org-0085": {
     "explanation": "Wiping surfaces clean removes residual chemical dusts, vital for eliminating cross-contamination risk for highly\nallergic compounds like penicillin or sulfa stock."
   },
   "ptcb-org-0086": {
-    "explanation": "An effective RCA operates under a non-punitive 'Just Culture' framework, concentrating on system design gaps\nand workflow processes rather than human blameworthiness."
+    "explanation": "An effective RCA operates under a non-punitive 'Just Culture' framework, concentrating on system design gaps\nand workflow processes rather than human blameworthiness.\nPTCB Master Blueprint Edition Page 37 of 142"
   },
   "ptcb-org-0087": {
     "explanation": "Calculation steps: Fentanyl transdermal patches are dosed and manufactured strictly in micrograms per hour (mcg/hr), never\nmilligrams (mg/hr). A strength of 100 mg/hr represents a fatal overdose."
   },
   "ptcb-org-0088": {
-    "explanation": "Providing guidance on missed doses demands clinical evaluation of drug half-life variables and disease state\nmonitoring, falling exclusively under a pharmacist's scope."
+    "explanation": "Providing guidance on missed doses demands clinical evaluation of drug half-life variables and disease state\nmonitoring, falling exclusively under a pharmacist's scope.\nPTCB Master Blueprint Edition Page 38 of 142"
   },
   "ptcb-org-0089": {
     "explanation": "Strict adherence to established infection control protocols for handling and disposing of biohazard waste breaks\nthe physical chain of pathogen transmission."
   },
   "ptcb-org-0090": {
-    "explanation": "Naproxen and ibuprofen are both NSAIDs. Co-administration sets up a therapeutic duplication that significantly\nincreases risk for severe GI bleeding or renal harm."
+    "explanation": "Naproxen and ibuprofen are both NSAIDs. Co-administration sets up a therapeutic duplication that significantly\nincreases risk for severe GI bleeding or renal harm.\nPTCB Master Blueprint Edition Page 39 of 142"
   },
   "ptcb-org-0091": {
     "explanation": "Broad-spectrum antibiotics can alter gut flora and decrease the absorption and efficacy of oral contraceptives,\nrequiring pharmacist counseling on utilizing backup protection."
@@ -276,13 +276,13 @@
     "explanation": "The first essential milestone in safe order entry is visually checking the paper prescription or document image for\ncompleteness, legibility, and legal validity."
   },
   "ptcb-org-0093": {
-    "explanation": "Routine handwashing with appropriate soap and water throughout the day remains globally established as the\nsingle simplest measure against infection cross-contamination."
+    "explanation": "Routine handwashing with appropriate soap and water throughout the day remains globally established as the\nsingle simplest measure against infection cross-contamination.\nPTCB Master Blueprint Edition Page 40 of 142"
   },
   "ptcb-org-0094": {
     "explanation": "Zanaflex (tizanidine) and Zithromax (azithromycin) are officially flagged on look-alike/ sound-alike registries due to\nhigh orthographic and phonetic overlap."
   },
   "ptcb-org-0095": {
-    "explanation": "Verifying two independent identifiers (full legal name and date of birth) at both collection and discharge steps\nprevents dispensing errors to the wrong patient."
+    "explanation": "Verifying two independent identifiers (full legal name and date of birth) at both collection and discharge steps\nprevents dispensing errors to the wrong patient.\nPTCB Master Blueprint Edition Page 41 of 142"
   },
   "ptcb-org-0096": {
     "explanation": "FDA mandates that heparin labels emphasize total strength per total volume prominently, with the individual\nconcentration per mL adjacent in parentheses to avoid lethal dosing slips."
@@ -300,13 +300,13 @@
     "explanation": "Advising on optimal times of day for administration or interpreting diurnal somnolence parameters requires clinical\nrationale reserved for a pharmacist."
   },
   "ptcb-org-0101": {
-    "explanation": "Thorough handwashing utilizing mechanical friction with appropriate soap and water for 20 to 30 seconds remains\nthe gold standard barrier protocol against cross-infection."
+    "explanation": "Thorough handwashing utilizing mechanical friction with appropriate soap and water for 20 to 30 seconds remains\nthe gold standard barrier protocol against cross-infection.\nPTCB Master Blueprint Edition Page 43 of 142"
   },
   "ptcb-org-0102": {
     "explanation": "Collecting essential chronic maintenance items (like metformin) late highlights adherence or financial blocks. MTM\nprograms systematically address these complex barriers."
   },
   "ptcb-org-0103": {
-    "explanation": "Reverse distribution is purely an administrative warehouse workflow involving returning expired stock for tracking\ncredit, incorporating zero clinical patient variables."
+    "explanation": "Reverse distribution is purely an administrative warehouse workflow involving returning expired stock for tracking\ncredit, incorporating zero clinical patient variables.\nPTCB Master Blueprint Edition Page 44 of 142"
   },
   "ptcb-org-0104": {
     "explanation": "Inputting family generational suffixes (Jr., Sr.) provides an additional safety gate preventing dangerous mix-ups\nbetween relatives sharing names and home addresses."
@@ -315,7 +315,7 @@
     "explanation": "Tall Man mixed-case typography highlights distinct visual syllable segments inside orthographically matched look-\nalike names, rendering them easier to distinguish."
   },
   "ptcb-org-0106": {
-    "explanation": "Travoprost is an eye drop for open-angle glaucoma. The shorthand 'AU' means both ears, indicating an incorrect\nroute of administration; it must be written as OU, OD, or OS."
+    "explanation": "Travoprost is an eye drop for open-angle glaucoma. The shorthand 'AU' means both ears, indicating an incorrect\nroute of administration; it must be written as OU, OD, or OS.\nPTCB Master Blueprint Edition Page 45 of 142"
   },
   "ptcb-org-0107": {
     "explanation": "Because the critical omission occurred during the generation phase by the provider writing the prescription, it is\nclassified as a prescribing error."
@@ -324,19 +324,19 @@
     "explanation": "Refilling an essential maintenance drug late indicates poor safety adherence loops, signaling an immediate need\nfor clinical pharmacist intervention."
   },
   "ptcb-org-0109": {
-    "explanation": "Requesting refills on highly volatile or highly extended timelines points to irregular non-adherence habits that\nrequire pharmacist evaluation."
+    "explanation": "Requesting refills on highly volatile or highly extended timelines points to irregular non-adherence habits that\nrequire pharmacist evaluation.\nPTCB Master Blueprint Edition Page 46 of 142"
   },
   "ptcb-org-0110": {
     "explanation": "Alcohol sanitizers effectively neutralize resistant vegetative bacterial populations like MRSA, though they display\nsignificantly poorer kill rates against non-enveloped virus types like norovirus."
   },
   "ptcb-org-0111": {
-    "explanation": "Glipizide XL is a long-acting sulfonylurea that requires immediate food intake to shield against dangerous\nhypoglycemia. Skipping breakfast requires a clinical counseling handoff to the pharmacist."
+    "explanation": "Glipizide XL is a long-acting sulfonylurea that requires immediate food intake to shield against dangerous\nhypoglycemia. Skipping breakfast requires a clinical counseling handoff to the pharmacist.\nPTCB Master Blueprint Edition Page 47 of 142"
   },
   "ptcb-org-0112": {
     "explanation": "Propranolol is a non-selective beta-adrenergic antagonist. IV formulation errors in acute care can rapidly induce\nprofound bradycardia or fatal blockages, marking it high-alert."
   },
   "ptcb-org-0113": {
-    "explanation": "The strength is missing from the legal order parameters. A technician cannot select an arbitrary strength and must\ncontact the prescriber to clarify the omission before entry."
+    "explanation": "The strength is missing from the legal order parameters. A technician cannot select an arbitrary strength and must\ncontact the prescriber to clarify the omission before entry.\nPTCB Master Blueprint Edition Page 48 of 142"
   },
   "ptcb-org-0114": {
     "explanation": "In the US, amoxicillin/clavulanate potassium is engineered and manufactured exclusively as an oral medication\nform. It cannot be given intravenously (IV), making the ordered route inappropriate."
@@ -345,25 +345,25 @@
     "explanation": "Look-alike risks stem frequently from identical packaging designs, trade dress, or color schemes applied across\ncommercial stock labels, creating high mispick variables."
   },
   "ptcb-org-0116": {
-    "explanation": "Root-Cause Analysis (RCA) is a highly structured, retrospective quality assurance technique applied to uncover\nsystemic design flaws behind error events."
+    "explanation": "Root-Cause Analysis (RCA) is a highly structured, retrospective quality assurance technique applied to uncover\nsystemic design flaws behind error events.\nPTCB Master Blueprint Edition Page 49 of 142"
   },
   "ptcb-org-0117": {
     "explanation": "Dual-verifying brand and generic matches during input adds an active cognitive check that successfully intercepts\nlook-alike drug mispicks."
   },
   "ptcb-org-0118": {
-    "explanation": "Glyburide and glipizide share extremely high orthographic prefixes and are both sulfonylurea anti-diabetics, placing\nthem at major risk for selection errors."
+    "explanation": "Glyburide and glipizide share extremely high orthographic prefixes and are both sulfonylurea anti-diabetics, placing\nthem at major risk for selection errors.\nPTCB Master Blueprint Edition Page 50 of 142"
   },
   "ptcb-org-0119": {
     "explanation": "The Institute for Safe Medication Practices (ISMP) is an independent national body fully focused on error tracing\nand publishing safe medication guidelines."
   },
   "ptcb-org-0120": {
-    "explanation": "Root cause analysis evaluates contributing workflow designs and systemic process variations to map out exactly\nwhy an error pattern was permitted to surface."
+    "explanation": "Root cause analysis evaluates contributing workflow designs and systemic process variations to map out exactly\nwhy an error pattern was permitted to surface.\nPTCB Master Blueprint Edition Page 51 of 142"
   },
   "ptcb-org-0121": {
     "explanation": "Any workflow error or design slip that is successfully intercepted, blocked, and corrected prior to the drug reaching\nphysical contact with the patient is a near miss."
   },
   "ptcb-org-0122": {
-    "explanation": "The ISMP hosts the National Medication Errors Reporting Program (MERP), collecting data to issue widespread\nmedication safety advisories."
+    "explanation": "The ISMP hosts the National Medication Errors Reporting Program (MERP), collecting data to issue widespread\nmedication safety advisories.\nPTCB Master Blueprint Edition Page 52 of 142"
   },
   "ptcb-org-0123": {
     "explanation": "Drug Utilization Review (DUR) dynamically monitors clinical safety lines, checking interactions, overutilization\npatterns, and optimal therapeutic outcomes."
@@ -372,7 +372,7 @@
     "explanation": "MedWatch is the FDA's master portal utilized by clinicians and consumers to log post-marketing adverse events,\nsevere side effects, or safety failures."
   },
   "ptcb-org-0125": {
-    "explanation": "Guiding a patient on an over-the-counter clinical selection require evaluating personal health history metrics and\ninteractions, necessitating a pharmacist handoff."
+    "explanation": "Guiding a patient on an over-the-counter clinical selection require evaluating personal health history metrics and\ninteractions, necessitating a pharmacist handoff.\nPTCB Master Blueprint Edition Page 53 of 142"
   },
   "ptcb-org-0126": {
     "explanation": "Methotrexate is a high-alert weekly medication. Requesting a refill at 4 days signals that the patient might be using\nit daily, carrying a fatal toxicity risk. Refer immediately to the pharmacist."
@@ -381,13 +381,13 @@
     "explanation": "The shorthand QD can be misread as QID (four times daily) in poor handwriting, triggering a 4-fold overdose. Joint\nCommission safety mandates require writing out 'once daily'."
   },
   "ptcb-org-0128": {
-    "explanation": "Implementing systemwide mixed-case Tall Man letters provides an empirical layer of safety that breaks up\nrecognition shortcuts for matched name lines."
+    "explanation": "Implementing systemwide mixed-case Tall Man letters provides an empirical layer of safety that breaks up\nrecognition shortcuts for matched name lines.\nPTCB Master Blueprint Edition Page 54 of 142"
   },
   "ptcb-org-0129": {
     "explanation": "Tretinoin sounds highly similar to isotretinoin (Claravis), a high-risk teratogen under the strict federal iPLEDGE\nsafety registry."
   },
   "ptcb-org-0130": {
-    "explanation": "Answering patient inquiries regarding clinical efficacy or comparing metabolic paths involves clinical evaluation\nrestricted exclusively to a pharmacist."
+    "explanation": "Answering patient inquiries regarding clinical efficacy or comparing metabolic paths involves clinical evaluation\nrestricted exclusively to a pharmacist.\nPTCB Master Blueprint Edition Page 55 of 142"
   },
   "ptcb-org-0131": {
     "explanation": "High-alert drugs are not more error-prone than ordinary stock, but the negative biological consequences of an error\ninvolving these drugs are uniquely catastrophic or fatal."
@@ -396,13 +396,13 @@
     "explanation": "'Per os' means by mouth, but the handwritten shorthand 'os' can be misread as the ocular abbreviation 'OS', which\nmeans oculus sinister (left eye)."
   },
   "ptcb-org-0133": {
-    "explanation": "By using capitalized characters to draw focus to syllable variances, Tall Man lettering successfully guards against\nvisual recognition mix-ups during product selection."
+    "explanation": "By using capitalized characters to draw focus to syllable variances, Tall Man lettering successfully guards against\nvisual recognition mix-ups during product selection.\nPTCB Master Blueprint Edition Page 56 of 142"
   },
   "ptcb-org-0134": {
     "explanation": "Diflucan is an oral/injectable antifungal compound. Diprivan is a highly volatile IV general anesthetic. Their name\nsimilarity creates high risk."
   },
   "ptcb-org-0135": {
-    "explanation": "Insulins are major active glucose-lowering agents. Mispicks or calculation errors can trigger severe hypoglycemia,\nseizures, coma, or death."
+    "explanation": "Insulins are major active glucose-lowering agents. Mispicks or calculation errors can trigger severe hypoglycemia,\nseizures, coma, or death.\nPTCB Master Blueprint Edition Page 57 of 142"
   },
   "ptcb-org-0136": {
     "explanation": "Cyclophosphamide is a hazardous chemotherapy drug. USP 800 requires specialized trays to be decontaminated\nimmediately after contact to avoid cross-contaminating standard inventory stock."
@@ -411,7 +411,7 @@
     "explanation": "Topical dermatological creams display a wide therapeutic index and minimal systemic toxicity compared to high-\nalert agents like insulin or blood thinners."
   },
   "ptcb-org-0138": {
-    "explanation": "DUR tracking mechanisms evaluate pure clinical indicators, identifying issues like therapeutic duplications, heavy\ndrug interactions, or severe contraindications."
+    "explanation": "DUR tracking mechanisms evaluate pure clinical indicators, identifying issues like therapeutic duplications, heavy\ndrug interactions, or severe contraindications.\nPTCB Master Blueprint Edition Page 58 of 142"
   },
   "ptcb-org-0139": {
     "explanation": "Anticoagulants have a very narrow therapeutic range and carry high risks of severe hemorrhage or life-threatening\nbleeding if incorrectly dosed."
@@ -423,7 +423,7 @@
     "explanation": "The parameter 'DAW' means Dispense As Written, legally barring generic substitution even if the formulation\nmatches exactly."
   },
   "ptcb-org-0142": {
-    "explanation": "Providing clean, well-lit pharmacy counters minimizes eye fatigue and pick errors during entry and physical\nselection verification phases."
+    "explanation": "Providing clean, well-lit pharmacy counters minimizes eye fatigue and pick errors during entry and physical\nselection verification phases.\nPTCB Master Blueprint Edition Page 60 of 142"
   },
   "ptcb-org-0143": {
     "explanation": "Evaluating or explaining clinical drug interactions requires deep therapeutic analysis restricted legally to a\npharmacist's license."
@@ -432,7 +432,7 @@
     "explanation": "MedWatch is engineered by the FDA specifically to record unexpected device mechanical malfunctions,\nmanufacturing quality defects, or adverse drug events."
   },
   "ptcb-org-0145": {
-    "explanation": "The Vaccine Adverse Event Reporting System (VAERS) is co-managed by the CDC and FDA as an early post-\nmarketing safety alert gate for U.S. licensed vaccines."
+    "explanation": "The Vaccine Adverse Event Reporting System (VAERS) is co-managed by the CDC and FDA as an early post-\nmarketing safety alert gate for U.S. licensed vaccines.\nPTCB Master Blueprint Edition Page 61 of 142"
   },
   "ptcb-org-0146": {
     "explanation": "Calculation steps: Xanax (alprazolam) is only manufactured in strengths up to 2 mg. An order for 5 mg indicates a severe prescribing\nerror requiring telephone intervention."
@@ -441,13 +441,13 @@
     "explanation": "Restricting cognitive focus to a single patient file profile at a time systematically blocks entry lines from introducing\npatient identity swap mix-ups."
   },
   "ptcb-org-0148": {
-    "explanation": "Physically splitting look-alike inventory locations on the shelf prevents an adjacent bottle from being accidentally\ngrabbed during lightning-fast workflows."
+    "explanation": "Physically splitting look-alike inventory locations on the shelf prevents an adjacent bottle from being accidentally\ngrabbed during lightning-fast workflows.\nPTCB Master Blueprint Edition Page 62 of 142"
   },
   "ptcb-org-0149": {
     "explanation": "A valid medical order parameters demand specific core entries: patient identity, drug formulation name, dose\nstrength, clear quantity, and explicit route of administration."
   },
   "ptcb-org-0150": {
-    "explanation": "The brand name for quinapril is Accupril, which sounds virtually identical to Aciphex (rabeprazole), putting it at\nmajor risk for phonetic phone order errors."
+    "explanation": "The brand name for quinapril is Accupril, which sounds virtually identical to Aciphex (rabeprazole), putting it at\nmajor risk for phonetic phone order errors.\nPTCB Master Blueprint Edition Page 63 of 142"
   },
   "ptcb-org-0151": {
     "explanation": "Donning physical gloves does not eliminate microscopic skin flora populations. Hands must be washed both right\nbefore putting on and right after throwing out gloves."
@@ -456,7 +456,7 @@
     "explanation": "Tall Man style uses mixed-case strings to deliberately emphasize the anatomical spelling variations across look-\nalike lines, interrupting blind optical patterns."
   },
   "ptcb-org-0153": {
-    "explanation": "An error intercepted before reaching a patient is a near miss. Logging near misses via safety programs like\nMedWatch guides structural future modifications to packaging lines."
+    "explanation": "An error intercepted before reaching a patient is a near miss. Logging near misses via safety programs like\nMedWatch guides structural future modifications to packaging lines.\nPTCB Master Blueprint Edition Page 64 of 142"
   },
   "ptcb-org-0154": {
     "explanation": "Metoprolol has two highly distinct salts: Succinate (extended-release, once daily) and Tartrate (immediate-release).\nClarifying the salt prevents wrong form formulation delivery errors."
@@ -474,37 +474,37 @@
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0159": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 67 of 142"
   },
   "ptcb-org-0160": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0161": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 68 of 142"
   },
   "ptcb-org-0162": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0163": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 69 of 142"
   },
   "ptcb-org-0164": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0165": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 70 of 142"
   },
   "ptcb-org-0166": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0167": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 71 of 142"
   },
   "ptcb-org-0168": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0169": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 72 of 142"
   },
   "ptcb-org-0170": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
@@ -513,31 +513,31 @@
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0172": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 73 of 142"
   },
   "ptcb-org-0173": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0174": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 74 of 142"
   },
   "ptcb-org-0175": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0176": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 75 of 142"
   },
   "ptcb-org-0177": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0178": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 76 of 142"
   },
   "ptcb-org-0179": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0180": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 77 of 142"
   },
   "ptcb-org-0181": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
@@ -546,7 +546,7 @@
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0183": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 78 of 142"
   },
   "ptcb-org-0184": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
@@ -555,7 +555,7 @@
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0186": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 79 of 142"
   },
   "ptcb-org-0187": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
@@ -564,7 +564,7 @@
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0189": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 80 of 142"
   },
   "ptcb-org-0190": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
@@ -573,7 +573,7 @@
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0192": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 81 of 142"
   },
   "ptcb-org-0193": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
@@ -582,13 +582,13 @@
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0195": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 82 of 142"
   },
   "ptcb-org-0196": {
     "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
   },
   "ptcb-org-0197": {
-    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations."
+    "explanation": "Verified validation concept. Stock rotation forces shortest dates forward to prevent expiration loss. NDCs explicitly\nsegment manufacturer IDs from drug formulations and container configurations.\nPTCB Master Blueprint Edition Page 83 of 142"
   },
   "ptcb-org-0198": {
     "explanation": "Order: 20 mEq. Stock: 10 mEq / 15 mL. Formula: (20 mEq / 10 mEq) * 15 mL equals 30 mL total per day volume needed."
@@ -645,7 +645,7 @@
     "explanation": "U-100 insulin has a fixed concentration of 100 units/mL. Required volume equals 40 units / 100 units/mL equals 0.4 mL."
   },
   "ptcb-org-0216": {
-    "explanation": "Standard maintenance therapy calculation for filling profiles defaults clinically to 42 tablets."
+    "explanation": "Standard maintenance therapy calculation for filling profiles defaults clinically to 42 tablets.\nPTCB Master Blueprint Edition Page 91 of 142"
   },
   "ptcb-org-0217": {
     "explanation": "Total fluid drops available in bottle equals 24 mL * 15 drops/mL equals 360 drops. At 1 drop per day, the supply will last\nexactly 360 days."
@@ -711,7 +711,7 @@
     "explanation": "4 oz converts to 120 mL. 1 tsp equals 5 mL. Frequency q12h means twice per day, so per day consumption is 10 mL. Days\nsupply equals 120 mL / 10 mL/day equals 12 days."
   },
   "ptcb-org-0238": {
-    "explanation": "A 90-day supply requires 90 tablets (1 tab daily). Total available tablets = 30 + 11*30 = 360 tablets. 360 / 90 = 4\ntotal fills, meaning the initial 90-tablet fill plus 3 remaining refills."
+    "explanation": "A 90-day supply requires 90 tablets (1 tab daily). Total available tablets = 30 + 11*30 = 360 tablets. 360 / 90 = 4\ntotal fills, meaning the initial 90-tablet fill plus 3 remaining refills.\nPTCB Master Blueprint Edition Page 101 of 142"
   },
   "ptcb-org-0239": {
     "explanation": "Total available mass of stock cream equals 6 * 480 g equals 2880 g. Compute by dividing by single jar capacity: 2880 g / 45 g/jar equals 64 jars."
@@ -732,7 +732,7 @@
     "explanation": "Regimen breakdown: Days 1-2: 60 mg/day (12 tabs). Days 3-4: 50 mg/day (10 tabs). Days 5-6: 40 mg/day (8 tabs).\nDays 7-8: 30 mg/day (6 tabs). Days 9-10: 20 mg/day (4 tabs). Days 11-12: 10 mg/day (2 tabs). Sum equals 42 tablets.\nDuration equals 12 days."
   },
   "ptcb-org-0245": {
-    "explanation": "10 patches are dispensed. Patient applies 2 patches every 72 hours (3 days), which means the supply lasts for 5\ndistinct patch changes * 3 days = 15 days."
+    "explanation": "10 patches are dispensed. Patient applies 2 patches every 72 hours (3 days), which means the supply lasts for 5\ndistinct patch changes * 3 days = 15 days.\nPTCB Master Blueprint Edition Page 104 of 142"
   },
   "ptcb-org-0246": {
     "explanation": "Concentration equals 2.5 g / 50 mL equals 50 mg/mL. per day volume consumed equals 0.3 mL * 3 (t.i.d.) equals 0.9 mL. per day dose equals 0.9\nmL * 50 mg/mL equals 45 mg."
@@ -819,7 +819,7 @@
     "explanation": "1 US gallon contains exactly 128 fluid ounces. Compute by dividing by container volume: 128 fl oz / 8 fl oz equals 16 bottles."
   },
   "ptcb-org-0274": {
-    "explanation": "Set up direct manufacturing yield proportion: (50 vials / 10 vials) * 11 pre-filled syringes = 55 syringes."
+    "explanation": "Set up direct manufacturing yield proportion: (50 vials / 10 vials) * 11 pre-filled syringes = 55 syringes.\nPTCB Master Blueprint Edition Page 116 of 142"
   },
   "ptcb-org-0275": {
     "explanation": "1 tablespoon equals 0.5 fl oz. Frequency q.i.d. means 4 times a day, so per day volume is 2 fluid oz. Total for 30 days equals 2 fl\noz * 30 equals 60 fluid ounces."
@@ -846,7 +846,7 @@
     "explanation": "A 40% concentration represents 40 g solute per 100 mL solution. For 250 mL: 250 mL * (40 g / 100 mL) equals 100\ngrams."
   },
   "ptcb-org-0283": {
-    "explanation": "The interval parameter q6h means a minimum of 6 hours between doses. Adding 6 hours to 1:00 P.M. yields 7:00\nP.M."
+    "explanation": "The interval parameter q6h means a minimum of 6 hours between doses. Adding 6 hours to 1:00 P.M. yields 7:00\nP.M.\nPTCB Master Blueprint Edition Page 120 of 142"
   },
   "ptcb-org-0284": {
     "explanation": "Dose: 4 drops in both eyes (AU) equals 8 drops total per day. Bottle contains 7.5 mL * 15 drops/mL equals 112.5 drops. Days\nsupply equals 112.5 / 8 equals 14.06 days, providing 14 full days."
@@ -855,7 +855,7 @@
     "explanation": "Vial concentration is 2 mg/2 mL equals 1 mg/mL, holding 10 mg total. Each syringe needs 4 mg. Total complete syringes\nequals 10 mg / 4 mg equals 2 syringes."
   },
   "ptcb-org-0286": {
-    "explanation": "2 puffs twice daily (b.i.d.) equals 4 puffs per day. Total metered doses = 120. Days supply = 120 / 4 = 30 days."
+    "explanation": "2 puffs twice daily (b.i.d.) equals 4 puffs per day. Total metered doses = 120. Days supply = 120 / 4 = 30 days.\nPTCB Master Blueprint Edition Page 121 of 142"
   },
   "ptcb-org-0287": {
     "explanation": "2 puffs 4 times daily (q.i.d.) equals 8 puffs per day. Total metered doses = 200. Days supply = 200 / 8 = 25 days."
@@ -882,13 +882,13 @@
     "explanation": "Weight metric: 162 lb / 2.2 equals 73.63 kg. Target mg dose equals 73.63 kg * 20 mg/kg equals 1472.7 mg. Divided by single tablet\nstrength: 1472.7 mg / 250 mg equals 5.89 tablets, which rounds to 6 whole tablets."
   },
   "ptcb-org-0295": {
-    "explanation": "Calculated systematically via standard pharmacy inventory parameters and compliance criteria, defaulting to 10\ndays."
+    "explanation": "Calculated systematically via standard pharmacy inventory parameters and compliance criteria, defaulting to 10\ndays.\nPTCB Master Blueprint Edition Page 125 of 142"
   },
   "ptcb-org-0296": {
     "explanation": "Weight metric: 165 lb / 2.2 equals 75 kg. Target dose equals 75 mg. Prefilled syringes are stocked as 80 mg units, requiring 1\nsyringe per dose. 2 doses per day for 14 days requires exactly 28 syringes."
   },
   "ptcb-org-0297": {
-    "explanation": "Taper summation: Day 1 (3 tabs), Day 2 (2.5 tabs), Day 3 (2 tabs), Day 4 (1.5 tabs), Day 5 (1 tab), Day 6 (0.5 tab).\nTotal required count = 10.5 tablets, meaning 11 whole tablets must be dispensed."
+    "explanation": "Taper summation: Day 1 (3 tabs), Day 2 (2.5 tabs), Day 3 (2 tabs), Day 4 (1.5 tabs), Day 5 (1 tab), Day 6 (0.5 tab).\nTotal required count = 10.5 tablets, meaning 11 whole tablets must be dispensed.\nPTCB Master Blueprint Edition Page 126 of 142"
   },
   "ptcb-org-0298": {
     "explanation": "4 oz converts to 120 mL. Mass of drug equals 120 mL * 15% equals 18 g. Final volume equals 1 L equals 1000 mL. Percentage\nconcentration equals (18 g / 1000 mL) * 100 equals 1.8%."
@@ -912,7 +912,7 @@
     "explanation": "Weight metric: 15 lb / 2.2 equals 6.818 kg. per day dose equals 6.818 kg * 40 mg/kg equals 272.7 mg. Single dose equals 272.7 / 3 equals 90.9\nmg. Stock strength is 25 mg/mL. Volume per dose equals 90.9 mg / 25 mg/mL equals 3.63 mL, matching choice 3.6 mL."
   },
   "ptcb-org-0305": {
-    "explanation": "Each transdermal patch lasts 72 hours (3 days). A 2-week period contains 14 days. Total patches required = 14 / 3\n= 4.66 patches, which requires dispensing 5 individual patches."
+    "explanation": "Each transdermal patch lasts 72 hours (3 days). A 2-week period contains 14 days. Total patches required = 14 / 3\n= 4.66 patches, which requires dispensing 5 individual patches.\nPTCB Master Blueprint Edition Page 130 of 142"
   },
   "ptcb-org-0306": {
     "explanation": "per day required mass equals 1.78 m^2 * 650 mg/m^2 equals 1157 mg/day. 5 days total equals 5785 mg. Convert to grams: 5785 /\n1000 equals 5.785 g."

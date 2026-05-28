@@ -32,4 +32,14 @@ mixin (
   public func addExam(exam : Types.CertificationExam) : async () {
     ExamsLib.addExam(exams, exam);
   };
+
+  /// Admin: upsert multiple persisted explanations (overwrite existing overlays).
+  public func upsertExplanations(expls : [Types.QuestionExplanation]) : async () {
+    for (ex in expls.values()) { ExamsLib.upsertExplanation(explanations, ex) };
+  };
+
+  /// Admin: upsert multiple questions (overwrite existing question entries).
+  public func upsertQuestions(qs : [Types.Question]) : async () {
+    for (q in qs.values()) { ExamsLib.upsertQuestion(questions, q) };
+  };
 };

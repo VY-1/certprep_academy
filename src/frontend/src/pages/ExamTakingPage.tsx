@@ -1,3 +1,4 @@
+import { createActor } from "@/backend";
 import { FeedbackCard } from "@/components/FeedbackCard";
 import { ProgressBar } from "@/components/ProgressBar";
 import { QuestionCard } from "@/components/QuestionCard";
@@ -6,6 +7,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useExamQuestions } from "@/hooks/useExams";
 import { useExamStore } from "@/store/examStore";
 import type { Question } from "@/types/exam";
+import { useActor } from "@caffeineai/core-infrastructure";
 import { useNavigate, useParams } from "@tanstack/react-router";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useRef } from "react";
@@ -23,9 +25,44 @@ function shuffleQuestions(questions: Question[], seed: string): Question[] {
   return arr;
 }
 
+function getPracticeVersionIds(examId: string): string[] {
+  if (examId === "ptcb-org") {
+    return ["ptcb-org-v1", "ptcb-org-v2", "ptcb-org-v3"];
+  }
+
+  return [
+    "ptcb-v1",
+    "ptcb-v2",
+    "ptcb-v3",
+    "ptcb-v4",
+    "ptcb-v5",
+    "ptcb-v6",
+    "ptcb-v7",
+    "ptcb-v8",
+    "ptcb-v9",
+    "ptcb-v10",
+    "ptcb-v11",
+  ];
+}
+
+const QUIZ_QUESTION_COUNT = 25;
+const QUIZ_TIMER_MINUTES = 30;
+
+const DOMAIN_WEIGHTS = [
+  { kind: "Medications" as const, pct: 40 },
+  { kind: "FederalRequirements" as const, pct: 12.5 },
+  { kind: "PatientSafety" as const, pct: 26.25 },
+  { kind: "OrderEntry" as const, pct: 21.25 },
+];
+
+type AnyActor = {
+  getExamQuestions: (id: string) => Promise<Question[]>;
+};
+
 export function ExamTakingPage() {
   const { versionId } = useParams({ from: "/exam/$versionId" });
   const navigate = useNavigate();
+  const { actor, isFetching: isActorFetching } = useActor(createActor);
   const {
     session,
     startSession,
@@ -38,15 +75,77 @@ export function ExamTakingPage() {
 
   const { data: rawQuestions, isLoading } = useExamQuestions(versionId);
   const sessionStarted = useRef(false);
+  const dailyQuizBuilt = useRef(false);
+  const isDailyQuiz = versionId.endsWith("-daily-quiz");
 
   // Shuffle and start session once questions load — only when there is NO existing session
   useEffect(() => {
-    if (!rawQuestions || rawQuestions.length === 0) return;
     // If a session already exists for this versionId, use it as-is
     if (session?.versionId === versionId && session.questions.length > 0) {
       sessionStarted.current = true;
       return;
     }
+
+    if (isDailyQuiz && !dailyQuizBuilt.current) {
+      if (!actor || isActorFetching) return;
+
+      const examId = versionId.replace(/-daily-quiz$/, "");
+      const buildDailyQuiz = async () => {
+        const versionIds = getPracticeVersionIds(examId);
+        const results = await Promise.allSettled(
+          versionIds.map((id) =>
+            (actor as unknown as AnyActor).getExamQuestions(id),
+          ),
+        );
+        const pool = results
+          .filter(
+            (r): r is PromiseFulfilledResult<Question[]> =>
+              r.status === "fulfilled",
+          )
+          .flatMap((r) => r.value);
+
+        if (pool.length === 0) return;
+
+        const shuffled = shuffleQuestions(pool, Date.now().toString());
+        const selected: Question[] = [];
+        for (const { kind, pct } of DOMAIN_WEIGHTS) {
+          const target = Math.round((pct / 100) * QUIZ_QUESTION_COUNT);
+          const domainPool = shuffled.filter(
+            (q) => q.knowledgeDomain.__kind__ === kind,
+          );
+          selected.push(...domainPool.slice(0, target));
+        }
+
+        if (selected.length < QUIZ_QUESTION_COUNT) {
+          const usedIds = new Set(selected.map((q) => q.id));
+          const extras = shuffled.filter((q) => !usedIds.has(q.id));
+          selected.push(
+            ...extras.slice(0, QUIZ_QUESTION_COUNT - selected.length),
+          );
+        }
+
+        const quizQuestions = shuffleQuestions(
+          selected.slice(0, QUIZ_QUESTION_COUNT),
+          Date.now().toString(),
+        );
+
+        startSession(
+          versionId,
+          examId,
+          quizQuestions,
+          QUIZ_TIMER_MINUTES,
+          true,
+          true,
+        );
+        dailyQuizBuilt.current = true;
+        sessionStarted.current = true;
+      };
+
+      void buildDailyQuiz();
+      return;
+    }
+
+    if (!rawQuestions || rawQuestions.length === 0) return;
     // Only create a new session when there is no session at all
     if (sessionStarted.current) return;
     const shuffled = shuffleQuestions(
@@ -55,7 +154,7 @@ export function ExamTakingPage() {
     );
     startSession(versionId, "ptcb", shuffled, 110, true, true);
     sessionStarted.current = true;
-  }, [rawQuestions, versionId, session, startSession]);
+  }, [actor, isActorFetching, isDailyQuiz, rawQuestions, versionId, session, startSession]);
 
   // All questions answered check
   const allAnswered = useMemo(() => {
