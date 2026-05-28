@@ -1,0 +1,1909 @@
+{
+  "ptcb-org-0021": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 193,
+    "existing_length": 745,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0038": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 172,
+    "existing_length": 689,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0049": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 172,
+    "existing_length": 616,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0051": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 191,
+    "existing_length": 717,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0052": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 203,
+    "existing_length": 770,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0072": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 140,
+    "existing_length": 473,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0076": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 136,
+    "existing_length": 471,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0105": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 171,
+    "existing_length": 627,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0112": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 151,
+    "existing_length": 510,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0129": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 138,
+    "existing_length": 467,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0133": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 169,
+    "existing_length": 614,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0145": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 178,
+    "existing_length": 690,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0156": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 143,
+    "existing_length": 516,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.58,
+    "para_word_count": 47
+  },
+  "ptcb-org-0159": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 142,
+    "existing_length": 487,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0162": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 231,
+    "existing_length": 845,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0170": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 163,
+    "existing_length": 576,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0182": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 135,
+    "existing_length": 452,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0184": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 164,
+    "existing_length": 589,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0198": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 132,
+    "existing_length": 434,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.8,
+    "para_word_count": 23
+  },
+  "ptcb-org-0208": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 132,
+    "existing_length": 439,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.68,
+    "para_word_count": 29
+  },
+  "ptcb-org-0216": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 131,
+    "existing_length": 432,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0223": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 130,
+    "existing_length": 427,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.34,
+    "para_word_count": 36
+  },
+  "ptcb-org-0242": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 136,
+    "existing_length": 451,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.53,
+    "para_word_count": 27
+  },
+  "ptcb-org-0245": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 130,
+    "existing_length": 429,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0249": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 134,
+    "existing_length": 447,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.35,
+    "para_word_count": 25
+  },
+  "ptcb-org-0259": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 133,
+    "existing_length": 444,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -3.18,
+    "para_word_count": 32
+  },
+  "ptcb-org-0262": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 134,
+    "existing_length": 444,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.27,
+    "para_word_count": 30
+  },
+  "ptcb-org-0273": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 131,
+    "existing_length": 432,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.8,
+    "para_word_count": 23
+  },
+  "ptcb-org-0287": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 131,
+    "existing_length": 433,
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0299": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 130,
+    "existing_length": 427,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.17,
+    "para_word_count": 32
+  },
+  "ptcb-org-0309": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 130,
+    "existing_length": 881,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.53,
+    "para_word_count": 27
+  },
+  "ptcb-org-0313": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 130,
+    "existing_length": 427,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.07,
+    "para_word_count": 39
+  },
+  "ptcb-org-0317": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 132,
+    "existing_length": 437,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.71,
+    "para_word_count": 32
+  },
+  "ptcb-org-0328": {
+    "reasons": [
+      "placeholder_text_present"
+    ],
+    "generated_length": 130,
+    "existing_length": 430,
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.59,
+    "para_word_count": 27
+  },
+  "ptcb-org-0001": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0002": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0003": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0004": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0005": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0006": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0007": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0008": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0009": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0010": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0011": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0012": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0013": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0014": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0015": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0016": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0017": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0018": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0019": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0020": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0022": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.92,
+    "para_word_count": 31
+  },
+  "ptcb-org-0023": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0024": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0025": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0026": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0027": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0028": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0029": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0030": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0031": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0032": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0033": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0034": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0035": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0036": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0037": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0039": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0040": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0041": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0042": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0043": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0044": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0045": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0046": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0047": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0048": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0050": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0053": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0054": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0055": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0056": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0057": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0058": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0059": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0060": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0061": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0062": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0063": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0064": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0065": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0066": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0067": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0068": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0069": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0070": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0071": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0073": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0074": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0075": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0077": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 9.78,
+    "para_word_count": 27
+  },
+  "ptcb-org-0078": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0079": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0080": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0081": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0082": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0083": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0084": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0085": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0086": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0087": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 11.11,
+    "para_word_count": 30
+  },
+  "ptcb-org-0088": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0089": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0090": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0091": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0092": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0093": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0094": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0095": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0096": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0097": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0098": {
+    "paraphrase_done": true,
+    "review_status": "approved",
+    "similarity": 0.0,
+    "flesch_kincaid": 13.07,
+    "para_word_count": 15
+  },
+  "ptcb-org-0099": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0100": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0101": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0102": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0103": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0104": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0106": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0107": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0108": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0109": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0110": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0111": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0113": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0114": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0115": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0116": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0117": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0118": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0119": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0120": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0121": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0122": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0123": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0124": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0125": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0126": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0127": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0128": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0130": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0131": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0132": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0134": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0135": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0136": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0137": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0138": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0139": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0140": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.26,
+    "para_word_count": 36
+  },
+  "ptcb-org-0141": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0142": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0143": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0144": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0146": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 12.63,
+    "para_word_count": 26
+  },
+  "ptcb-org-0147": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0148": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0149": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0150": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0151": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0152": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0153": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0154": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0155": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 5.84,
+    "para_word_count": 27
+  },
+  "ptcb-org-0157": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 8.22,
+    "para_word_count": 53
+  },
+  "ptcb-org-0158": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0160": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0161": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0163": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0164": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0165": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0166": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0167": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0168": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0169": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0171": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0172": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0173": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0174": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0175": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0176": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0177": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0178": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0179": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0180": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0181": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0183": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0185": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0186": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0187": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0188": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0189": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0190": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0191": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0192": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0193": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0194": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0195": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0196": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0197": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0199": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.19,
+    "para_word_count": 21
+  },
+  "ptcb-org-0200": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.69,
+    "para_word_count": 40
+  },
+  "ptcb-org-0201": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.6,
+    "para_word_count": 40
+  },
+  "ptcb-org-0202": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.43,
+    "para_word_count": 48
+  },
+  "ptcb-org-0203": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.34,
+    "para_word_count": 39
+  },
+  "ptcb-org-0204": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.51,
+    "para_word_count": 41
+  },
+  "ptcb-org-0205": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.33,
+    "para_word_count": 35
+  },
+  "ptcb-org-0206": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.07,
+    "para_word_count": 44
+  },
+  "ptcb-org-0207": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.41,
+    "para_word_count": 26
+  },
+  "ptcb-org-0209": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.48,
+    "para_word_count": 40
+  },
+  "ptcb-org-0210": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0211": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.76,
+    "para_word_count": 38
+  },
+  "ptcb-org-0212": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 8.33,
+    "para_word_count": 21
+  },
+  "ptcb-org-0213": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.79,
+    "para_word_count": 42
+  },
+  "ptcb-org-0214": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -3.7,
+    "para_word_count": 39
+  },
+  "ptcb-org-0215": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.3,
+    "para_word_count": 23
+  },
+  "ptcb-org-0217": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.79,
+    "para_word_count": 27
+  },
+  "ptcb-org-0218": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.06,
+    "para_word_count": 31
+  },
+  "ptcb-org-0219": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.52,
+    "para_word_count": 31
+  },
+  "ptcb-org-0220": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 6.01,
+    "para_word_count": 20
+  },
+  "ptcb-org-0221": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -3.44,
+    "para_word_count": 64
+  },
+  "ptcb-org-0222": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.95,
+    "para_word_count": 44
+  },
+  "ptcb-org-0224": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.61,
+    "para_word_count": 31
+  },
+  "ptcb-org-0225": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.88,
+    "para_word_count": 25
+  },
+  "ptcb-org-0226": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.07,
+    "para_word_count": 22
+  },
+  "ptcb-org-0227": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 7.97,
+    "para_word_count": 19
+  },
+  "ptcb-org-0228": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.5,
+    "para_word_count": 33
+  },
+  "ptcb-org-0229": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -3.09,
+    "para_word_count": 61
+  },
+  "ptcb-org-0230": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.0,
+    "para_word_count": 32
+  },
+  "ptcb-org-0231": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.07,
+    "para_word_count": 32
+  },
+  "ptcb-org-0232": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.45,
+    "para_word_count": 34
+  },
+  "ptcb-org-0233": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.51,
+    "para_word_count": 45
+  },
+  "ptcb-org-0234": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.48,
+    "para_word_count": 27
+  },
+  "ptcb-org-0235": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.66,
+    "para_word_count": 32
+  },
+  "ptcb-org-0236": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.22,
+    "para_word_count": 28
+  },
+  "ptcb-org-0237": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.04,
+    "para_word_count": 35
+  },
+  "ptcb-org-0238": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0239": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.2,
+    "para_word_count": 28
+  },
+  "ptcb-org-0240": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -4.67,
+    "para_word_count": 34
+  },
+  "ptcb-org-0241": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.95,
+    "para_word_count": 26
+  },
+  "ptcb-org-0243": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.82,
+    "para_word_count": 25
+  },
+  "ptcb-org-0244": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -4.62,
+    "para_word_count": 58
+  },
+  "ptcb-org-0246": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.52,
+    "para_word_count": 40
+  },
+  "ptcb-org-0247": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.33,
+    "para_word_count": 25
+  },
+  "ptcb-org-0248": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.12,
+    "para_word_count": 36
+  },
+  "ptcb-org-0250": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.22,
+    "para_word_count": 25
+  },
+  "ptcb-org-0251": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.12,
+    "para_word_count": 35
+  },
+  "ptcb-org-0252": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.26,
+    "para_word_count": 29
+  },
+  "ptcb-org-0253": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.16,
+    "para_word_count": 29
+  },
+  "ptcb-org-0254": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.77,
+    "para_word_count": 23
+  },
+  "ptcb-org-0255": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.05,
+    "para_word_count": 26
+  },
+  "ptcb-org-0256": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.83,
+    "para_word_count": 30
+  },
+  "ptcb-org-0257": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -3.46,
+    "para_word_count": 48
+  },
+  "ptcb-org-0258": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.28,
+    "para_word_count": 40
+  },
+  "ptcb-org-0260": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.89,
+    "para_word_count": 42
+  },
+  "ptcb-org-0261": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.6,
+    "para_word_count": 20
+  },
+  "ptcb-org-0263": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.51,
+    "para_word_count": 36
+  },
+  "ptcb-org-0264": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0265": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 8.05,
+    "para_word_count": 34
+  },
+  "ptcb-org-0266": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0267": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.16,
+    "para_word_count": 27
+  },
+  "ptcb-org-0268": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.99,
+    "para_word_count": 21
+  },
+  "ptcb-org-0269": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.03,
+    "para_word_count": 27
+  },
+  "ptcb-org-0270": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0271": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.76,
+    "para_word_count": 25
+  },
+  "ptcb-org-0272": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.84,
+    "para_word_count": 40
+  },
+  "ptcb-org-0274": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0275": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.09,
+    "para_word_count": 37
+  },
+  "ptcb-org-0276": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.78,
+    "para_word_count": 27
+  },
+  "ptcb-org-0277": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.53,
+    "para_word_count": 36
+  },
+  "ptcb-org-0278": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.98,
+    "para_word_count": 34
+  },
+  "ptcb-org-0279": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.03,
+    "para_word_count": 25
+  },
+  "ptcb-org-0280": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -5.31,
+    "para_word_count": 36
+  },
+  "ptcb-org-0281": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.63,
+    "para_word_count": 15
+  },
+  "ptcb-org-0282": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.21,
+    "para_word_count": 23
+  },
+  "ptcb-org-0283": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0284": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.83,
+    "para_word_count": 39
+  },
+  "ptcb-org-0285": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.9,
+    "para_word_count": 31
+  },
+  "ptcb-org-0286": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0288": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.9,
+    "para_word_count": 31
+  },
+  "ptcb-org-0289": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.22,
+    "para_word_count": 41
+  },
+  "ptcb-org-0290": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0291": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.32,
+    "para_word_count": 53
+  },
+  "ptcb-org-0292": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.62,
+    "para_word_count": 55
+  },
+  "ptcb-org-0293": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.75,
+    "para_word_count": 47
+  },
+  "ptcb-org-0294": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -3.22,
+    "para_word_count": 44
+  },
+  "ptcb-org-0295": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0296": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.28,
+    "para_word_count": 38
+  },
+  "ptcb-org-0297": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0298": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.39,
+    "para_word_count": 35
+  },
+  "ptcb-org-0300": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0301": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.53,
+    "para_word_count": 36
+  },
+  "ptcb-org-0302": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.95,
+    "para_word_count": 38
+  },
+  "ptcb-org-0303": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.32,
+    "para_word_count": 28
+  },
+  "ptcb-org-0304": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -4.75,
+    "para_word_count": 59
+  },
+  "ptcb-org-0305": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0306": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.77,
+    "para_word_count": 32
+  },
+  "ptcb-org-0307": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.54,
+    "para_word_count": 36
+  },
+  "ptcb-org-0308": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.02,
+    "para_word_count": 29
+  },
+  "ptcb-org-0310": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.71,
+    "para_word_count": 39
+  },
+  "ptcb-org-0311": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.95,
+    "para_word_count": 26
+  },
+  "ptcb-org-0312": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.3,
+    "para_word_count": 24
+  },
+  "ptcb-org-0314": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.85,
+    "para_word_count": 26
+  },
+  "ptcb-org-0315": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.51,
+    "para_word_count": 21
+  },
+  "ptcb-org-0316": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.59,
+    "para_word_count": 27
+  },
+  "ptcb-org-0318": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.54,
+    "para_word_count": 38
+  },
+  "ptcb-org-0319": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 7.16,
+    "para_word_count": 18
+  },
+  "ptcb-org-0320": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 4.25,
+    "para_word_count": 22
+  },
+  "ptcb-org-0321": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.22,
+    "para_word_count": 39
+  },
+  "ptcb-org-0322": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.14,
+    "para_word_count": 33
+  },
+  "ptcb-org-0323": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.54,
+    "para_word_count": 43
+  },
+  "ptcb-org-0324": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 2.5,
+    "para_word_count": 25
+  },
+  "ptcb-org-0325": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.23,
+    "para_word_count": 42
+  },
+  "ptcb-org-0326": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.23,
+    "para_word_count": 34
+  },
+  "ptcb-org-0327": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.85,
+    "para_word_count": 34
+  },
+  "ptcb-org-0329": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -1.91,
+    "para_word_count": 31
+  },
+  "ptcb-org-0330": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 0.39,
+    "para_word_count": 29
+  },
+  "ptcb-org-0331": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 1.77,
+    "para_word_count": 35
+  },
+  "ptcb-org-0332": {
+    "paraphrase_done": false,
+    "review_status": "not_paraphrased"
+  },
+  "ptcb-org-0333": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -2.94,
+    "para_word_count": 34
+  },
+  "ptcb-org-0334": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -4.22,
+    "para_word_count": 27
+  },
+  "ptcb-org-0335": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": -0.01,
+    "para_word_count": 20
+  },
+  "ptcb-org-0336": {
+    "paraphrase_done": true,
+    "review_status": "pending_review",
+    "similarity": 0.0,
+    "flesch_kincaid": 3.03,
+    "para_word_count": 19
+  }
+}
