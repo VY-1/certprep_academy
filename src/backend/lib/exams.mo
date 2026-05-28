@@ -23,7 +23,7 @@ module {
       case (1) { "B" };
       case (2) { "C" };
       case (3) { "D" };
-      case (_) { Nat.toText(index + 1) };
+      case (_) { (index + 1).toText() };
     };
   };
 
