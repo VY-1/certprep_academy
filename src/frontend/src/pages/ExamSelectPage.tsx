@@ -935,9 +935,9 @@ function FullPoolVersionCard({
             </span>
           </div>
           <p className="text-xs font-body text-muted-foreground max-w-xl">
-            {isPtcbOrg
-              ? `All ${poolSize} imported PTCB ORG questions in one session — shuffled fresh every time for maximum coverage of the full pool.`
-              : "All ~990 questions from the complete PTCB question pool in a single session — shuffled fresh every time. Far more coverage than the real PTCE (90 questions) — ideal for exhaustive preparation."}
+              {isPtcbOrg
+                ? `All ${poolSize} PTCB ORG practice pool questions in one session — derived from the provided PTCB ORG materials; includes multiple study modes and timed options.`
+                : "All ~990 questions from the complete PTCB question pool in a single session — shuffled fresh every time. Far more coverage than the real PTCE (90 questions) — ideal for exhaustive preparation."}
           </p>
         </div>
       </div>
@@ -1002,7 +1002,7 @@ function FullPoolVersionCard({
       {isBuilding && (
         <div className="flex items-center gap-2 text-xs font-body text-muted-foreground">
           <div className="w-3 h-3 border-2 border-primary/40 border-t-primary rounded-full animate-spin" />
-          Loading versions... {loadedCount}/{TOTAL_VERSIONS}
+          Loading variants... {loadedCount}/{TOTAL_VERSIONS}
         </div>
       )}
 
@@ -1179,7 +1179,7 @@ export function ExamSelectPage() {
 
         <div>
           <h2 className="font-display font-semibold text-base text-foreground mb-4">
-            Select a Practice Version
+            Select a Practice Variant
           </h2>
 
           {/* Static fallback catalog removed; versions come from backend */}
@@ -1210,11 +1210,11 @@ export function ExamSelectPage() {
               <AlertCircle className="w-8 h-8 text-destructive/60" />
               <div>
                 <p className="font-display font-semibold text-foreground">
-                  Unable to load exam versions
+                  Unable to load exam variants
                 </p>
-                <p className="text-sm font-body text-muted-foreground mt-1">
-                  This may be a temporary issue. Please try again.
-                </p>
+                  <p className="text-sm font-body text-muted-foreground mt-1">
+                    This may be a temporary issue. Please try again.
+                  </p>
               </div>
               <button
                 type="button"
@@ -1237,10 +1237,10 @@ export function ExamSelectPage() {
                 data-ocid="versions.empty_state"
               >
                 <p className="font-display font-medium text-foreground">
-                  No versions available
+                  No variants available
                 </p>
                 <p className="text-sm font-body text-muted-foreground mt-1">
-                  This exam has no practice versions yet.
+                  This exam has no practice variants yet.
                 </p>
               </div>
             )}

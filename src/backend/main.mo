@@ -17,4 +17,19 @@ persistent actor {
   ExamsLib.ensureAdditionalVersions(versions, questions, explanations);
 
   include ExamsMixin(exams, versions, questions, explanations);
+
+  // Explicit admin entrypoints (fallback) in case mixin-exported update methods
+  // are not visible on the deployed canister for any reason. These directly
+  // call the library upsert helpers and will accept the same candid types.
+  public func adminUpsertQuestions(qs : [Types.Question]) : async () {
+    for (q in qs.values()) { ExamsLib.upsertQuestion(questions, q) };
+  };
+
+  public func adminUpsertExplanations(expls : [Types.QuestionExplanation]) : async () {
+    for (ex in expls.values()) { ExamsLib.upsertExplanation(explanations, ex) };
+  };
+
+  public func adminUpsertExams(exs : [Types.CertificationExam]) : async () {
+    for (ex in exs.values()) { ExamsLib.upsertExam(exams, ex) };
+  };
 };
