@@ -54,7 +54,7 @@ function ExamCard({
           {badge}
         </Badge>
         <span className="text-xs font-body text-muted-foreground">
-          {versionCount} versions
+          {versionCount} variants
         </span>
       </div>
 
@@ -211,9 +211,6 @@ export function HomePage() {
               </span>
             ))}
           </div>
-
-          
-
           <Link
             to="/exams/$examId"
             params={{ examId: "ptcb" }}
@@ -238,6 +235,9 @@ export function HomePage() {
             </h2>
             <p className="text-sm font-body text-muted-foreground mt-1">
               Choose a certification exam to begin your practice session
+            </p>
+            <p className="text-xs font-body text-muted-foreground mt-2">
+              Practice pool derived from PTCB ORG materials — 336 questions organized into three 112-question variants; includes multiple study modes and timed options.
             </p>
           </div>
 
@@ -265,9 +265,35 @@ export function HomePage() {
           {/* Error */}
           {isError && (
             <div className="text-center py-12" data-ocid="exams.error_state">
-              <p className="text-sm font-body text-muted-foreground">
-                Unable to load exams. Please try again.
+              <p className="text-sm font-body text-muted-foreground mb-6">
+                Unable to load exams. Showing authoritative defaults.
               </p>
+              <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto">
+                <ExamCard
+                  id="ptcb"
+                  badge="PTCB"
+                  name={"Pharmacy Technician Certification Exam (PTCE)"}
+                  description={"The PTCE is a 90-question exam covering medications, federal requirements, patient safety, and order entry. Administered by the Pharmacy Technician Certification Board (PTCB)."}
+                  versionCount={4}
+                  questionFact="90 questions"
+                  timeFact="110 minutes"
+                  to="/exams/$examId"
+                  params={{ examId: "ptcb" }}
+                  index={1}
+                />
+                <ExamCard
+                  id="ptcb-org"
+                  badge="PTCB-ORG"
+                  name={"PTCB ORG Exam"}
+                  description={"Practice pool derived from PTCB ORG materials — 336 questions organized into three 112-question variants; includes multiple study modes and timed options."}
+                  versionCount={7}
+                  questionFact="336-question pool"
+                  timeFact="25–110 minute modes"
+                  to="/exams/$examId"
+                  params={{ examId: "ptcb-org" }}
+                  index={2}
+                />
+              </div>
             </div>
           )}
 
@@ -286,8 +312,11 @@ export function HomePage() {
                   <span className="font-semibold text-foreground">
                     Full Pool Exam now available —
                   </span>{" "}
-                  includes a complete 990-question PTCB pool and a
-                  336-question PTCB ORG pool, each shuffled fresh per session.
+                  includes the complete 990-question PTCB pool and a
+                  336-question PTCB ORG pool derived from the provided PTCB
+                  ORG source material, covering federal requirements,
+                  medications, patient safety, and order entry; each pool is
+                  shuffled fresh per session.
                 </p>
               </div>
               {/* ── PTCB card (live data or static fallback) ── */}
@@ -309,14 +338,29 @@ export function HomePage() {
                 index={1}
               />
 
-              {ptcbOrgExam && (
+              {ptcbOrgExam ? (
                 <ExamCard
                   id="ptcb-org"
                   badge="PTCB-ORG"
                   name={ptcbOrgExam.name}
                   description={
                     ptcbOrgExam.description ||
-                    "Imported PTCB ORG practice pool with 336 total questions across three 112-question variants plus special study modes."
+                    "Practice pool derived from PTCB ORG materials — 336 questions organized into three 112-question variants; includes multiple study modes and timed options."
+                  }
+                  versionCount={7}
+                  questionFact="336-question pool"
+                  timeFact="25–110 minute modes"
+                  to="/exams/$examId"
+                  params={{ examId: "ptcb-org" }}
+                  index={2}
+                />
+              ) : (
+                <ExamCard
+                  id="ptcb-org"
+                  badge="PTCB-ORG"
+                  name="PTCB ORG Exam"
+                  description={
+                    "Practice pool derived from PTCB ORG materials — 336 questions organized into three 112-question variants; includes multiple study modes and timed options."
                   }
                   versionCount={7}
                   questionFact="336-question pool"
