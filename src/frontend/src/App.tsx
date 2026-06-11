@@ -25,6 +25,9 @@ const ResultsPage = lazy(() =>
 const HistoryPage = lazy(() =>
   import("@/pages/HistoryPage").then((m) => ({ default: m.HistoryPage })),
 );
+const SupportPage = lazy(() =>
+  import("@/pages/SupportPage").then((m) => ({ default: m.SupportPage })),
+);
 
 function PageLoader() {
   return (
@@ -102,12 +105,25 @@ const historyRoute = createRoute({
   ),
 });
 
+const supportRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/support",
+  component: () => (
+    <Layout>
+      <Suspense fallback={<PageLoader />}>
+        <SupportPage />
+      </Suspense>
+    </Layout>
+  ),
+});
+
 const routeTree = rootRoute.addChildren([
   homeRoute,
   examSelectRoute,
   examTakingRoute,
   resultsRoute,
   historyRoute,
+  supportRoute,
 ]);
 
 const router = createRouter({ routeTree });

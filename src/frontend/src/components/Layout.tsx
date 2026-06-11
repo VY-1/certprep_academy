@@ -1,5 +1,5 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { BookOpen, GraduationCap, History } from "lucide-react";
+import { BookOpen, GraduationCap, HandHeart, History } from "lucide-react";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -63,6 +63,18 @@ export function Layout({ children, examMode = false }: LayoutProps) {
               >
                 <History className="w-3.5 h-3.5" />
                 Study History
+              </Link>
+              <Link
+                to="/support"
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-body transition-colors duration-200 ${
+                  router.location.pathname === "/support"
+                    ? "text-foreground bg-muted"
+                    : "text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                }`}
+                data-ocid="nav.support_link"
+              >
+                <HandHeart className="w-3.5 h-3.5" />
+                Support
               </Link>
             </nav>
           )}
