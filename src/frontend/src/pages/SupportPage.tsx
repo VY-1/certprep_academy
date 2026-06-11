@@ -1,9 +1,13 @@
-import { Heart, Copy, Check } from "lucide-react";
-import { useState } from "react";
+import { Heart, Copy, Check, QrCode } from "lucide-react";
+import { useMemo, useState } from "react";
 
 export function SupportPage() {
   const [copied, setCopied] = useState(false);
   const icpAddress = "3df42c241ee03309ff9ebfb2dd0252b2611655321aa95a648c59b0bda884f25c";
+  const qrCodeUrl = useMemo(() => {
+    const payload = encodeURIComponent(icpAddress);
+    return `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${payload}`;
+  }, [icpAddress]);
 
   const handleCopy = async () => {
     try {
@@ -59,26 +63,45 @@ export function SupportPage() {
             helps us maintain and improve our platform.
           </p>
 
-          {/* ICP Address */}
+          {/* ICP Address + QR */}
           <div className="bg-muted/50 rounded-lg p-4 mb-4">
-            <p className="text-xs text-muted-foreground mb-2 font-medium">
-              ICP Address
-            </p>
-            <div className="flex items-center gap-2">
-              <code className="flex-1 text-xs font-mono text-foreground break-all bg-background px-3 py-2 rounded border border-border">
-                {icpAddress}
-              </code>
-              <button
-                onClick={handleCopy}
-                className="flex items-center gap-1.5 px-3 py-2 rounded-md bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
-                title="Copy address"
-              >
-                {copied ? (
-                  <Check className="w-4 h-4" />
-                ) : (
-                  <Copy className="w-4 h-4" />
-                )}
-              </button>
+            <div className="grid gap-4 sm:grid-cols-[1fr_auto] sm:items-start">
+              <div>
+                <p className="text-xs text-muted-foreground mb-2 font-medium">
+                  ICP Address
+                </p>
+                <div className="flex items-center gap-2">
+                  <code className="flex-1 text-xs font-mono text-foreground break-all bg-background px-3 py-2 rounded border border-border">
+                    {icpAddress}
+                  </code>
+                  <button
+                    onClick={handleCopy}
+                    className="flex items-center gap-1.5 px-3 py-2 rounded-md bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+                    title="Copy address"
+                  >
+                    {copied ? (
+                      <Check className="w-4 h-4" />
+                    ) : (
+                      <Copy className="w-4 h-4" />
+                    )}
+                  </button>
+                </div>
+              </div>
+
+              <div className="mx-auto rounded-lg border bg-background p-3">
+                <div className="mb-2 flex items-center justify-center gap-1 text-xs text-muted-foreground">
+                  <QrCode className="w-3.5 h-3.5" />
+                  Scan QR
+                </div>
+                <img
+                  src={qrCodeUrl}
+                  alt="QR code for ICP donation address"
+                  width={180}
+                  height={180}
+                  className="w-[180px] h-[180px] rounded-sm"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
 
