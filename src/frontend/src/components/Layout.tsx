@@ -26,7 +26,7 @@ export function Layout({ children, examMode = false }: LayoutProps) {
   const [copied, setCopied] = useState(false);
 
   const qrCodeUrl = useMemo(() => {
-    const payload = encodeURIComponent(`icp:${donationAddress}`);
+    const payload = encodeURIComponent(donationAddress);
     return `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${payload}`;
   }, [donationAddress]);
 
