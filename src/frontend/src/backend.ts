@@ -128,12 +128,35 @@ export interface ExamVersion {
     examId: string;
     versionName: string;
 }
+export interface UserProfilePatch {
+    username: string | null;
+    fullName: string | null;
+    email: string | null;
+}
+export interface UserProfile {
+    principal: Principal;
+    username: string | null;
+    fullName: string | null;
+    email: string | null;
+    createdAt: bigint;
+    updatedAt: bigint;
+}
+export interface SyncedAttempt {
+    id: string;
+    payload: string;
+}
 export interface backendInterface {
     addExam(exam: CertificationExam): Promise<void>;
     getExamDetails(examId: string): Promise<CertificationExam | null>;
     getExamQuestions(versionId: string): Promise<Array<Question>>;
     getExamVersions(examId: string): Promise<Array<ExamVersion>>;
     getExams(): Promise<Array<CertificationExam>>;
+    getMyProfile(): Promise<UserProfile | null>;
+    getMyResults(): Promise<Array<SyncedAttempt>>;
+    saveMyResult(result: SyncedAttempt): Promise<void>;
+    saveMyResultsBatch(results: Array<SyncedAttempt>): Promise<void>;
+    updateMyProfile(patch: UserProfilePatch): Promise<UserProfile>;
+    whoami(): Promise<Principal>;
 }
 import type { CertificationExam as _CertificationExam, KnowledgeDomain as _KnowledgeDomain, Question as _Question } from "./declarations/backend.did.d.ts";
 export class Backend implements backendInterface {
@@ -208,6 +231,90 @@ export class Backend implements backendInterface {
             return result;
         }
     }
+    async getMyProfile(): Promise<UserProfile | null> {
+        if (this.processError) {
+            try {
+                const result = await this.actor.getMyProfile();
+                return from_candid_opt_n7(this._uploadFile, this._downloadFile, result);
+            } catch (e) {
+                this.processError(e);
+                throw new Error("unreachable");
+            }
+        } else {
+            const result = await this.actor.getMyProfile();
+            return from_candid_opt_n7(this._uploadFile, this._downloadFile, result);
+        }
+    }
+    async getMyResults(): Promise<Array<SyncedAttempt>> {
+        if (this.processError) {
+            try {
+                const result = await this.actor.getMyResults();
+                return result;
+            } catch (e) {
+                this.processError(e);
+                throw new Error("unreachable");
+            }
+        } else {
+            const result = await this.actor.getMyResults();
+            return result;
+        }
+    }
+    async saveMyResult(arg0: SyncedAttempt): Promise<void> {
+        if (this.processError) {
+            try {
+                const result = await this.actor.saveMyResult(arg0);
+                return result;
+            } catch (e) {
+                this.processError(e);
+                throw new Error("unreachable");
+            }
+        } else {
+            const result = await this.actor.saveMyResult(arg0);
+            return result;
+        }
+    }
+    async saveMyResultsBatch(arg0: Array<SyncedAttempt>): Promise<void> {
+        if (this.processError) {
+            try {
+                const result = await this.actor.saveMyResultsBatch(arg0);
+                return result;
+            } catch (e) {
+                this.processError(e);
+                throw new Error("unreachable");
+            }
+        } else {
+            const result = await this.actor.saveMyResultsBatch(arg0);
+            return result;
+        }
+    }
+    async updateMyProfile(arg0: UserProfilePatch): Promise<UserProfile> {
+        if (this.processError) {
+            try {
+                const result = await this.actor.updateMyProfile(arg0);
+                return result;
+            } catch (e) {
+                this.processError(e);
+                throw new Error("unreachable");
+            }
+        } else {
+            const result = await this.actor.updateMyProfile(arg0);
+            return result;
+        }
+    }
+    async whoami(): Promise<Principal> {
+        if (this.processError) {
+            try {
+                const result = await this.actor.whoami();
+                return result;
+            } catch (e) {
+                this.processError(e);
+                throw new Error("unreachable");
+            }
+        } else {
+            const result = await this.actor.whoami();
+            return result;
+        }
+    }
 }
 function from_candid_KnowledgeDomain_n5(_uploadFile: (file: ExternalBlob) => Promise<Uint8Array>, _downloadFile: (file: Uint8Array) => Promise<ExternalBlob>, value: _KnowledgeDomain): KnowledgeDomain {
     return from_candid_variant_n6(_uploadFile, _downloadFile, value);
@@ -216,6 +323,9 @@ function from_candid_Question_n3(_uploadFile: (file: ExternalBlob) => Promise<Ui
     return from_candid_record_n4(_uploadFile, _downloadFile, value);
 }
 function from_candid_opt_n1(_uploadFile: (file: ExternalBlob) => Promise<Uint8Array>, _downloadFile: (file: Uint8Array) => Promise<ExternalBlob>, value: [] | [_CertificationExam]): CertificationExam | null {
+    return value.length === 0 ? null : value[0];
+}
+function from_candid_opt_n7(_uploadFile: (file: ExternalBlob) => Promise<Uint8Array>, _downloadFile: (file: Uint8Array) => Promise<ExternalBlob>, value: [] | [UserProfile]): UserProfile | null {
     return value.length === 0 ? null : value[0];
 }
 function from_candid_record_n4(_uploadFile: (file: ExternalBlob) => Promise<Uint8Array>, _downloadFile: (file: Uint8Array) => Promise<ExternalBlob>, value: {

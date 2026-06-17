@@ -1,5 +1,4 @@
 import Debug "mo:core/Debug";
-import Principal "mo:core/Principal";
 
 module {
   /// Variant for PTCB knowledge domains — extensible for other certifications.
@@ -44,28 +43,5 @@ module {
   public type QuestionExplanation = {
     id : Text;
     explanation : Text;
-  };
-
-  /// Optional profile data users can edit after signing in.
-  public type UserProfile = {
-    principal : Principal;
-    username : ?Text;
-    fullName : ?Text;
-    email : ?Text;
-    createdAt : Int;
-    updatedAt : Int;
-  };
-
-  /// Partial profile update payload.
-  public type UserProfilePatch = {
-    username : ?Text;
-    fullName : ?Text;
-    email : ?Text;
-  };
-
-  /// JSON payload for a synced study-history entry.
-  public type SyncedAttempt = {
-    id : Text;
-    payload : Text;
   };
 };

@@ -1,5 +1,16 @@
-import { Link, useRouterState } from "@tanstack/react-router";
-import { BookOpen, GraduationCap, History } from "lucide-react";
+import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
+import { BookOpen, Check, Copy, GraduationCap, HandHeart, History, LogOut, QrCode, UserRound } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { useAuth } from "@/hooks/useAuth";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -9,10 +20,92 @@ interface LayoutProps {
 
 export function Layout({ children, examMode = false }: LayoutProps) {
   const router = useRouterState();
+  const navigate = useNavigate();
   const isHome = router.location.pathname === "/";
+  const auth = useAuth();
+  const donationAddress =
+    "3df42c241ee03309ff9ebfb2dd0252b2611655321aa95a648c59b0bda884f25c";
+  const [showDonationPopup, setShowDonationPopup] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  const qrCodeUrl = useMemo(() => {
+    const payload = encodeURIComponent(donationAddress);
+    return `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${payload}`;
+  }, [donationAddress]);
+
+  useEffect(() => {
+    if (examMode) {
+      return;
+    }
+
+    const popupSeenKey = "certprep_donation_popup_seen";
+    const hasSeenPopup = sessionStorage.getItem(popupSeenKey);
+    if (!hasSeenPopup) {
+      setShowDonationPopup(true);
+      sessionStorage.setItem(popupSeenKey, "1");
+    }
+  }, [examMode]);
+
+  const handleCopyAddress = async () => {
+    try {
+      await navigator.clipboard.writeText(donationAddress);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error("Failed to copy donation address", err);
+    }
+  };
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Dialog open={showDonationPopup} onOpenChange={setShowDonationPopup}>
+        <DialogContent className="sm:max-w-xl">
+          <DialogHeader>
+            <DialogTitle className="font-display">Support CertPrep Academy</DialogTitle>
+            <DialogDescription>
+              A one-time donation helps keep exam prep free and accessible.
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className="grid gap-4 sm:grid-cols-[1fr_auto] sm:items-start">
+            <div className="space-y-3">
+              <p className="text-xs font-medium text-muted-foreground">ICP donation address</p>
+              <code className="block rounded-md border bg-muted/40 p-3 text-xs leading-relaxed break-all">
+                {donationAddress}
+              </code>
+              <Button onClick={handleCopyAddress} className="w-full sm:w-auto">
+                {copied ? <Check className="size-4" /> : <Copy className="size-4" />}
+                {copied ? "Copied" : "Copy Address"}
+              </Button>
+            </div>
+
+            <div className="mx-auto rounded-lg border bg-muted/20 p-3">
+              <div className="mb-2 flex items-center justify-center gap-1 text-xs text-muted-foreground">
+                <QrCode className="size-3.5" />
+                Scan QR
+              </div>
+              <img
+                src={qrCodeUrl}
+                alt="QR code for ICP donation address"
+                width={180}
+                height={180}
+                className="h-[180px] w-[180px] rounded-sm"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setShowDonationPopup(false)}>
+              Maybe Later
+            </Button>
+            <Button asChild>
+              <Link to="/support">Open Support Page</Link>
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
       {/* Header */}
       <header className="bg-card border-b border-border sticky top-0 z-40">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
@@ -64,6 +157,59 @@ export function Layout({ children, examMode = false }: LayoutProps) {
                 <History className="w-3.5 h-3.5" />
                 Study History
               </Link>
+              <Link
+                to="/support"
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-body transition-colors duration-200 ${
+                  router.location.pathname === "/support"
+                    ? "text-foreground bg-muted"
+                    : "text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                }`}
+                data-ocid="nav.support_link"
+              >
+                <HandHeart className="w-3.5 h-3.5" />
+                Support
+              </Link>
+              {auth.isAuthenticated ? (
+                <>
+                  <Link
+                    to="/account"
+                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-body transition-colors duration-200 ${
+                      router.location.pathname === "/account"
+                        ? "text-foreground bg-muted"
+                        : "text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                    }`}
+                    data-ocid="nav.account_link"
+                  >
+                    <UserRound className="w-3.5 h-3.5" />
+                    Account
+                  </Link>
+                  <Button
+                    variant="ghost"
+                    className="flex items-center gap-1.5 px-3 py-1.5 h-auto text-sm font-body text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                    onClick={() => {
+                      auth.logout();
+                      navigate({ to: "/" });
+                    }}
+                    data-ocid="nav.logout_button"
+                  >
+                    <LogOut className="w-3.5 h-3.5" />
+                    Logout
+                  </Button>
+                </>
+              ) : (
+                <Link
+                  to="/login"
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-body transition-colors duration-200 ${
+                    router.location.pathname === "/login"
+                      ? "text-foreground bg-muted"
+                      : "text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                  }`}
+                  data-ocid="nav.login_link"
+                >
+                  <UserRound className="w-3.5 h-3.5" />
+                  Login
+                </Link>
+              )}
             </nav>
           )}
         </div>

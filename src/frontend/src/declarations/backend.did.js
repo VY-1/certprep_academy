@@ -38,9 +38,33 @@ export const ExamVersion = IDL.Record({
   'examId' : IDL.Text,
   'versionName' : IDL.Text,
 });
+export const QuestionExplanation = IDL.Record({
+  'explanation' : IDL.Text,
+  'id' : IDL.Text,
+});
+export const SyncedAttempt = IDL.Record({
+  'id' : IDL.Text,
+  'payload' : IDL.Text,
+});
+export const UserProfile = IDL.Record({
+  'createdAt' : IDL.Int,
+  'email' : IDL.Opt(IDL.Text),
+  'fullName' : IDL.Opt(IDL.Text),
+  'principal' : IDL.Principal,
+  'updatedAt' : IDL.Int,
+  'username' : IDL.Opt(IDL.Text),
+});
+export const UserProfilePatch = IDL.Record({
+  'email' : IDL.Opt(IDL.Text),
+  'fullName' : IDL.Opt(IDL.Text),
+  'username' : IDL.Opt(IDL.Text),
+});
 
 export const idlService = IDL.Service({
   'addExam' : IDL.Func([CertificationExam], [], []),
+  'adminUpsertExams' : IDL.Func([IDL.Vec(CertificationExam)], [], []),
+  'adminUpsertExplanations' : IDL.Func([IDL.Vec(QuestionExplanation)], [], []),
+  'adminUpsertQuestions' : IDL.Func([IDL.Vec(Question)], [], []),
   'getExamDetails' : IDL.Func(
       [IDL.Text],
       [IDL.Opt(CertificationExam)],
@@ -49,6 +73,14 @@ export const idlService = IDL.Service({
   'getExamQuestions' : IDL.Func([IDL.Text], [IDL.Vec(Question)], ['query']),
   'getExamVersions' : IDL.Func([IDL.Text], [IDL.Vec(ExamVersion)], ['query']),
   'getExams' : IDL.Func([], [IDL.Vec(CertificationExam)], ['query']),
+  'getMyProfile' : IDL.Func([], [IDL.Opt(UserProfile)], []),
+  'getMyResults' : IDL.Func([], [IDL.Vec(SyncedAttempt)], []),
+  'saveMyResult' : IDL.Func([SyncedAttempt], [], []),
+  'saveMyResultsBatch' : IDL.Func([IDL.Vec(SyncedAttempt)], [], []),
+  'updateMyProfile' : IDL.Func([UserProfilePatch], [UserProfile], []),
+  'upsertExplanations' : IDL.Func([IDL.Vec(QuestionExplanation)], [], []),
+  'upsertQuestions' : IDL.Func([IDL.Vec(Question)], [], []),
+  'whoami' : IDL.Func([], [IDL.Principal], []),
 });
 
 export const idlInitArgs = [];
@@ -84,9 +116,37 @@ export const idlFactory = ({ IDL }) => {
     'examId' : IDL.Text,
     'versionName' : IDL.Text,
   });
+  const QuestionExplanation = IDL.Record({
+    'explanation' : IDL.Text,
+    'id' : IDL.Text,
+  });
+  const SyncedAttempt = IDL.Record({
+    'id' : IDL.Text,
+    'payload' : IDL.Text,
+  });
+  const UserProfile = IDL.Record({
+    'createdAt' : IDL.Int,
+    'email' : IDL.Opt(IDL.Text),
+    'fullName' : IDL.Opt(IDL.Text),
+    'principal' : IDL.Principal,
+    'updatedAt' : IDL.Int,
+    'username' : IDL.Opt(IDL.Text),
+  });
+  const UserProfilePatch = IDL.Record({
+    'email' : IDL.Opt(IDL.Text),
+    'fullName' : IDL.Opt(IDL.Text),
+    'username' : IDL.Opt(IDL.Text),
+  });
   
   return IDL.Service({
     'addExam' : IDL.Func([CertificationExam], [], []),
+    'adminUpsertExams' : IDL.Func([IDL.Vec(CertificationExam)], [], []),
+    'adminUpsertExplanations' : IDL.Func(
+        [IDL.Vec(QuestionExplanation)],
+        [],
+        [],
+      ),
+    'adminUpsertQuestions' : IDL.Func([IDL.Vec(Question)], [], []),
     'getExamDetails' : IDL.Func(
         [IDL.Text],
         [IDL.Opt(CertificationExam)],
@@ -95,6 +155,14 @@ export const idlFactory = ({ IDL }) => {
     'getExamQuestions' : IDL.Func([IDL.Text], [IDL.Vec(Question)], ['query']),
     'getExamVersions' : IDL.Func([IDL.Text], [IDL.Vec(ExamVersion)], ['query']),
     'getExams' : IDL.Func([], [IDL.Vec(CertificationExam)], ['query']),
+    'getMyProfile' : IDL.Func([], [IDL.Opt(UserProfile)], []),
+    'getMyResults' : IDL.Func([], [IDL.Vec(SyncedAttempt)], []),
+    'saveMyResult' : IDL.Func([SyncedAttempt], [], []),
+    'saveMyResultsBatch' : IDL.Func([IDL.Vec(SyncedAttempt)], [], []),
+    'updateMyProfile' : IDL.Func([UserProfilePatch], [UserProfile], []),
+    'upsertExplanations' : IDL.Func([IDL.Vec(QuestionExplanation)], [], []),
+    'upsertQuestions' : IDL.Func([IDL.Vec(Question)], [], []),
+    'whoami' : IDL.Func([], [IDL.Principal], []),
   });
 };
 

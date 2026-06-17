@@ -10,6 +10,7 @@ import PoolV9 "exams-pool-v9";
 import PoolV10 "exams-pool-v10";
 import PoolV11 "exams-pool-v11";
 import PoolPtcbOrg "exams-pool-ptcb-org";
+import EmbeddedSeed "ptcb_embedded_seed";
 
 module {
   public type CertificationExam = Types.CertificationExam;
@@ -206,6 +207,26 @@ module {
     if (not replaced) { questions.add(question) };
   };
 
+  /// Upsert a certification exam entry (overwrite if exists).
+  public func upsertExam(
+    exams : List.List<CertificationExam>,
+    exam : CertificationExam
+  ) : () {
+    var i : Nat = 0;
+    let n : Nat = exams.size();
+    var replaced : Bool = false;
+    while (i < n) {
+      let e = exams.at(i);
+      if (e.id == exam.id) {
+        exams.put(i, exam);
+        replaced := true;
+        break;
+      };
+      i += 1;
+    };
+    if (not replaced) { exams.add(exam) };
+  };
+
   /// Bulk upsert questions.
   public func upsertQuestions(
     questions : List.List<Question>,
@@ -298,13 +319,13 @@ module {
     PoolV11.seedV11(v11Versions, v11Questions);
     for (q in v11Questions.values()) { addQuestionIfMissing(questions, q) };
 
-    // Seed PTCB ORG imported question bank (split across v1-v3)
-    PoolPtcbOrg.seedPtcbOrgQuestions(questions);
-    // Persist any non-empty explanations from the seed as overlay entries.
-    let seedQuestions = List.empty<Question>();
-    PoolPtcbOrg.seedPtcbOrgQuestions(seedQuestions);
-    for (sq in seedQuestions.values()) {
-      if (sq.explanation != "") { addExplanationIfMissing(explanations, { id = sq.id; explanation = sq.explanation }) };
+    // Seed PTCB ORG imported question bank from embedded JSON payload.
+    // This unconditionally upserts the authoritative seed so storage
+    // reflects the corrected answers and explanations bundled at build time.
+    let embeddedQs = EmbeddedSeed.embeddedPtcbQuestions();
+    upsertQuestions(questions, embeddedQs);
+    for (q in embeddedQs.values()) {
+      if (q.explanation != "") { addExplanationIfMissing(explanations, { id = q.id; explanation = q.explanation }) };
     };
   };
 
@@ -328,7 +349,7 @@ module {
     addExamIfMissing(exams, {
       id = "ptcb-org";
       name = "PTCB ORG Exam";
-      description = "Imported PTCB ORG practice questions.";
+      description = "Practice pool derived from PTCB ORG materials — 336 questions organized into three 112-question variants; includes multiple study modes and timed options.";
     });
     addVersionIfMissing(versions, {
       id = "ptcb-org-v1";
