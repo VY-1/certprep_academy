@@ -1,5 +1,5 @@
-import { Link, useRouterState } from "@tanstack/react-router";
-import { BookOpen, Check, Copy, GraduationCap, HandHeart, History, QrCode } from "lucide-react";
+import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
+import { BookOpen, Check, Copy, GraduationCap, HandHeart, History, LogOut, QrCode, UserRound } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -10,6 +10,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import { useAuth } from "@/hooks/useAuth";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -19,7 +20,9 @@ interface LayoutProps {
 
 export function Layout({ children, examMode = false }: LayoutProps) {
   const router = useRouterState();
+  const navigate = useNavigate();
   const isHome = router.location.pathname === "/";
+  const auth = useAuth();
   const donationAddress =
     "3df42c241ee03309ff9ebfb2dd0252b2611655321aa95a648c59b0bda884f25c";
   const [showDonationPopup, setShowDonationPopup] = useState(false);
@@ -166,6 +169,47 @@ export function Layout({ children, examMode = false }: LayoutProps) {
                 <HandHeart className="w-3.5 h-3.5" />
                 Support
               </Link>
+              {auth.isAuthenticated ? (
+                <>
+                  <Link
+                    to="/account"
+                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-body transition-colors duration-200 ${
+                      router.location.pathname === "/account"
+                        ? "text-foreground bg-muted"
+                        : "text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                    }`}
+                    data-ocid="nav.account_link"
+                  >
+                    <UserRound className="w-3.5 h-3.5" />
+                    Account
+                  </Link>
+                  <Button
+                    variant="ghost"
+                    className="flex items-center gap-1.5 px-3 py-1.5 h-auto text-sm font-body text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                    onClick={() => {
+                      auth.logout();
+                      navigate({ to: "/" });
+                    }}
+                    data-ocid="nav.logout_button"
+                  >
+                    <LogOut className="w-3.5 h-3.5" />
+                    Logout
+                  </Button>
+                </>
+              ) : (
+                <Link
+                  to="/login"
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-body transition-colors duration-200 ${
+                    router.location.pathname === "/login"
+                      ? "text-foreground bg-muted"
+                      : "text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                  }`}
+                  data-ocid="nav.login_link"
+                >
+                  <UserRound className="w-3.5 h-3.5" />
+                  Login
+                </Link>
+              )}
             </nav>
           )}
         </div>

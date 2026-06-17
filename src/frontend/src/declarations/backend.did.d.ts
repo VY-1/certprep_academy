@@ -23,6 +23,27 @@ export interface ExamVersion {
   'examId' : string,
   'versionName' : string,
 }
+export interface QuestionExplanation {
+  'explanation' : string,
+  'id' : string,
+}
+export interface SyncedAttempt {
+  'id' : string,
+  'payload' : string,
+}
+export interface UserProfile {
+  'createdAt' : bigint,
+  'email' : [] | [string],
+  'fullName' : [] | [string],
+  'principal' : Principal,
+  'updatedAt' : bigint,
+  'username' : [] | [string],
+}
+export interface UserProfilePatch {
+  'email' : [] | [string],
+  'fullName' : [] | [string],
+  'username' : [] | [string],
+}
 export type KnowledgeDomain = { 'Medications' : null } |
   { 'FederalRequirements' : null } |
   { 'OrderEntry' : null } |
@@ -40,10 +61,21 @@ export interface Question {
 }
 export interface _SERVICE {
   'addExam' : ActorMethod<[CertificationExam], undefined>,
+  'adminUpsertExams' : ActorMethod<[Array<CertificationExam>], undefined>,
+  'adminUpsertExplanations' : ActorMethod<[Array<QuestionExplanation>], undefined>,
+  'adminUpsertQuestions' : ActorMethod<[Array<Question>], undefined>,
   'getExamDetails' : ActorMethod<[string], [] | [CertificationExam]>,
   'getExamQuestions' : ActorMethod<[string], Array<Question>>,
   'getExamVersions' : ActorMethod<[string], Array<ExamVersion>>,
   'getExams' : ActorMethod<[], Array<CertificationExam>>,
+  'getMyProfile' : ActorMethod<[], [] | [UserProfile]>,
+  'getMyResults' : ActorMethod<[], Array<SyncedAttempt>>,
+  'saveMyResult' : ActorMethod<[SyncedAttempt], undefined>,
+  'saveMyResultsBatch' : ActorMethod<[Array<SyncedAttempt>], undefined>,
+  'updateMyProfile' : ActorMethod<[UserProfilePatch], UserProfile>,
+  'upsertExplanations' : ActorMethod<[Array<QuestionExplanation>], undefined>,
+  'upsertQuestions' : ActorMethod<[Array<Question>], undefined>,
+  'whoami' : ActorMethod<[], Principal>,
 }
 export declare const idlService: IDL.ServiceClass;
 export declare const idlInitArgs: IDL.Type[];

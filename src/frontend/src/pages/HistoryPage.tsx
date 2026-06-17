@@ -1,7 +1,17 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { createActor } from "@/backend";
+import { useAuth } from "@/hooks/useAuth";
 import type { StudyHistoryEntry } from "@/utils/studyHistory";
-import { clearHistory, getHistory } from "@/utils/studyHistory";
+import {
+  clearHistory,
+  fetchCloudHistory,
+  getHistory,
+  mergeHistories,
+  setHistory,
+  syncAllLocalToCloud,
+} from "@/utils/studyHistory";
+import { useActor } from "@caffeineai/core-infrastructure";
 import { Link } from "@tanstack/react-router";
 import {
   AlertTriangle,
@@ -399,11 +409,41 @@ function PrintDocument({ entries }: { entries: StudyHistoryEntry[] }) {
 export function HistoryPage() {
   const [entries, setEntries] = useState<StudyHistoryEntry[]>([]);
   const [confirmClear, setConfirmClear] = useState(false);
+  const [isSyncing, setIsSyncing] = useState(false);
   const printRef = useRef<HTMLDivElement>(null);
+  const auth = useAuth();
+  const { actor } = useActor(createActor);
 
   useEffect(() => {
-    setEntries(getHistory());
-  }, []);
+    let cancelled = false;
+
+    async function loadHistory() {
+      const local = getHistory();
+
+      if (!auth.isAuthenticated || !actor) {
+        if (!cancelled) setEntries(local);
+        return;
+      }
+
+      setIsSyncing(true);
+      try {
+        const cloud = await fetchCloudHistory(actor);
+        const merged = mergeHistories(local, cloud);
+        setHistory(merged);
+        if (local.length > 0) {
+          await syncAllLocalToCloud(actor, local);
+        }
+        if (!cancelled) setEntries(merged);
+      } finally {
+        if (!cancelled) setIsSyncing(false);
+      }
+    }
+
+    void loadHistory();
+    return () => {
+      cancelled = true;
+    };
+  }, [actor, auth.isAuthenticated]);
 
   const handleClear = () => {
     if (!confirmClear) {
@@ -443,6 +483,13 @@ export function HistoryPage() {
                 Track your progress and performance across all practice
                 sessions.
               </p>
+              {auth.isAuthenticated && (
+                <p className="mt-2 text-xs font-body text-primary">
+                  {isSyncing
+                    ? "Syncing history across devices…"
+                    : "Signed in — history synced across devices."}
+                </p>
+              )}
             </div>
 
             {entries.length > 0 && (
@@ -468,12 +515,14 @@ export function HistoryPage() {
                     className="flex items-center gap-1.5"
                   >
                     <Trash2 className="w-3.5 h-3.5" />
-                    Reset Progress
+                    {auth.isAuthenticated ? "Reset Local History" : "Reset Progress"}
                   </Button>
                 ) : (
                   <div className="flex flex-col items-end gap-2 bg-destructive/10 border border-destructive/30 rounded-lg px-4 py-3">
                     <p className="text-xs font-body text-destructive font-semibold">
-                      This will permanently delete all study history.
+                      {auth.isAuthenticated
+                        ? "This will clear local history on this device. Cloud history remains."
+                        : "This will permanently delete all study history."}
                     </p>
                     <div className="flex items-center gap-2">
                       <Button

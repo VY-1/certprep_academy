@@ -46,10 +46,33 @@ export interface ExamVersion {
     examId: string;
     versionName: string;
 }
+export interface UserProfilePatch {
+    username: string | null;
+    fullName: string | null;
+    email: string | null;
+}
+export interface UserProfile {
+    principal: Principal;
+    username: string | null;
+    fullName: string | null;
+    email: string | null;
+    createdAt: bigint;
+    updatedAt: bigint;
+}
+export interface SyncedAttempt {
+    id: string;
+    payload: string;
+}
 export interface backendInterface {
     addExam(exam: CertificationExam): Promise<void>;
     getExamDetails(examId: string): Promise<CertificationExam | null>;
     getExamQuestions(versionId: string): Promise<Array<Question>>;
     getExamVersions(examId: string): Promise<Array<ExamVersion>>;
     getExams(): Promise<Array<CertificationExam>>;
+    getMyProfile(): Promise<UserProfile | null>;
+    getMyResults(): Promise<Array<SyncedAttempt>>;
+    saveMyResult(result: SyncedAttempt): Promise<void>;
+    saveMyResultsBatch(results: Array<SyncedAttempt>): Promise<void>;
+    updateMyProfile(patch: UserProfilePatch): Promise<UserProfile>;
+    whoami(): Promise<Principal>;
 }

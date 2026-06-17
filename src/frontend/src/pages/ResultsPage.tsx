@@ -1,12 +1,15 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
+import { createActor } from "@/backend";
 import { useExamQuestions } from "@/hooks/useExams";
+import { useAuth } from "@/hooks/useAuth";
 import { useExamStore } from "@/store/examStore";
 import { getDomainLabel } from "@/types/exam";
 import type { KnowledgeDomain, Question } from "@/types/exam";
 import type { StudyHistoryEntry } from "@/utils/studyHistory";
-import { saveAttempt } from "@/utils/studyHistory";
+import { saveAttempt, syncAttemptToCloud } from "@/utils/studyHistory";
+import { useActor } from "@caffeineai/core-infrastructure";
 import { Link, useNavigate, useParams } from "@tanstack/react-router";
 import {
   AlertTriangle,
@@ -250,6 +253,8 @@ export function ResultsPage() {
   const { versionId } = useParams({ from: "/results/$versionId" });
   const { session, clearSession } = useExamStore();
   const navigate = useNavigate();
+  const auth = useAuth();
+  const { actor } = useActor(createActor);
 
   // Snapshot the session so clearing doesn't blank the page
   const snapshotRef = useRef(session);
@@ -321,7 +326,10 @@ export function ResultsPage() {
       domainBreakdown,
     };
     saveAttempt(entry);
-  }, [snap, versionId, fetchedQuestions]);
+    if (auth.isAuthenticated && actor) {
+      void syncAttemptToCloud(actor, entry);
+    }
+  }, [snap, versionId, fetchedQuestions, auth.isAuthenticated, actor]);
 
   // If no session data, show redirect message
   if (!snap || snap.versionId !== versionId) {

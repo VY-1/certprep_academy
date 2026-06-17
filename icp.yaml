@@ -7,8 +7,9 @@ canisters:
         candid: src/backend/dist/backend.did
   - name: frontend
     recipe:
-      type: "@dfinity/asset-canister@v2.1.0"
+      type: "@dfinity/asset-canister@v2.2.0"
       configuration:
         build:
           - pnpm --dir src/frontend build
-        dir: src/frontend/dist
+          - rm -rf dist && cp -R src/frontend/dist dist
+        dir: dist

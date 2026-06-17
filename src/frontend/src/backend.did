@@ -1,3 +1,28 @@
+type UserProfilePatch = 
+ record {
+   email: opt text;
+   fullName: opt text;
+   username: opt text;
+ };
+type UserProfile = 
+ record {
+   createdAt: int;
+   email: opt text;
+   fullName: opt text;
+   "principal": principal;
+   updatedAt: int;
+   username: opt text;
+ };
+type SyncedAttempt = 
+ record {
+   id: text;
+   payload: text;
+ };
+type QuestionExplanation = 
+ record {
+   explanation: text;
+   id: text;
+ };
 type Question = 
  record {
    correctOptionIndex: nat;
@@ -34,8 +59,19 @@ type CertificationExam =
  };
 service : {
   addExam: (exam: CertificationExam) -> ();
+  adminUpsertExams: (exs: vec CertificationExam) -> ();
+  adminUpsertExplanations: (expls: vec QuestionExplanation) -> ();
+  adminUpsertQuestions: (qs: vec Question) -> ();
   getExamDetails: (examId: text) -> (opt CertificationExam) query;
   getExamQuestions: (versionId: text) -> (vec Question) query;
   getExamVersions: (examId: text) -> (vec ExamVersion) query;
   getExams: () -> (vec CertificationExam) query;
+  getMyProfile: () -> (opt UserProfile);
+  getMyResults: () -> (vec SyncedAttempt);
+  saveMyResult: (result: SyncedAttempt) -> ();
+  saveMyResultsBatch: (results: vec SyncedAttempt) -> ();
+  updateMyProfile: (patch: UserProfilePatch) -> (UserProfile);
+  upsertExplanations: (expls: vec QuestionExplanation) -> ();
+  upsertQuestions: (qs: vec Question) -> ();
+  whoami: () -> (principal);
 }
